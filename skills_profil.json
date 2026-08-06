@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "profil": "Fernando Reichert",
-  "stand": "2026-08-05",
+  "stand": "2026-08-06",
   "quelle": "plans/candidate_profile.md (Berufserfahrung, Ausbildung, Patente, Sprachen) + strategische Positionierung 'Target Roles / Role Preferences' vom 2026-07-20",
   "hinweis": "Startwerte sind aus dem Profil abgeleitet, nicht gemessen. In skills_matrix.html anpassen und per Export wieder hierher speichern.",
   "skala": {
@@ -518,6 +518,27 @@
         "testing",
         "labor",
         "demonstrator"
+      ]
+    },
+    {
+      "id": "innovationsfreiraum",
+      "cluster": "research",
+      "label": "Innovationsfreiraum – eigene Ideen (Technologie & Geschäftsmodell)",
+      "koennen": 9,
+      "wollen": 10,
+      "quelle": "Zwei Patentanmeldungen, Aufbau neuartiger Wärme-/H2-Technologie und Geschäftsmodelle (NextHeat, Elianto) aus eigener Initiative heraus; explizit von Fernando am 06.08.2026 als hochgewichteter Faktor ergänzt: Raum für eigene Ideen, technologisch wie geschäftlich, statt reiner Aufgabenausführung.",
+      "keywords": [
+        "innovation",
+        "kreativ",
+        "eigene ideen",
+        "gestaltungsspielraum",
+        "freiraum",
+        "mitgestalten",
+        "unternehmerisches denken",
+        "neue ansätze",
+        "innovationskultur",
+        "selbstentfaltung",
+        "ideen einbringen"
       ]
     },
     {
