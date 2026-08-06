@@ -50,6 +50,7 @@
         background: #fff; color: #334155; display: inline-flex; align-items: center; gap: 6px; }
   .lg .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .lg.off { opacity: .38; text-decoration: line-through; }
+  .lg.jobs-toggle { border-color: #0f172a; font-weight: 700; }
 
   /* Chart */
   .chart-row { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 18px; align-items: start; }
@@ -153,7 +154,6 @@
   <div class="toolbar">
     <input type="search" id="search" placeholder="Fähigkeit suchen …">
     <button class="btn" id="btn-labels">Beschriftung einblenden</button>
-    <button class="btn" id="btn-jobs">Stellen ausblenden</button>
     <button class="btn primary" id="btn-export">JSON exportieren</button>
     <label class="btn" for="file-import">JSON importieren</label>
     <input type="file" id="file-import" accept=".json,application/json" hidden>
@@ -1229,11 +1229,18 @@ function renderChips() {
 /* ---------- Legende ---------- */
 function renderLegend() {
   const el = document.getElementById("legend");
-  el.innerHTML = STATE.data.cluster.map(c =>
+  const jobsBtn = '<button class="lg jobs-toggle' + (STATE.showJobs ? "" : " off") +
+    '" id="btn-jobs" title="Beworbene Stellen in der Matrix ein-/ausblenden">◆ Bewerbungen</button>';
+  el.innerHTML = jobsBtn + STATE.data.cluster.map(c =>
     '<button class="lg' + (STATE.hidden.has(c.id) ? " off" : "") + '" data-c="' + c.id + '">' +
     '<span class="dot" style="background:' + c.farbe + '"></span>' + c.label + "</button>"
   ).join("");
-  el.querySelectorAll(".lg").forEach(b => b.onclick = () => {
+  document.getElementById("btn-jobs").onclick = () => {
+    STATE.showJobs = !STATE.showJobs;
+    if (!STATE.showJobs && STATE.selType === "job") { STATE.sel = null; STATE.selType = null; renderDetail(); renderJobs(); }
+    renderLegend(); renderChart();
+  };
+  el.querySelectorAll(".lg[data-c]").forEach(b => b.onclick = () => {
     const id = b.dataset.c;
     STATE.hidden.has(id) ? STATE.hidden.delete(id) : STATE.hidden.add(id);
     renderLegend(); renderChart(); renderRows(); renderQuads();
@@ -1483,12 +1490,6 @@ document.getElementById("thr").oninput = e => {
 };
 document.getElementById("search").oninput = e => {
   STATE.q = e.target.value; renderChart(); renderQuads(); renderRows();
-};
-document.getElementById("btn-jobs").onclick = e => {
-  STATE.showJobs = !STATE.showJobs;
-  e.target.textContent = STATE.showJobs ? "Stellen ausblenden" : "Stellen einblenden";
-  if (!STATE.showJobs && STATE.selType === "job") { STATE.sel = null; STATE.selType = null; renderDetail(); renderJobs(); }
-  renderChart();
 };
 document.getElementById("btn-labels").onclick = e => {
   STATE.labels = !STATE.labels;
