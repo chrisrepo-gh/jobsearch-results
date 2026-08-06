@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "stand": "2026-08-06",
+  "stand": "06.08.2026, 17:15 Uhr (Europe/Berlin)",
   "hinweis": "Anforderungsprofile ausschließlich aus den im Projekt abgelegten Stellenanzeigen abgeleitet. Jede Anforderung trägt einen wörtlichen Beleg aus der Anzeige. Keine Stelle ohne Anzeigentext im Ordner Applications/.",
   "gewicht_skala": {
     "3": "Kernanforderung – steht ganz oben oder wiederholt sich in Aufgaben und Profil",

@@ -221,7 +221,7 @@
 const EMBEDDED = /*__DATA_START__*/{
   "schema_version": "1.0",
   "profil": "Fernando Reichert",
-  "stand": "2026-08-06",
+  "stand": "06.08.2026, 17:15 Uhr (Europe/Berlin)",
   "quelle": "plans/candidate_profile.md (Berufserfahrung, Ausbildung, Patente, Sprachen) + strategische Positionierung 'Target Roles / Role Preferences' vom 2026-07-20",
   "hinweis": "Startwerte sind aus dem Profil abgeleitet, nicht gemessen. In skills_matrix.html anpassen und per Export wieder hierher speichern.",
   "skala": {
@@ -954,7 +954,7 @@ const EMBEDDED = /*__DATA_START__*/{
 /* Beworbene Stellen: identisch zu stellen_profile.json, gleiche Fallback-Regel. */
 const EMBEDDED_JOBS = /*__JOBS_START__*/{
   "schema_version": "1.0",
-  "stand": "2026-08-06",
+  "stand": "06.08.2026, 17:15 Uhr (Europe/Berlin)",
   "hinweis": "Anforderungsprofile ausschließlich aus den im Projekt abgelegten Stellenanzeigen abgeleitet. Jede Anforderung trägt einen wörtlichen Beleg aus der Anzeige. Keine Stelle ohne Anzeigentext im Ordner Applications/.",
   "gewicht_skala": {
     "3": "Kernanforderung – steht ganz oben oder wiederholt sich in Aufgaben und Profil",
@@ -1832,9 +1832,14 @@ document.getElementById("btn-labels").onclick = e => {
   e.target.textContent = STATE.labels ? "Beschriftung ausblenden" : "Beschriftung einblenden";
   renderChart();
 };
+function fmtStand(d) {
+  const p = n => String(n).padStart(2, "0");
+  return p(d.getDate()) + "." + p(d.getMonth() + 1) + "." + d.getFullYear() +
+    ", " + p(d.getHours()) + ":" + p(d.getMinutes()) + " Uhr";
+}
 document.getElementById("btn-export").onclick = () => {
   const out = JSON.parse(JSON.stringify(STATE.data));
-  out.stand = new Date().toISOString().slice(0, 10);
+  out.stand = fmtStand(new Date());
   const blob = new Blob([JSON.stringify(out, null, 2) + "\n"], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob); a.download = "skills_profil.json";
