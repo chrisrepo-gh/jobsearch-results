@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jobsuche Erlangen – Fernando Reichert – 04.08.2026</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+         margin: 0; background: #f4f5f7; color: #1c2430; line-height: 1.5; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { background: #14324f; color: #fff; padding: 28px 16px; }
+  header .wrap { padding: 0 16px; }
+  h1 { margin: 0 0 6px; font-size: 1.6rem; }
+  .rundate { opacity: .85; font-size: .95rem; }
+  .chips { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: rgba(255,255,255,.14); border-radius: 999px;
+          padding: 5px 14px; font-size: .88rem; font-weight: 500; }
+  h2 { font-size: 1.2rem; margin: 32px 0 12px; }
+  h3 { font-size: .98rem; color: #5a6472; margin: 18px 0 8px;
+       text-transform: uppercase; letter-spacing: .04em; }
+  .card { background: #fff; border: 1px solid #e3e6ea; border-left: 6px solid #059669;
+          border-radius: 10px; padding: 16px 18px; margin-bottom: 14px;
+          box-shadow: 0 1px 3px rgba(16,24,40,.06); transition: transform 0.1s ease; }
+  .card:hover { transform: translateY(-1px); box-shadow: 0 4px 6px rgba(16,24,40,.08); }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+  .card-title { font-weight: 600; font-size: 1.05rem; color: #0f172a; flex: 1; min-width: 260px; }
+  .card-score { flex-shrink: 0; }
+  .card-meta { color: #475569; font-size: .88rem; margin: 6px 0 10px; }
+  .card-note { font-size: .94rem; color: #334155; margin-bottom: 12px; background: #f8fafc; padding: 8px 12px; border-radius: 6px; border: 1px solid #f1f5f9; }
+  .btn { display: inline-block; font-size: .86rem; font-weight: 600;
+         color: #14324f; text-decoration: none; border: 1px solid #c9d2dc;
+         border-radius: 8px; padding: 7px 14px; background: #f8fafc; }
+  .btn:hover { background: #eef2f6; border-color: #94a3b8; }
+  .badge { border-radius: 6px; font-size: .75rem; font-weight: 700; padding: 3px 8px; display: inline-block; }
+  .badge.neu { background: #d7263d; color: #fff; vertical-align: 2px; margin-right: 4px; }
+  .badge.score { vertical-align: 2px; }
+  .badge.verified { background: #dcfce7; color: #166534; font-weight: 600; }
+  .badge.unverified { background: #fef3c7; color: #92400e; font-weight: 600; }
+  .card.unverified-card { background: #fffdf5; border-style: dashed; }
+  .btn-ghost { margin-left: 6px; color: #475569; }
+  .btn-flag { margin-left: 6px; font-family: inherit; cursor: pointer;
+              color: #9f1239; border-color: #fecdd3; background: #fff1f2; }
+  .btn-flag:hover { background: #ffe4e6; border-color: #fb7185; }
+  .card.flagged { display: none; }
+  #feedbackbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+                 background: #14324f; color: #fff; padding: 10px 16px;
+                 display: none; align-items: center; gap: 12px; flex-wrap: wrap;
+                 box-shadow: 0 -2px 10px rgba(16,24,40,.18); font-size: .9rem; }
+  #feedbackbar.show { display: flex; }
+  #feedbackbar button { font: inherit; font-weight: 600; cursor: pointer;
+                        border-radius: 8px; padding: 6px 12px; border: 0; }
+  #fb-export { background: #22c55e; color: #04240f; }
+  #fb-undo { background: rgba(255,255,255,.16); color: #fff; }
+  #fb-text { flex: 1; min-width: 200px; }
+  .muted, .empty { color: #7a8494; font-size: .9rem; }
+  .applied-list li { margin-bottom: 10px; }
+  .track-summary { font-size: .88rem; color: #475569; background: #f8fafc;
+                   border: 1px solid #eef2f6; border-radius: 6px;
+                   padding: 6px 10px; margin: 4px 0 0; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 4px; font-size: .92rem; }
+  footer { margin-top: 36px; padding-top: 14px; border-top: 1px solid #e3e6ea;
+           color: #7a8494; font-size: .85rem; }
+  @media (max-width: 600px) { h1 { font-size: 1.25rem; } .card-header { flex-direction: column; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Jobsuche Erlangen – Fernando Reichert</h1>
+    <div class="rundate">Lauf vom 04.08.2026, 22:54 Uhr (Europe/Berlin)</div>
+    <div class="chips">
+      <span class="chip">🎯 22 Offene Stellen</span>
+      <span class="chip">✅ 8 Hohe Passung (≥80%)</span>
+      <span class="chip">🟡 14 Erweitere Passung (<80%)</span>
+      <span class="chip">🆕 20 neu seit letztem Lauf</span>
+      <span class="chip">📨 18 beworben</span>
+      <span class="chip">🚫 1 ausgeschlossen</span>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+  <h2 style="border-left:6px solid #059669;padding-left:10px">Hohe Passung (Fit-Score ≥ 80%)</h2>
+  <h3>Region Erlangen/Nürnberg</h3>
+      <div class="card" data-jobid="roedl-consultant-erneuerbare-energien-investments" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Consultant Erneuerbare Energien - Investments &amp; Transformation (m/w/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 85/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Rödl GmbH RAG StBG</strong> · 📍 Nürnberg, Mittelfranken · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Starke inhaltliche Passung in Nürnberg. Fokus liegt auf Dekarbonisierungsprojekten, Wärmewende für Stadtwerke und Kommunen sowie auf der wirtschaftlichen Bewertung dezentraler Erzeugungsanlagen.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002239434-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="roedl-consultant-erneuerbare-energien-investments">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="victoria-produktmanager-energiespeichersysteme" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Produktmanager Energiespeichersysteme (m/w/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 85/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Victoria Consulting GmbH</strong> · 📍 Bamberg · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Sehr guter inhaltlicher Match in Bamberg. Entwicklung und strategische Positionierung innovativer Energiespeichersysteme.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12697-k10989.11921-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="victoria-produktmanager-energiespeichersysteme">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="aeberle-business-development-manager-regelungstechnik" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Business Development Manager:in International (m/w/d) für Regelungstechnik in Umspannwerken</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 82/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>A. Eberle GmbH &amp; Co. KG</strong> · 📍 Nürnberg, Mittelfranken · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Internationaler Vertrieb und Business Development im Bereich Großtransformatoren und Smart-Grid-Systeme.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002054756-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="aeberle-business-development-manager-regelungstechnik">✕ Nicht findbar</button>
+      </div><h3>München (hybrid)</h3>
+      <div class="card" data-jobid="esb-referent-wasserstoffprojekte" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Referent (w/m/d) Wasserstoffprojekte, München Energie Südbayern</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 95/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>ESB</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Herausragender Nischen-Match im Bereich Wasserstoff. Aufgaben umfassen die Leitung dezentraler Wasserstoffprojekte, die Bewertung des H2-Hochlaufs und Entwicklung neuer Geschäftsmodelle.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2296516-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        <a class="btn btn-ghost" href="https://www.finest-jobs.com/stellenanzeige/Referent-D-Wasserstoffprojekte-1289049?cp=BA" target="_blank" rel="noopener">Beim Arbeitgeber →</a>
+        <button class="btn btn-flag" type="button" data-flag="esb-referent-wasserstoffprojekte">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="ifok-senior-managing-consultant-waermewende" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Senior / Managing Consultant (m/w/d) Wärmewende und kommunale Transformation</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 93/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>ifok GmbH</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Idealer inhaltlicher Treffer für die strategische Beratung von Stadtwerken und Kommunen bei der Wärmetransformation.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003021972-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="ifok-senior-managing-consultant-waermewende">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="knorrebrmse-associate-manager-group-strategy-energy" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Associate Manager Group Strategy / Energy Technologies (m/w/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 84/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>KNORR-BREMSE AG</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Strategische Entwicklung und Erschließung neuer Wachstumsfelder im Bereich Energietechnologien. Verlangt Marktanalysen, technologische Bewertungen und Vorbereitung strategischer Roadmaps.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207344320-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="knorrebrmse-associate-manager-group-strategy-energy">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="siemens-consultant-strategy-advanta" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> (Senior) Consultant Strategy (f/m/d) - Siemens Advanta</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 84/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Siemens AG</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Strategieberatung mit Fokus auf Transformation und Digitalisierung im Industrie- und Energiesektor.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1504928-2-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="siemens-consultant-strategy-advanta">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="ey-consultant-energiewirtschaft-business-transformation" style="border-left-color:#059669">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Consultant Energiewirtschaft - Business Transformation (w/m/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#059669;color:#ffffff">Fit-Score: 82/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>EY Consulting GmbH</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Ganzheitliche Beratung im Rahmen der Energie- und Wärmewende. Fokus liegt auf dem Aufbau innovativer Geschäftsmodelle der Dekarbonisierung und der Durchführung von Organisations- und Wirtschaftlichkeitsanalysen.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1422700-2-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="ey-consultant-energiewirtschaft-business-transformation">✕ Nicht findbar</button>
+      </div>
+  <h2 style="border-left:6px solid #d97706;padding-left:10px">Erweiterte Passung (Fit-Score &lt; 80%) (14)</h2>
+      <div class="card" data-jobid="meag-project-manager-organization" style="border-left-color:#d97706">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Project Manager Organization im Bereich Transformation &amp; Strategy (m|w|d)</div>
+          <div class="card-score"><span class="badge score" style="background:#d97706;color:#ffffff">Fit-Score: 75/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>MEAG MUNICH ERGO AssetManagement GmbH</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Fokus auf Organisations- und Optimierungsprojekte in einem großen Asset-Manager-Umfeld. Relevante Erfahrung in Strategie und Transformation gefordert.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002959347-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="meag-project-manager-organization">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="schaeffler-global-organizational-development-manager" style="border-left-color:#d97706">
+        <div class="card-header">
+          <div class="card-title">Global Organizational Development Manager (d/m/w) (befristet auf 12 Monate)</div>
+          <div class="card-score"><span class="badge score" style="background:#d97706;color:#ffffff">Fit-Score: 74/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Schaeffler</strong> · 📍 Herzogenaurach · 🗓️ Erstmals am 2026-07-27 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Strategische Organisationsentwicklung auf globaler Ebene in Herzogenaurach. Gute Schnittstelle für Change &amp; Transformation.</div>
+        <a class="btn" href="https://jobs.schaeffler.com/job/Herzogenaurach-Global-Organizational-Development-Manager-%28dmw%29-befristet-auf-12-Monate-91074/1418629633/?locale=de_DE" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="schaeffler-global-organizational-development-manager">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="stwb-leiter-technik-netze-infrastruktur" style="border-left-color:#d97706">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Leiter Technik, Netze &amp; Infrastruktur - Energiewirtschaft/Telekommunikation(m/w/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#d97706;color:#ffffff">Fit-Score: 72/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>STWB Stadtwerke Bamberg GmbH</strong> · 📍 Bamberg · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Strategische Gesamtverantwortung für technischen Bereich bei einem Energieversorger. Mögliche Überschneidung mit General-Management-Ausschlusskriterien; dennoch relevant wegen strategischer Ausrichtung.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003436439-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="stwb-leiter-technik-netze-infrastruktur">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="umweltbank-kreditspezialist-erneuerbare-energien" style="border-left-color:#d97706">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Kreditspezialist Marktfolge für Erneuerbare Energien (m/w/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#d97706;color:#ffffff">Fit-Score: 70/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>UmweltBank AG</strong> · 📍 Nürnberg, Mittelfranken · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Relevante Erfahrung in Projektfinanzierung/Marktfolge für Erneuerbare Energien. Fokus liegt auf finanzieller Analyse.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003487180-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="umweltbank-kreditspezialist-erneuerbare-energien">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="estw-strategischer-einkaeufer" style="border-left-color:#d97706">
+        <div class="card-header">
+          <div class="card-title">Strategischer Einkäufer (m/w/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#d97706;color:#ffffff">Fit-Score: 68/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>ESTW – Erlanger Stadtwerke AG</strong> · 📍 Erlangen · 🗓️ Erstmals am 2026-07-14 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Fokus auf Lieferantenmanagement; generischer Einkauf statt Energiemärkte/PPA.</div>
+        <a class="btn" href="https://www.estw.de/stellen" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="estw-strategischer-einkaeufer">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="kirinus-business-development-manager-healthcare-it" style="border-left-color:#d97706">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Business Development Manager / Consultant Healthcare IT (m/w/d), KIRINUS Health</div>
+          <div class="card-score"><span class="badge score" style="background:#d97706;color:#ffffff">Fit-Score: 65/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>KIRINUS IT Services GmbH</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Aufbau neuer Geschäftsfelder in Healthcare-IT. Fokus liegt auf Business Development, auch wenn Domäne nicht Energie ist.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2280082-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        <a class="btn btn-ghost" href="https://www.finest-jobs.com/stellenanzeige/Business-Development-Manager-Consultant-Healthcare-1278161?cp=BA" target="_blank" rel="noopener">Beim Arbeitgeber →</a>
+        <button class="btn btn-flag" type="button" data-flag="kirinus-business-development-manager-healthcare-it">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="ey-consultant-finance-strategy-business-services" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Berater Finance Strategy und Business Services - Business Consulting (w/m/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 62/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>EY Consulting GmbH</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Unterstützung bei Unternehmenstransformationen mit Fokus auf die CFO Agenda und Target Operating Models.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1428930-3-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="ey-consultant-finance-strategy-business-services">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="siemens-sales-business-development-manager-infrastructure" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Sales and Business Development Manager (f/m/d) for Infrastructure and Transportation Vertical</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 60/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Siemens AG</strong> · 📍 Erlangen · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1606552-1-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="siemens-sales-business-development-manager-infrastructure">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="windpersonal-projektleiter-windenergie-photovoltaik" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Projektleiter (m/w/d) Windenergie und Photovoltaik</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 60/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>WindPersonal Felix Tobias</strong> · 📍 Forchheim, Oberfranken · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003484550-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="windpersonal-projektleiter-windenergie-photovoltaik">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="workwise-projektleiter-hochspannung" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Projektleiter - Hochspannung / Energie / Planung (m/w/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 60/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Workwise GmbH</strong> · 📍 Nürnberg, Mittelfranken · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4907215902-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        <a class="btn btn-ghost" href="https://www.persy.jobs/persy/l/job-jbpze-b" target="_blank" rel="noopener">Beim Arbeitgeber →</a>
+        <button class="btn btn-flag" type="button" data-flag="workwise-projektleiter-hochspannung">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="1komma5grad-auftragsmanager-aufbau-pv-waermepumpen" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Auftragsmanager (m/w/d) und Aufbau PV- und Wärmepumpengeschäft - 1KOMMA5°</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 60/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>1Komma5 Grad GmbH</strong> · 📍 Neunkirchen am Brand · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000605083-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="1komma5grad-auftragsmanager-aufbau-pv-waermepumpen">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="siemensenergy-procurement-consultant" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Procurement Consultant (f/m/d) - Strategies and Methods</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 60/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Siemens Energy Global GmbH &amp; Co. KG</strong> · 📍 Erlangen · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Transformation, Prozess- und Change Management innerhalb der Einkaufsorganisation. Fokus eher auf Einkauf. Hinweis: bei Siemens Energy Global GmbH &amp; Co. KG bereits beworben (Ordner SiemensEnergy_SeniorStrategyManager).</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-439523674-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="siemensenergy-procurement-consultant">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="brodos-business-development-manager-iot" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Business Development Manager (m/w/d) | Fokus IoT</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 60/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Brodos AG</strong> · 📍 Baiersdorf, Mittelfranken · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Unternehmerischer Aufbau eines IoT-Geschäftsbereichs. Kein direkter Bezug zur Energiewirtschaft.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003180733-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="brodos-business-development-manager-iot">✕ Nicht findbar</button>
+      </div>
+      <div class="card" data-jobid="pbea-business-consultant-transformation-innovation" style="border-left-color:#6b7280">
+        <div class="card-header">
+          <div class="card-title"><span class="badge neu">NEU</span> Business Consultant für Transformation &amp; Innovation (w/m/d)</div>
+          <div class="card-score"><span class="badge score" style="background:#4b5563;color:#ffffff">Fit-Score: 60/100</span></div>
+        </div>
+        <div class="card-meta">🏢 <strong>Postbeamtenkrankenkasse</strong> · 📍 München · 🗓️ Erstmals am 2026-08-04 · <span class="badge verified" title="Existenz der Anzeige am 2026-08-04 bestätigt">✓ geprüft</span></div>
+        <div class="card-note">Beratung bei organisatorischer und digitaler Transformation. Fokus auf Innovation und Wirtschaftlichkeit.</div>
+        <a class="btn" href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003360504-S" target="_blank" rel="noopener">Zur Stellenanzeige →</a>
+        
+        <button class="btn btn-flag" type="button" data-flag="pbea-business-consultant-transformation-innovation">✕ Nicht findbar</button>
+      </div>
+  <h2 style="border-left:6px solid #14324f;padding-left:10px">Beworben</h2>
+  <p class="muted">Kein Gmail-Abgleich vorhanden – Skill „bewerbungs-tracking" in Cowork ausführen.</p>
+  <ul class="applied-list"><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Hydrogenious LOHC Technologies GmbH – Commercial and Technical Project Lead (m/f/x) <span class="muted">(Unterlagen: Applications/Hydrogenious_ProjectLead/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Hydrogenious LOHC Technologies GmbH – Technical Project Manager (m/f/x) <span class="muted">(Unterlagen: Applications/Hydrogenious_TechPM/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Senior Energy Expert – Global Commodity Manager PPA (f/m/d)</li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> FERCHAU GmbH – Spezialist Energietechnik (m/w/d)</li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> ThirtyEight Capital (38 Capital) – Co-Founder Energy/Climate Space</li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Financial Services GmbH – Initiativbewerbung – Entwicklung und Umsetzung von Energieprojekten</li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens AG / Siemens Advanta – Strategy Project Leader @ Siemens Advanta, Consulting (f/m/d)</li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Senior Strategy Manager (f/m/d), Hub Europe <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Strategy Manager (f/m/d) Energy Sector <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – (Senior) Strategy Consultant (f/m/d) <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Senior Strategy Project Manager (f/m/d) <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Senior Strategy Project Manager (w/m/d) <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Project Manager - Transformation (f/m/d) <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Project Manager Transformation (f/m/d) Europe <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Engineering &amp; Innovation Manager (f/m/d) Plant Standardization &amp; Innovation <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Global Service Bid and Tender Manager (f/m/d) – Battery Energy Storage Systems <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Product Manager (f/m/d) for Grid Assets and services solutions <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li><li><span class="badge" style="background:#f1f5f9;color:#475569">… eingereicht</span> Siemens Energy Global GmbH &amp; Co. KG – Digital Strategy Consultant (f/m/d) <span class="muted">(Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/)</span></li></ul>
+  <h2 style="border-left:6px solid #d7263d;padding-left:10px">Ausgeschlossen (passt nicht zum Profil)</h2>
+  <ul><li>Schaeffler – Strategy &amp; Business Development Professional (d/m/w) <span class="muted">(Anforderungen sind M&amp;A / Investment Banking / Private Equity – kein Profil-Fit)</span></li></ul>
+  <h2 style="border-left:6px solid #8a94a3;padding-left:10px">Archiv (geschlossen/verschwunden)</h2>
+  <ul><li>N-ERGIE Netz GmbH – Referent technische Beteiligungsbetreuung und Organisation (m/w/d) <span class="muted">(gesehen 2026-07-15 bis 2026-07-27; Seite erwähnt „N-ERGIE Netz GmbH“ nicht (https://n-ergie.hr4you.org/job/view/2155/referent-technische-beteiligungsbetreuung-und-organisation-m-w-d?page_lang=de&amp;herkunft=nng))</span></li><li>Siemens Energy Global GmbH &amp; Co. KG – Senior Strategy Manager (f/m/d) Energy Sector <span class="muted">(gesehen 2026-07-14 bis 2026-07-20)</span></li><li>Siemens Energy Global GmbH &amp; Co. KG – Senior Strategy Manager (f/m/d) Energy Industry <span class="muted">(gesehen 2026-07-14 bis 2026-07-20)</span></li><li>N-ERGIE Aktiengesellschaft – Projektleiter (m/w/d) Dekarbonisierung Energie- und Wärmeerzeugung <span class="muted">(gesehen 2026-07-15 bis 2026-07-20)</span></li><li>Siemens Advanta – Manager (f/m/d) Energy &amp; Utilities Consulting <span class="muted">(gesehen 2026-07-27 bis 2026-07-29; Soft-404: HTTP 200, leitet auf /externaljobs/redirect um („The page you are trying to access is no longer active“))</span></li><li>Bosch – Business Development Manager Hydrogen Solutions (m/f/d) <span class="muted">(gesehen 2026-07-27 bis 2026-07-29; Shortlink (smrtr.io) führte zu „Deputy – Moranbah North Mine“ (Anglo American, Australien), Anzeige abgelaufen – Stelle so nicht verifizierbar)</span></li></ul>
+  <h2 style="border-left:6px solid #4c6ef5;padding-left:10px">Link-Verifikation (automatisch)</h2>
+  <ul><li>22 Links geprüft: 22 ok, 0 nicht verifizierbar (beibehalten), 0 inhaltlich unpassend, 0 neue verworfen, 0 archiviert.</li><li>Quellenprüfung: 47 Stellen belegt, 0 vom Modell erfunden und verworfen.</li><li>Bewerbungsabgleich: 0 als beworben markiert, 1 weitere Stellen bei bereits beworbenen Firmen markiert.</li><li>Historie: 26 vom Modell ausgelassene Einträge aus dem Vorzustand wiederhergestellt.</li></ul>
+  <footer>Generiert am 04.08.2026 um 22:54 Uhr (Europe/Berlin) durch search_runner.py.
+  Stellen stammen aus der Stellendatenbank der Bundesagentur für Arbeit und werden
+  bei jedem Lauf gegen die Quelle auf Existenz geprüft. Mit „✓ geprüft" markierte
+  Anzeigen waren beim letzten Lauf nachweislich vorhanden; „⚠ nicht verifiziert"
+  heißt, die Prüfung war nicht möglich – bitte vor dem Bewerben selbst nachsehen.</footer>
+</div>
+
+<div id="feedbackbar">
+  <span id="fb-text"></span>
+  <button id="fb-export" type="button">feedback.json herunterladen</button>
+  <button id="fb-undo" type="button">Zurücksetzen</button>
+</div>
+
+<script>
+(function () {
+  var KEY = 'jobsuche_not_found_v1';
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function save(state) {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+  function today() { return new Date().toISOString().slice(0, 10); }
+
+  var state = load();
+
+  function apply() {
+    var ids = Object.keys(state);
+    document.querySelectorAll('.card[data-jobid]').forEach(function (card) {
+      card.classList.toggle('flagged', !!state[card.getAttribute('data-jobid')]);
+    });
+    var bar = document.getElementById('feedbackbar');
+    var text = document.getElementById('fb-text');
+    if (ids.length) {
+      text.textContent = ids.length + (ids.length === 1
+        ? ' Stelle als nicht findbar markiert. Datei herunterladen und in den Projektordner legen – der nächste Lauf archiviert sie dauerhaft.'
+        : ' Stellen als nicht findbar markiert. Datei herunterladen und in den Projektordner legen – der nächste Lauf archiviert sie dauerhaft.');
+      bar.classList.add('show');
+      document.body.style.paddingBottom = bar.offsetHeight + 'px';
+    } else {
+      bar.classList.remove('show');
+      document.body.style.paddingBottom = '';
+    }
+  }
+
+  document.addEventListener('click', function (ev) {
+    var btn = ev.target.closest('[data-flag]');
+    if (!btn) return;
+    var id = btn.getAttribute('data-flag');
+    if (!id) return;
+    state[id] = today();
+    save(state);
+    apply();
+  });
+
+  document.getElementById('fb-export').addEventListener('click', function () {
+    var payload = {
+      not_found: Object.keys(state).map(function (id) {
+        return { id: id, marked_on: state[id] };
+      }),
+      exported_on: today()
+    };
+    var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'feedback.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+  });
+
+  document.getElementById('fb-undo').addEventListener('click', function () {
+    state = {};
+    save(state);
+    apply();
+  });
+
+  apply();
+})();
+</script>
+</body>
+</html>

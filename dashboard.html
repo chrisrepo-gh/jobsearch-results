@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bewerbungs-Cockpit – Fernando Reichert</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+         margin: 0; background: #f4f5f7; color: #1c2430; line-height: 1.5; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { background: #14324f; color: #fff; padding: 28px 16px; }
+  header .wrap { padding: 0 16px; }
+  h1 { margin: 0 0 6px; font-size: 1.6rem; }
+  .subtitle { opacity: .85; font-size: .95rem; }
+  .chips { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: rgba(255,255,255,.14); border-radius: 999px;
+          padding: 5px 14px; font-size: .88rem; font-weight: 500; }
+  h2 { font-size: 1.2rem; margin: 32px 0 12px; }
+  .action-card { background: #fffbeb; border: 1px solid #fde68a; border-left: 6px solid #d97706;
+                 border-radius: 10px; padding: 12px 16px; margin-bottom: 10px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px;
+          overflow: hidden; box-shadow: 0 1px 3px rgba(16,24,40,.06); }
+  th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid #eef1f4; vertical-align: top; }
+  th { background: #f8fafc; font-size: .78rem; text-transform: uppercase; letter-spacing: .04em;
+       color: #5a6472; }
+  tr:last-child td { border-bottom: none; }
+  .row-title { color: #475569; font-size: .86rem; margin-top: 2px; }
+  .row-summary { color: #334155; font-size: .88rem; max-width: 360px; }
+  .status-badge { display: inline-block; border-radius: 6px; font-size: .78rem; font-weight: 700; padding: 4px 9px; white-space: nowrap; }
+  .folder-link { color: #14324f; font-weight: 600; text-decoration: none; }
+  .folder-link:hover { text-decoration: underline; }
+  .tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+  .tool-card { background: #fff; border: 1px solid #e3e6ea; border-radius: 10px; padding: 18px;
+               text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(16,24,40,.06);
+               transition: transform 0.1s ease; display: block; }
+  .tool-card:hover { transform: translateY(-1px); box-shadow: 0 4px 6px rgba(16,24,40,.08); }
+  .tool-card .tt { font-weight: 700; font-size: 1rem; color: #14324f; margin-bottom: 4px; }
+  .tool-card .td { font-size: .88rem; color: #5a6472; }
+  .muted { color: #7a8494; font-size: .9rem; }
+  footer { margin-top: 36px; padding-top: 14px; border-top: 1px solid #e3e6ea;
+           color: #7a8494; font-size: .85rem; }
+  @media (max-width: 700px) { h1 { font-size: 1.25rem; } .row-summary { max-width: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Bewerbungs-Cockpit – Fernando Reichert</h1>
+    <div class="subtitle">Generiert am 06.08.2026</div>
+    <div class="chips">
+      <span class="chip">📨 16 Bewerbungen</span>
+      <span class="chip">🤖 Letzter automatischer Lauf: 06.08.2026</span>
+      <span class="chip">🔎 Letzte manuelle Suche: 05.08.2026</span>
+      <span class="chip">🎯 30 offene Stellen im Suchlauf (5 Top-Treffer ≥80%)</span>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+  
+  <h2>Alle Bewerbungen</h2>
+  <table>
+    <thead><tr><th>Firma / Position</th><th>Beworben am</th><th>Status</th></tr></thead>
+    <tbody>
+      
+        <tr>
+          <td>FERCHAU GmbH<div class="row-title">Spezialist Energietechnik</div></td>
+          <td>27.07.2026</td>
+          <td><span class="status-badge" style="background:#fef3c7;color:#92400e">Rückfrage – Handeln</span></td>
+        </tr>
+
+        <tr>
+          <td>Hydrogenious LOHC Technologies GmbH<div class="row-title">Technical Project Manager</div></td>
+          <td>27.07.2026</td>
+          <td><span class="status-badge" style="background:#dcfce7;color:#166534">Einladung</span></td>
+        </tr>
+
+        <tr>
+          <td>Enerpipe GmbH<div class="row-title">International Business Development Manager</div></td>
+          <td>05.08.2026</td>
+          <td><span class="status-badge" style="background:#dcfce7;color:#166534">Einladung</span></td>
+        </tr>
+
+        <tr>
+          <td>Hydrogenious LOHC Technologies GmbH<div class="row-title">Commercial and Technical Project Lead</div></td>
+          <td>21.07.2026</td>
+          <td><span class="status-badge" style="background:#dbeafe;color:#1e40af">Eingangsbestätigt</span></td>
+        </tr>
+
+        <tr>
+          <td>ILLUTHERM GmbH<div class="row-title">Business Development</div></td>
+          <td>06.08.2026</td>
+          <td><span class="status-badge" style="background:#dbeafe;color:#1e40af">Eingangsbestätigt</span></td>
+        </tr>
+
+        <tr>
+          <td>Victoria Consulting GmbH<div class="row-title">Produktmanager Energiespeichersysteme</div></td>
+          <td>06.08.2026</td>
+          <td><span class="status-badge" style="background:#dbeafe;color:#1e40af">Eingangsbestätigt</span></td>
+        </tr>
+
+        <tr>
+          <td>ThirtyEight Capital (38 Capital)<div class="row-title">Co-Founder Energy/Climate Space</div></td>
+          <td>27.07.2026</td>
+          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        </tr>
+
+        <tr>
+          <td>Siemens Energy Global GmbH &amp; Co. KG<div class="row-title">Senior Energy Expert – Global Commodity Manager PPA</div></td>
+          <td>27.07.2026</td>
+          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        </tr>
+
+        <tr>
+          <td>Siemens Financial Services GmbH<div class="row-title">Initiativbewerbung – Energieprojekte</div></td>
+          <td>27.07.2026</td>
+          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        </tr>
+
+        <tr>
+          <td>Ramboll<div class="row-title">Management Consulting</div></td>
+          <td>28.07.2026</td>
+          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        </tr>
+
+        <tr>
+          <td>Zentrum Wasserstoff.Bayern (H2.B)<div class="row-title">Referent/in Internationale Angelegenheiten</div></td>
+          <td>05.08.2026</td>
+          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        </tr>
+
+        <tr>
+          <td>EY Consulting GmbH<div class="row-title">Consultant Energiewirtschaft – Business Transformation</div></td>
+          <td>06.08.2026</td>
+          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        </tr>
+
+        <tr>
+          <td>Rödl GmbH RAG StBG<div class="row-title">Consultant Erneuerbare Energien – Investments &amp; Transformation</div></td>
+          <td>06.08.2026</td>
+          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        </tr>
+
+        <tr>
+          <td>Siemens Smart Infrastructure<div class="row-title">Sustainability Manager</div></td>
+          <td>27.07.2026</td>
+          <td><span class="status-badge" style="background:#fee2e2;color:#991b1b">Absage</span></td>
+        </tr>
+
+        <tr>
+          <td>Siemens Energy Global GmbH &amp; Co. KG<div class="row-title">Senior Strategy Manager, Hub Europe</div></td>
+          <td>29.07.2026</td>
+          <td><span class="status-badge" style="background:#fee2e2;color:#991b1b">Absage</span></td>
+        </tr>
+
+        <tr>
+          <td>Siemens AG / Siemens Advanta<div class="row-title">Strategy Project Leader @ Siemens Advanta</div></td>
+          <td>29.07.2026</td>
+          <td><span class="status-badge" style="background:#fee2e2;color:#991b1b">Absage</span></td>
+        </tr>
+    </tbody>
+  </table>
+
+  <h2>Werkzeuge</h2>
+  
+  <div class="tools">
+    <a class="tool-card" href="index.html">
+      <div class="tt">🔍 Jobsuche-Ergebnisse</div>
+      <div class="td">Automatisierte Suche (Mo/Mi/Fr) — offene Stellen, Fit-Score, Verifizierung.</div>
+    </a>
+    <a class="tool-card" href="skills_matrix.html">
+      <div class="tt">📊 Skill-Matrix (Können vs. Wollen)</div>
+      <div class="td">Profilkonfiguration und Positionierung; beworbene Stellen sind als Rauten integriert.</div>
+    </a>
+  </div>
+
+  
+
+  <footer>
+    Generiert von <code>dashboard_generator.py</code> aus <code>jobsuche_daten.json</code>,
+    <code>manuelle_treffer.json</code> und <code>bewerbungs_status.json</code>.
+    Neu erzeugen: <code>python dashboard_generator.py</code>.
+  </footer>
+</div>
+</body>
+</html>

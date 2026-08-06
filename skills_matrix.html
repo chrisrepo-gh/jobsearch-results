@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skill-Matrix – Können vs. Wollen – Fernando Reichert</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+         margin: 0; background: #f4f5f7; color: #1c2430; line-height: 1.5; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { background: #14324f; color: #fff; padding: 26px 16px; }
+  header .wrap { padding: 0 16px; }
+  h1 { margin: 0 0 6px; font-size: 1.55rem; }
+  .rundate { opacity: .85; font-size: .95rem; }
+  .chips { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: rgba(255,255,255,.14); border-radius: 999px;
+          padding: 5px 14px; font-size: .88rem; font-weight: 500; }
+  h2 { font-size: 1.18rem; margin: 32px 0 12px; border-left: 6px solid #14324f; padding-left: 10px; }
+  h3 { font-size: .95rem; margin: 0 0 8px; }
+  .panel { background: #fff; border: 1px solid #e3e6ea; border-radius: 10px;
+           padding: 16px 18px; box-shadow: 0 1px 3px rgba(16,24,40,.06); }
+
+  /* Toolbar */
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 14px; }
+  .btn { font: inherit; font-size: .86rem; font-weight: 600; cursor: pointer;
+         color: #14324f; text-decoration: none; border: 1px solid #c9d2dc;
+         border-radius: 8px; padding: 7px 14px; background: #f8fafc; display: inline-block; }
+  .btn:hover { background: #eef2f6; border-color: #94a3b8; }
+  .btn.primary { background: #14324f; color: #fff; border-color: #14324f; }
+  .btn.primary:hover { background: #1d4468; }
+  .btn.warn { color: #9f1239; border-color: #fecdd3; background: #fff1f2; }
+  input[type=search] { font: inherit; font-size: .9rem; padding: 7px 12px; border-radius: 8px;
+                       border: 1px solid #c9d2dc; min-width: 200px; flex: 1; }
+  .dirty-note { font-size: .84rem; color: #92400e; background: #fef3c7;
+                border: 1px solid #fde68a; border-radius: 8px; padding: 6px 12px; display: none; }
+  .dirty-note.show { display: block; }
+
+  /* Schwelle */
+  .thr-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;
+             font-size: .86rem; color: #334155; }
+  .thr-row label { font-weight: 600; }
+  .thr-hint { color: #7a8494; font-size: .82rem; }
+
+  /* Cluster-Filter */
+  .legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+  .lg { font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer;
+        border-radius: 999px; padding: 4px 12px 4px 8px; border: 1px solid #d7dce3;
+        background: #fff; color: #334155; display: inline-flex; align-items: center; gap: 6px; }
+  .lg .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .lg.off { opacity: .38; text-decoration: line-through; }
+
+  /* Chart */
+  .chart-row { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 18px; align-items: start; }
+  svg.matrix { width: 100%; height: auto; display: block; touch-action: none; }
+  .pt { cursor: pointer; stroke: #fff; stroke-width: 1.5; transition: r .1s ease; }
+  .pt:hover { stroke: #0f172a; stroke-width: 2; }
+  .pt.sel { stroke: #0f172a; stroke-width: 2.5; }
+  .qlabel { font-size: 12px; font-weight: 700; letter-spacing: .03em; }
+  .axlabel { font-size: 12px; fill: #64748b; }
+  .axtitle { font-size: 12.5px; font-weight: 700; fill: #334155; }
+  .ptlabel { font-size: 9.5px; fill: #334155; pointer-events: none; }
+
+  /* Detail box */
+  .detail h3 { font-size: 1rem; margin-bottom: 4px; }
+  .detail .tag { display: inline-block; font-size: .72rem; font-weight: 700; color: #fff;
+                 border-radius: 5px; padding: 2px 8px; margin-bottom: 8px; }
+  .detail .src { font-size: .85rem; color: #475569; }
+  .detail .kw { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .detail .kw span { font-size: .72rem; background: #f1f5f9; border: 1px solid #e2e8f0;
+                     border-radius: 5px; padding: 2px 7px; color: #475569; }
+  .detail .vals { font-size: .9rem; margin: 8px 0; }
+  .detail .empty { color: #7a8494; font-size: .88rem; }
+
+  /* Quadranten-Listen */
+  .quads { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; }
+  .quad { border-radius: 10px; padding: 14px 16px; border: 1px solid #e3e6ea; background: #fff; }
+  .quad h3 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .quad .cnt { font-size: .8rem; font-weight: 700; color: #64748b; }
+  .quad p { margin: 0 0 8px; font-size: .82rem; color: #64748b; }
+  .quad ul { margin: 0; padding-left: 18px; }
+  .quad li { font-size: .88rem; margin-bottom: 3px; cursor: pointer; }
+  .quad li:hover { text-decoration: underline; }
+  .quad.q-sweet  { border-left: 6px solid #059669; }
+  .quad.q-grow   { border-left: 6px solid #2563eb; }
+  .quad.q-trap   { border-left: 6px solid #d97706; }
+  .quad.q-none   { border-left: 6px solid #94a3b8; }
+
+  /* Stellen */
+  .lead { font-size: .88rem; color: #64748b; margin: -6px 0 12px; }
+  .jobs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .job { background: #fff; border: 1px solid #e3e6ea; border-radius: 10px; padding: 14px 16px;
+         box-shadow: 0 1px 3px rgba(16,24,40,.06); cursor: pointer; border-left: 6px solid #94a3b8; }
+  .job:hover { box-shadow: 0 4px 6px rgba(16,24,40,.09); }
+  .job.sel { outline: 2px solid #0f172a; outline-offset: -1px; }
+  .job .jt { font-weight: 600; font-size: .98rem; color: #0f172a; }
+  .job .jc { font-size: .85rem; color: #475569; margin-bottom: 8px; }
+  .job .jq { font-size: .82rem; font-weight: 700; margin-bottom: 6px; }
+  .job .jtrap { font-size: .84rem; color: #92400e; background: #fffbeb;
+                border: 1px solid #fde68a; border-radius: 6px; padding: 6px 10px; margin-top: 8px; }
+  .job .jok { font-size: .84rem; color: #475569; margin-top: 8px; }
+  .jm { stroke: #0f172a; stroke-width: 2; cursor: pointer; }
+  .jm.sel { stroke-width: 3; }
+  .jmlabel { font-size: 10.5px; font-weight: 700; fill: #0f172a; pointer-events: none; }
+  .jmlabel.halo { fill: #fff; stroke: #fff; stroke-width: 3.5px; stroke-linejoin: round; }
+
+  /* Anforderungsliste im Detailpanel */
+  .reqs { margin: 10px 0 0; padding: 0; list-style: none; }
+  .reqs li { font-size: .84rem; padding: 4px 0; border-top: 1px solid #f1f5f9; }
+  .reqs .rq { font-weight: 700; font-size: .7rem; border-radius: 4px; padding: 1px 6px;
+              color: #fff; margin-right: 5px; }
+  .reqs .rw { color: #94a3b8; font-size: .78rem; }
+  .reqs .rb { display: block; color: #94a3b8; font-size: .76rem; font-style: italic;
+              margin-top: 2px; line-height: 1.35; }
+
+  /* Editor */
+  table.editor { width: 100%; border-collapse: collapse; }
+  table.editor th { text-align: left; font-size: .75rem; text-transform: uppercase;
+                    letter-spacing: .04em; color: #64748b; border-bottom: 1px solid #e3e6ea;
+                    padding: 6px 8px; font-weight: 700; }
+  table.editor td { border-bottom: 1px solid #f1f5f9; padding: 7px 8px; vertical-align: middle; }
+  table.editor tr.sel td { background: #f0f9ff; }
+  .sk-name { font-size: .9rem; font-weight: 600; cursor: pointer; }
+  .sk-cluster { font-size: .72rem; color: #64748b; }
+  .slider-cell { white-space: nowrap; }
+  input[type=range] { vertical-align: middle; width: 120px; accent-color: #14324f; }
+  .val { display: inline-block; min-width: 22px; text-align: right;
+         font-variant-numeric: tabular-nums; font-weight: 700; font-size: .88rem; margin-left: 6px; }
+  .val.lo { color: #b91c1c; }
+  .val.mid { color: #b45309; }
+  .val.hi { color: #047857; }
+  footer { margin-top: 40px; padding-top: 14px; border-top: 1px solid #e3e6ea;
+           color: #7a8494; font-size: .85rem; }
+  @media (max-width: 860px) {
+    .chart-row { grid-template-columns: 1fr; }
+    input[type=range] { width: 90px; }
+    h1 { font-size: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Skill-Matrix – Können vs. Wollen</h1>
+    <div class="rundate" id="subtitle">Fernando Reichert</div>
+    <div class="chips" id="chips"></div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Fähigkeit suchen …">
+    <button class="btn" id="btn-labels">Beschriftung einblenden</button>
+    <button class="btn" id="btn-jobs">Stellen ausblenden</button>
+    <button class="btn primary" id="btn-export">JSON exportieren</button>
+    <label class="btn" for="file-import">JSON importieren</label>
+    <input type="file" id="file-import" accept=".json,application/json" hidden>
+    <button class="btn warn" id="btn-reset">Änderungen verwerfen</button>
+  </div>
+  <div class="dirty-note" id="dirty">
+    Ungespeicherte Änderungen. <strong>JSON exportieren</strong> klicken und die Datei
+    <code>skills_profil.json</code> im Projektordner ersetzen – erst dann sind die Gewichte im Repo.
+  </div>
+
+  <h2>Matrix</h2>
+  <div class="thr-row">
+    <label for="thr">Trennlinie zwischen „hoch“ und „niedrig“</label>
+    <input type="range" id="thr" min="3" max="9" step="0.5">
+    <span class="val hi" id="thr-val"></span>
+    <span class="thr-hint">Verschiebt die Quadrantengrenzen – höher = strengerer Sweet Spot.</span>
+  </div>
+  <div class="legend" id="legend"></div>
+  <div class="chart-row">
+    <div class="panel">
+      <svg class="matrix" id="svg" viewBox="0 0 640 560" role="img" aria-label="Streudiagramm Können gegen Wollen"></svg>
+    </div>
+    <div class="panel detail" id="detail"></div>
+  </div>
+
+  <h2>Quadranten</h2>
+  <div class="quads" id="quads"></div>
+
+  <h2>Beworbene Stellen</h2>
+  <p class="lead">Jede Stelle sitzt am gewichteten Mittel deiner Werte über die Anforderungen ihrer
+    Anzeige. Verschiebst du oben einen Regler, wandert die Raute mit.</p>
+  <div class="jobs" id="jobs"></div>
+
+  <h2>Gewichte anpassen</h2>
+  <div class="panel">
+    <table class="editor">
+      <thead>
+        <tr>
+          <th style="width:38%">Fähigkeit</th>
+          <th>Können</th>
+          <th>Wollen</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    Quelle der Startwerte: <code>plans/candidate_profile.md</code> (Berufserfahrung, Ausbildung, Patente,
+    Sprachen) und die strategische Positionierung vom 20.07.2026.
+    Datenmodell: <code>skills_profil.json</code> – vorbereitet für die spätere Kopplung an
+    <code>job_analyzer</code> (jede Fähigkeit hat <code>id</code> und <code>keywords</code>).
+    Zwischenstände liegen im Browser-Speicher; verbindlich ist erst die exportierte JSON-Datei.
+  </footer>
+</div>
+
+<script>
+"use strict";
+
+/* ---------------------------------------------------------------
+   Fallback-Daten: identisch zu skills_profil.json.
+   Wird nur genutzt, wenn die Datei nicht geladen werden kann
+   (z. B. beim Öffnen per file:// ohne lokalen Server).
+   --------------------------------------------------------------- */
+const EMBEDDED = /*__DATA_START__*/{
+  "schema_version": "1.0",
+  "profil": "Fernando Reichert",
+  "stand": "2026-08-05",
+  "quelle": "plans/candidate_profile.md (Berufserfahrung, Ausbildung, Patente, Sprachen) + strategische Positionierung 'Target Roles / Role Preferences' vom 2026-07-20",
+  "hinweis": "Startwerte sind aus dem Profil abgeleitet, nicht gemessen. In skills_matrix.html anpassen und per Export wieder hierher speichern.",
+  "skala": {
+    "min": 0,
+    "max": 10,
+    "koennen": "0 = keine Erfahrung, 5 = solide Grundlage, 8 = belastbare Praxis, 10 = Alleinstellungsmerkmal",
+    "wollen": "0 = will ich im neuen Job nicht machen, 5 = neutral / nehme ich mit, 10 = Kernaufgabe, dafür wechsle ich"
+  },
+  "quadranten": {
+    "schwelle": 6.5,
+    "hoch_hoch": {
+      "label": "Sweet Spot",
+      "beschreibung": "Kann ich und will ich - hier muss die Stellenbeschreibung liegen."
+    },
+    "niedrig_hoch": {
+      "label": "Ausbaufeld",
+      "beschreibung": "Will ich, kann ich noch nicht voll - Entwicklungsziel, im Anschreiben als Motivation rahmen."
+    },
+    "hoch_niedrig": {
+      "label": "Fallstrick",
+      "beschreibung": "Kann ich, will ich nicht - taucht ungefragt im Lebenslauf auf und zieht Rollen an, die ich ablehne."
+    },
+    "niedrig_niedrig": {
+      "label": "Irrelevant",
+      "beschreibung": "Weder noch - K.o.-Kriterium, wenn es Kernanforderung ist."
+    },
+    "schwelle_hinweis": "In skills_matrix.html verstellbar; wird beim Export mitgespeichert."
+  },
+  "cluster": [
+    {
+      "id": "commercial",
+      "label": "Commercial & Deal Origination",
+      "farbe": "#0d9488"
+    },
+    {
+      "id": "finance",
+      "label": "Finanzierung & Investment",
+      "farbe": "#2563eb"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategie & Corp. Development",
+      "farbe": "#7c3aed"
+    },
+    {
+      "id": "tech",
+      "label": "Technik & Energie",
+      "farbe": "#c2410c"
+    },
+    {
+      "id": "research",
+      "label": "Forschung & Innovation",
+      "farbe": "#b45309"
+    },
+    {
+      "id": "leadership",
+      "label": "Führung & Organisation",
+      "farbe": "#475569"
+    },
+    {
+      "id": "international",
+      "label": "Sprachen & Interkulturelles",
+      "farbe": "#be185d"
+    }
+  ],
+  "skills": [
+    {
+      "id": "business-development",
+      "cluster": "commercial",
+      "label": "Business Development & Marktentwicklung",
+      "koennen": 9,
+      "wollen": 10,
+      "quelle": "BDM HMG Systems Engineering 2018-2021; Marktentwicklung NextHeat; BD-Koordinator A&G Energia",
+      "keywords": [
+        "business development",
+        "geschäftsentwicklung",
+        "marktentwicklung",
+        "growth",
+        "go-to-market"
+      ]
+    },
+    {
+      "id": "deal-origination",
+      "cluster": "commercial",
+      "label": "Deal Origination & Pipeline-Aufbau",
+      "koennen": 7,
+      "wollen": 9,
+      "quelle": "Akquise von Investoren, Fördergebern und Industriekunden in beiden Gründungen",
+      "keywords": [
+        "origination",
+        "deal origination",
+        "akquisition",
+        "pipeline",
+        "lead generation"
+      ]
+    },
+    {
+      "id": "verhandlung",
+      "cluster": "commercial",
+      "label": "Verhandlung auf C-Level",
+      "koennen": 9,
+      "wollen": 9,
+      "quelle": "Verhandlungen mit Investoren, Fördergebern und Geschäftsführungen; Kernkompetenz laut CV",
+      "keywords": [
+        "verhandlung",
+        "negotiation",
+        "vertragsverhandlung",
+        "c-level",
+        "contract negotiation"
+      ]
+    },
+    {
+      "id": "markteintritt",
+      "cluster": "commercial",
+      "label": "Markteintritt & Internationalisierung",
+      "koennen": 9,
+      "wollen": 9,
+      "quelle": "Erschließung des südamerikanischen Marktes (INNOVA); Technologietransfer MAIM Engineering",
+      "keywords": [
+        "markteintritt",
+        "market entry",
+        "internationalisierung",
+        "expansion",
+        "export"
+      ]
+    },
+    {
+      "id": "partnerschaften",
+      "cluster": "commercial",
+      "label": "Partner- & Vertriebsstrukturen (OEM, Distributoren)",
+      "koennen": 8,
+      "wollen": 7,
+      "quelle": "Aufbau internationaler Vertriebs- und Partnerstrukturen statt Direktvertrieb (ENERPIPE-Anschreiben)",
+      "keywords": [
+        "partnerships",
+        "partnermanagement",
+        "channel",
+        "oem",
+        "distributoren",
+        "allianzen"
+      ]
+    },
+    {
+      "id": "key-account",
+      "cluster": "commercial",
+      "label": "Technischer B2B-Vertrieb / Key Account",
+      "koennen": 7,
+      "wollen": 6,
+      "quelle": "Vermarktung erklärungsbedürftiger Energietechnik an Industriekunden",
+      "keywords": [
+        "key account",
+        "vertrieb",
+        "sales",
+        "b2b",
+        "technischer vertrieb"
+      ]
+    },
+    {
+      "id": "technologietransfer",
+      "cluster": "commercial",
+      "label": "Technologietransfer & Kommerzialisierung",
+      "koennen": 9,
+      "wollen": 9,
+      "quelle": "Exklusive Kommerzialisierung der MAIM-Pyrolysetechnologie; TH-Nürnberg-Spin-off NextHeat",
+      "keywords": [
+        "technologietransfer",
+        "technology transfer",
+        "kommerzialisierung",
+        "spin-off",
+        "verwertung"
+      ]
+    },
+    {
+      "id": "ppa",
+      "cluster": "commercial",
+      "label": "PPA-Strukturierung",
+      "koennen": 3,
+      "wollen": 4,
+      "quelle": "Nur Grundkenntnisse - laut Profil ausdrücklich KEIN Schwerpunkt, trotz Siemens-Energy-Anschreiben",
+      "keywords": [
+        "ppa",
+        "power purchase agreement",
+        "stromliefervertrag",
+        "offtake"
+      ]
+    },
+    {
+      "id": "foerdermittel",
+      "cluster": "finance",
+      "label": "Fördermitteleinwerbung (EXIST, EU, BMWK)",
+      "koennen": 9,
+      "wollen": 7,
+      "quelle": "EXIST-Forschungstransfer für NextHeat; Fördermittel für Trocknungsverfahren bei HMG; Forschungsanträge FAU",
+      "keywords": [
+        "fördermittel",
+        "förderprogramm",
+        "exist",
+        "zuschuss",
+        "grant",
+        "funding",
+        "antragstellung"
+      ]
+    },
+    {
+      "id": "projektfinanzierung",
+      "cluster": "finance",
+      "label": "Projektfinanzierung & Strukturierung",
+      "koennen": 8,
+      "wollen": 9,
+      "quelle": "MBA-Schwerpunkt Corporate Finance & Projektfinanzierung; Strukturierung von Energielieferverträgen",
+      "keywords": [
+        "projektfinanzierung",
+        "project finance",
+        "structured finance",
+        "strukturierung",
+        "finanzierungsmodell"
+      ]
+    },
+    {
+      "id": "fundraising",
+      "cluster": "finance",
+      "label": "Investoren-Fundraising",
+      "koennen": 8,
+      "wollen": 8,
+      "quelle": "Über 12 Mio. EUR aus Fördermitteln und Investorenkapital in Brasilien und Deutschland",
+      "keywords": [
+        "fundraising",
+        "kapitalbeschaffung",
+        "investoren",
+        "venture capital",
+        "equity story"
+      ]
+    },
+    {
+      "id": "business-case",
+      "cluster": "finance",
+      "label": "Business Case & Finanzmodellierung",
+      "koennen": 7,
+      "wollen": 7,
+      "quelle": "Business Cases für Förderanträge und Investorenrunden; MBA Corporate Finance",
+      "keywords": [
+        "business case",
+        "wirtschaftlichkeit",
+        "financial model",
+        "roi",
+        "kalkulation"
+      ]
+    },
+    {
+      "id": "investment-screening",
+      "cluster": "finance",
+      "label": "Investment-Screening & Due Diligence",
+      "koennen": 5,
+      "wollen": 8,
+      "quelle": "Zielcluster 2 (Investment Manager CVC/VC) - Erfahrung bisher von der Kapitalnehmer-Seite, nicht als Investor",
+      "keywords": [
+        "due diligence",
+        "investment manager",
+        "screening",
+        "beteiligung",
+        "portfolio",
+        "cvc"
+      ]
+    },
+    {
+      "id": "ma",
+      "cluster": "finance",
+      "label": "M&A / Transaktionen",
+      "koennen": 2,
+      "wollen": 3,
+      "quelle": "Nur Grundkenntnisse - laut Profil ausdrücklich nicht als Stärke positionieren",
+      "keywords": [
+        "m&a",
+        "mergers",
+        "akquisition",
+        "transaktion",
+        "carve-out"
+      ]
+    },
+    {
+      "id": "strategie",
+      "cluster": "strategy",
+      "label": "Strategieentwicklung & Positionierung",
+      "koennen": 7,
+      "wollen": 9,
+      "quelle": "Strategische Gesamtleitung NextHeat; Marktpositionierung HMG; Kernkompetenz 'Strategisches Denken'",
+      "keywords": [
+        "strategie",
+        "strategy",
+        "positionierung",
+        "marktstrategie",
+        "roadmap"
+      ]
+    },
+    {
+      "id": "tech-scouting",
+      "cluster": "strategy",
+      "label": "Technologie-Scouting & Innovationsmanagement",
+      "koennen": 8,
+      "wollen": 8,
+      "quelle": "Bewertung und Auswahl von Technologien für Transfer (MAIM, Robur, LOHC)",
+      "keywords": [
+        "technologiescouting",
+        "scouting",
+        "innovationsmanagement",
+        "trendanalyse",
+        "technology assessment"
+      ]
+    },
+    {
+      "id": "corp-dev",
+      "cluster": "strategy",
+      "label": "Corporate Development & Beteiligungen",
+      "koennen": 5,
+      "wollen": 7,
+      "quelle": "Zielcluster 3 - inhaltlich nah an der Gründerrolle, aber ohne Konzernerfahrung",
+      "keywords": [
+        "corporate development",
+        "geschäftsfeldentwicklung",
+        "beteiligungen",
+        "new business"
+      ]
+    },
+    {
+      "id": "consulting",
+      "cluster": "strategy",
+      "label": "Beratung & strukturierte Problemlösung",
+      "koennen": 6,
+      "wollen": 8,
+      "quelle": "Zielcluster 3/4; Beratungserfahrung aus Fördermittel- und Technologieprojekten, kein Beratungshaus-Hintergrund",
+      "keywords": [
+        "consulting",
+        "beratung",
+        "management consulting",
+        "analyse",
+        "konzeption"
+      ]
+    },
+    {
+      "id": "produktstrategie",
+      "cluster": "strategy",
+      "label": "Produktstrategie & Product Management",
+      "koennen": 6,
+      "wollen": 5,
+      "quelle": "Zielcluster 4 - Achtung: Stellen oft mit verstecktem operativem Anteil",
+      "keywords": [
+        "product management",
+        "produktmanagement",
+        "produktstrategie",
+        "portfolio management"
+      ]
+    },
+    {
+      "id": "wasserstoff",
+      "cluster": "tech",
+      "label": "Wasserstofftechnologien (LOHC, Brenner, H2-Wärme)",
+      "koennen": 9,
+      "wollen": 7,
+      "quelle": "Wasserstoffbrenner für LOHC (FAU), Patent 'Düsencluster', H2-Absorptionswärmepumpe (TH Nürnberg), NextHeat",
+      "keywords": [
+        "wasserstoff",
+        "hydrogen",
+        "h2",
+        "lohc",
+        "elektrolyse",
+        "brennstoffzelle"
+      ]
+    },
+    {
+      "id": "prozesswaerme",
+      "cluster": "tech",
+      "label": "Industrielle Prozesswärme & Dekarbonisierung",
+      "koennen": 9,
+      "wollen": 7,
+      "quelle": "Kerngeschäft NextHeat: Dekarbonisierung energieintensiver Industrieprozesse",
+      "keywords": [
+        "prozesswärme",
+        "dekarbonisierung",
+        "industriewärme",
+        "wärmeversorgung",
+        "decarbonization"
+      ]
+    },
+    {
+      "id": "biomasse",
+      "cluster": "tech",
+      "label": "Biomasse, Pyrolyse & Reststoffverwertung",
+      "koennen": 9,
+      "wollen": 4,
+      "quelle": "INNOVA/MAIM-Pyrolyse, A&G Energia, Enercons, Patent Festbettvergasung, FAU-Biomasseprojekte",
+      "keywords": [
+        "biomasse",
+        "biomass",
+        "pyrolyse",
+        "vergasung",
+        "reststoffe",
+        "abfallverwertung"
+      ]
+    },
+    {
+      "id": "waermepumpe",
+      "cluster": "tech",
+      "label": "Wärmepumpen & Thermodynamik",
+      "koennen": 7,
+      "wollen": 5,
+      "quelle": "Weltweit erste wasserstoffbetriebene Absorptionswärmepumpe mit Robur (TH Nürnberg)",
+      "keywords": [
+        "wärmepumpe",
+        "heat pump",
+        "absorption",
+        "thermodynamik",
+        "kältetechnik"
+      ]
+    },
+    {
+      "id": "energiesysteme",
+      "cluster": "tech",
+      "label": "Energiesystemtechnik & Netzplanung",
+      "koennen": 6,
+      "wollen": 4,
+      "quelle": "Softwarepaket zur Verteilungsnetzplanung (Uni Cagliari); M.Sc. Energietechnik",
+      "keywords": [
+        "energiesystem",
+        "netzplanung",
+        "verteilnetz",
+        "grid",
+        "energieversorgung"
+      ]
+    },
+    {
+      "id": "speicher",
+      "cluster": "tech",
+      "label": "Thermische Speicher & CSP",
+      "koennen": 6,
+      "wollen": 4,
+      "quelle": "Wirbelschicht-Wärmespeicher für CSP-Anlagen (Elianto Srl, 2008)",
+      "keywords": [
+        "wärmespeicher",
+        "thermal storage",
+        "csp",
+        "solarthermie"
+      ]
+    },
+    {
+      "id": "anlagentechnik",
+      "cluster": "tech",
+      "label": "Mess-, Regelungs- & Anlagentechnik",
+      "koennen": 5,
+      "wollen": 3,
+      "quelle": "Prototypenoptimierung und Spezifikation von Regelungssystemen (Elianto, TH Nürnberg)",
+      "keywords": [
+        "regelungstechnik",
+        "automatisierung",
+        "anlagentechnik",
+        "inbetriebnahme",
+        "steuerung"
+      ]
+    },
+    {
+      "id": "projektantraege",
+      "cluster": "research",
+      "label": "Forschungsanträge konzipieren & einwerben",
+      "koennen": 9,
+      "wollen": 7,
+      "quelle": "Konzeption, Beantragung und Koordination von Forschungsprojekten (FAU 2016-2017), EXIST, EU",
+      "keywords": [
+        "forschungsantrag",
+        "antragstellung",
+        "proposal",
+        "horizon",
+        "projektskizze"
+      ]
+    },
+    {
+      "id": "projektkoordination",
+      "cluster": "research",
+      "label": "Koordination von F&E- und EU-Projekten",
+      "koennen": 8,
+      "wollen": 4,
+      "quelle": "Koordination des EU-Projekts 'Energy Efficient Coil Coating Process' (KIT)",
+      "keywords": [
+        "projektkoordination",
+        "projektleitung",
+        "konsortium",
+        "eu-projekt",
+        "verbundprojekt"
+      ]
+    },
+    {
+      "id": "patente",
+      "cluster": "research",
+      "label": "Patentierung & IP",
+      "koennen": 7,
+      "wollen": 4,
+      "quelle": "Zwei Patentanmeldungen: DE10 2020 119 619.9 und DE102016008289 A1",
+      "keywords": [
+        "patent",
+        "schutzrecht",
+        "ip",
+        "intellectual property",
+        "erfindung"
+      ]
+    },
+    {
+      "id": "prototyping",
+      "cluster": "research",
+      "label": "Prototypenentwicklung & Versuchsbetrieb",
+      "koennen": 7,
+      "wollen": 7,
+      "quelle": "Prototypenbau und -optimierung an FAU, TH Nürnberg und Elianto",
+      "keywords": [
+        "prototyp",
+        "versuchsanlage",
+        "testing",
+        "labor",
+        "demonstrator"
+      ]
+    },
+    {
+      "id": "unternehmensaufbau",
+      "cluster": "leadership",
+      "label": "Unternehmensgründung & Aufbau",
+      "koennen": 9,
+      "wollen": 7,
+      "quelle": "Zwei Gründungen: INNOVA (Rio de Janeiro) und NextHeat GmbH",
+      "keywords": [
+        "gründung",
+        "startup",
+        "venture building",
+        "co-founder",
+        "aufbau"
+      ]
+    },
+    {
+      "id": "teamfuehrung",
+      "cluster": "leadership",
+      "label": "Führung kleiner Teams",
+      "koennen": 8,
+      "wollen": 9,
+      "quelle": "Führung kleiner, dynamischer Teams Richtung Go-to-Market; CV-Kompetenz 'Führungsstärke'",
+      "keywords": [
+        "führung",
+        "teamleitung",
+        "leadership",
+        "disziplinarisch",
+        "personalverantwortung"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "cluster": "leadership",
+      "label": "Stakeholder- & Gremienkommunikation",
+      "koennen": 8,
+      "wollen": 7,
+      "quelle": "Kommunikation mit Investoren, Fördergebern, Hochschul- und Industriepartnern",
+      "keywords": [
+        "stakeholder",
+        "gremien",
+        "beirat",
+        "kommunikation",
+        "präsentation"
+      ]
+    },
+    {
+      "id": "pl-verantwortung",
+      "cluster": "leadership",
+      "label": "P&L-Verantwortung laufender Einheit",
+      "koennen": 7,
+      "wollen": 3,
+      "quelle": "Als CEO getragen - laut Positionierung vom 2026-07-20 aber ausdrücklich nicht mehr gesucht",
+      "keywords": [
+        "p&l",
+        "ergebnisverantwortung",
+        "budgetverantwortung",
+        "general management",
+        "umsatzverantwortung"
+      ]
+    },
+    {
+      "id": "operations",
+      "cluster": "leadership",
+      "label": "Operatives Tagesgeschäft & Delivery",
+      "koennen": 7,
+      "wollen": 2,
+      "quelle": "Aus beiden CEO-Rollen bekannt - explizites Vermeidungskriterium",
+      "keywords": [
+        "operations",
+        "tagesgeschäft",
+        "delivery",
+        "betrieb",
+        "prozessverantwortung"
+      ]
+    },
+    {
+      "id": "hr-admin",
+      "cluster": "leadership",
+      "label": "HR, Recruiting & Administration",
+      "koennen": 6,
+      "wollen": 1,
+      "quelle": "Aus den Gründerrollen mitgetragen - explizit unerwünscht",
+      "keywords": [
+        "hr",
+        "personal",
+        "recruiting",
+        "administration",
+        "verwaltung"
+      ]
+    },
+    {
+      "id": "reporting",
+      "cluster": "leadership",
+      "label": "Reporting & Controlling",
+      "koennen": 6,
+      "wollen": 2,
+      "quelle": "Investoren- und Fördermittelreporting - notwendig, aber kein Motivationsfaktor",
+      "keywords": [
+        "reporting",
+        "controlling",
+        "kpi",
+        "berichtswesen",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "interkulturell",
+      "cluster": "international",
+      "label": "Interkulturelle Zusammenarbeit (DE / BR / IT)",
+      "koennen": 9,
+      "wollen": 8,
+      "quelle": "Arbeits- und Studienstationen in Brasilien, Italien und Deutschland",
+      "keywords": [
+        "interkulturell",
+        "international",
+        "global",
+        "cross-cultural",
+        "auslandserfahrung"
+      ]
+    },
+    {
+      "id": "sprache-deutsch",
+      "cluster": "international",
+      "label": "Deutsch (C2)",
+      "koennen": 10,
+      "wollen": 9,
+      "quelle": "C2, annähernd muttersprachlich",
+      "keywords": [
+        "deutsch",
+        "german",
+        "c2"
+      ]
+    },
+    {
+      "id": "sprache-portugiesisch",
+      "cluster": "international",
+      "label": "Portugiesisch (Muttersprache)",
+      "koennen": 10,
+      "wollen": 8,
+      "quelle": "Muttersprache",
+      "keywords": [
+        "portugiesisch",
+        "portuguese",
+        "brasilien",
+        "lateinamerika"
+      ]
+    },
+    {
+      "id": "sprache-englisch",
+      "cluster": "international",
+      "label": "Englisch (C1)",
+      "koennen": 9,
+      "wollen": 9,
+      "quelle": "C1, fachkundige Sprachkenntnisse",
+      "keywords": [
+        "englisch",
+        "english",
+        "c1",
+        "business english"
+      ]
+    },
+    {
+      "id": "sprache-italienisch",
+      "cluster": "international",
+      "label": "Italienisch (C1)",
+      "koennen": 8,
+      "wollen": 8,
+      "quelle": "C1; Studium und Berufserfahrung in Cagliari",
+      "keywords": [
+        "italienisch",
+        "italian",
+        "italien"
+      ]
+    },
+    {
+      "id": "sprache-spanisch",
+      "cluster": "international",
+      "label": "Spanisch (B2)",
+      "koennen": 6,
+      "wollen": 5,
+      "quelle": "B2, selbstständige Sprachverwendung",
+      "keywords": [
+        "spanisch",
+        "spanish",
+        "b2"
+      ]
+    }
+  ]
+}/*__DATA_END__*/;
+
+/* Beworbene Stellen: identisch zu stellen_profile.json, gleiche Fallback-Regel. */
+const EMBEDDED_JOBS = /*__JOBS_START__*/{
+  "schema_version": "1.0",
+  "stand": "2026-08-06",
+  "hinweis": "Anforderungsprofile ausschließlich aus den im Projekt abgelegten Stellenanzeigen abgeleitet. Jede Anforderung trägt einen wörtlichen Beleg aus der Anzeige. Keine Stelle ohne Anzeigentext im Ordner Applications/.",
+  "gewicht_skala": {
+    "3": "Kernanforderung – steht ganz oben oder wiederholt sich in Aufgaben und Profil",
+    "2": "klar benannte Anforderung",
+    "1": "Randanforderung oder 'von Vorteil'"
+  },
+  "berechnung": "Position der Stelle = gewichtetes Mittel der koennen- bzw. wollen-Werte aus skills_profil.json über alle Anforderungen. Verschiebt sich live, wenn die Skill-Gewichte geändert werden.",
+  "stellen": [
+    {
+      "id": "enerpipe-bdm",
+      "firma": "ENERPIPE GmbH",
+      "titel": "International Business Development Manager (m/w/d)",
+      "ort": "Hilpoltstein",
+      "beworben_am": "2026-07-29",
+      "status": "beworben",
+      "quelle": "Applications/ENERPIPE_InternationalBDM/International Business Development Manager (m_w_d) _ Enerpipe GmbH.pdf",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        { "skill": "partnerschaften",      "gewicht": 3, "beleg": "Identifikation und Gewinnung geeigneter Vertriebspartner und potenzieller Franchisenehmer; Aufbau und Entwicklung langfristiger, unternehmerischer Partnerschaften" },
+        { "skill": "business-development", "gewicht": 3, "beleg": "Erfahrung im technischen Vertrieb, Business Development oder Partnermanagement" },
+        { "skill": "markteintritt",        "gewicht": 3, "beleg": "Entwicklung von Markteintrittsstrategien; Du entwickelst unseren Vertrieb in Europa – Schritt für Schritt, Land für Land" },
+        { "skill": "deal-origination",     "gewicht": 2, "beleg": "Ausgeprägte „Hunter-Mentalität“: Du hast Freude daran, neue Märkte zu erschließen" },
+        { "skill": "strategie",            "gewicht": 2, "beleg": "Mitgestaltung von Vertriebsstrategien und Preisstrukturen; Analyse von Märkten, Potenzialen und Branchenstrukturen" },
+        { "skill": "technologietransfer",  "gewicht": 2, "beleg": "Vorstellung und Erklärung unseres Produktportfolios sowie des ENERPIPE-Systemansatzes; Vermittlung des Systemgedankens" },
+        { "skill": "key-account",          "gewicht": 2, "beleg": "Erfahrung im technischen Vertrieb; Fähigkeit, komplexe Systeme verständlich zu erklären" },
+        { "skill": "verhandlung",          "gewicht": 2, "beleg": "Gewinnung von Vertriebspartnern und Franchisenehmern; sicherer Auftritt im internationalen Umfeld" },
+        { "skill": "interkulturell",       "gewicht": 2, "beleg": "Aufbau eines belastbaren internationalen Netzwerks; Reisebereitschaft innerhalb Europas" },
+        { "skill": "prozesswaerme",        "gewicht": 2, "beleg": "nachhaltige Wärmenetze auf Basis erneuerbarer Energien; Kenntnisse im Bereich Nah- oder Fernwärme sind von Vorteil" },
+        { "skill": "unternehmensaufbau",   "gewicht": 1, "beleg": "Unternehmerisches Denken; eine Persönlichkeit, die nicht verwaltet, sondern aufbaut" },
+        { "skill": "business-case",        "gewicht": 1, "beleg": "Mitgestaltung von Vertriebsstrategien und Preisstrukturen" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutsch- und Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Fließende Deutsch- und Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-italienisch",  "gewicht": 1, "beleg": "weitere Sprachen von Vorteil (Vertriebsaufbau Europa)" },
+        { "skill": "sprache-spanisch",     "gewicht": 1, "beleg": "weitere Sprachen von Vorteil (Vertriebsaufbau Europa)" }
+      ]
+    },
+    {
+      "id": "h2b-referent-international",
+      "firma": "Zentrum Wasserstoff.Bayern (H2.B)",
+      "titel": "Referent/in Internationale Angelegenheiten (m/w/d)",
+      "ort": "Nürnberg (Energie Campus, FAU)",
+      "beworben_am": "2026-07-20",
+      "status": "beworben",
+      "quelle": "Applications/H2B_InternationaleAngelegenheiten/Stellenausschreibung Referent_in Internationale Angelegenheiten (m_w_d) _ Zentrum Wasserstoff.Bayern (H2.B).pdf",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Elternzeitvertretung, befristet bis voraussichtlich Oktober 2027, TV-L E12/E13.",
+      "anforderungen": [
+        { "skill": "interkulturell",       "gewicht": 3, "beleg": "Betreuung des internationalen Kontaktnetzwerks (Kommunikation mit internationalen Akteuren, Erschließen neuer Kontakte)" },
+        { "skill": "stakeholder",          "gewicht": 3, "beleg": "Freude am Networking sowie am (politischen) Diskurs; Schnittstelle von Wirtschaft, Wissenschaft und Politik" },
+        { "skill": "wasserstoff",          "gewicht": 3, "beleg": "Gutes und breites Hintergrundwissen im Bereich Wasserstoff; Wasserstofftechnologien und Energiesysteme" },
+        { "skill": "partnerschaften",      "gewicht": 2, "beleg": "Erschließen neuer Kontakte; Bearbeitung von Anfragen (z.B. zur Vermittlung von Kontakten)" },
+        { "skill": "projektkoordination",  "gewicht": 2, "beleg": "Unterstützung bei der Organisation von Veranstaltungsformaten (Side-Events auf Messen, Delegationsbesuche, Round Tables)" },
+        { "skill": "hr-admin",             "gewicht": 2, "beleg": "Aktualisierung von Kontaktdaten; Bearbeitung von Anfragen in Abstimmung mit dem Team; Gute Kenntnisse in Microsoft Office und Teams" },
+        { "skill": "markteintritt",        "gewicht": 2, "beleg": "Systematische Erfassung von wasserstoffbezogenen Aktivitäten und Entwicklungen in ausgewählten internationalen Märkten" },
+        { "skill": "sprache-deutsch",      "gewicht": 2, "beleg": "Hervorragende Deutschkenntnisse (C2 oder Muttersprache)" },
+        { "skill": "sprache-englisch",     "gewicht": 2, "beleg": "sehr gute Englischkenntnisse (mindestens Sprachniveau C1)" },
+        { "skill": "reporting",            "gewicht": 1, "beleg": "Systematische Erfassung von Aktivitäten und Entwicklungen; sehr gute organisatorische Fähigkeiten" },
+        { "skill": "consulting",           "gewicht": 1, "beleg": "Wir vernetzen, informieren und beraten Wasserstoffakteure" },
+        { "skill": "energiesysteme",       "gewicht": 1, "beleg": "Bereich „Wasserstofftechnologien und Energiesysteme“" }
+      ]
+    },
+    {
+      "id": "hydrogenious-techpm",
+      "firma": "Hydrogenious LOHC Technologies GmbH",
+      "titel": "Technical Project Manager (m/f/x)",
+      "ort": "Erlangen",
+      "status": "beworben",
+      "link": "https://hydrogenious-lohc-technologies-gmbh.jobs.personio.de/job/2577606",
+      "quelle": "Applications/Hydrogenious_TechPM/Technical Project Manager (m_f_x) _ Jobs bei Hydrogenious LOHC Technologies GmbH.pdf",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        { "skill": "projektkoordination",  "gewicht": 3, "beleg": "Übernahme der Gesamtprojektverantwortung und Koordination aller technischen Umfänge von Anlagenbauprojekten" },
+        { "skill": "operations",           "gewicht": 3, "beleg": "von der Projektinitiierung über die Umsetzung bis hin zur Inbetriebnahme; Betreuung der Baumaßnahmen vor Ort" },
+        { "skill": "anlagentechnik",       "gewicht": 3, "beleg": "Hervorragende methodische Kompetenz in der Planung, Leitung und Überwachung von Anlagenbauprojekten; Bauleitung im Bereich verfahrenstechnischer Anlagen" },
+        { "skill": "reporting",            "gewicht": 2, "beleg": "Sicherstellen der Einhaltung der projektbezogenen Budget-, Qualitäts- und Terminziele; Regelmäßiges Reporting an die Geschäftsführung" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Federführende Kommunikation mit unseren Projektpartnern, Zulieferern und Kunden; Teilnahme an Sicherheitsgesprächen und behördlichen Audits" },
+        { "skill": "wasserstoff",          "gewicht": 2, "beleg": "Wasserstoffspeichersysteme auf Basis der Liquid Organic Hydrogen Carrier (LOHC)-Technologie" },
+        { "skill": "teamfuehrung",         "gewicht": 2, "beleg": "Sicherstellen einer effizienten Kommunikation innerhalb des Projektteams; Ressourcenverfügbarkeit und deren Priorisierung" },
+        { "skill": "hr-admin",             "gewicht": 1, "beleg": "Ableiten von Maßnahmen hinsichtlich der firmenweiten Ressourcenverfügbarkeit; Mitarbeit bei der Weiterentwicklung der Projektmanagementstandards" },
+        { "skill": "verhandlung",          "gewicht": 1, "beleg": "Erfahrung in der Vergabe von Engineering- und Baumaßnahmen im Anlagenbau" },
+        { "skill": "prototyping",          "gewicht": 1, "beleg": "Fachliche Mitarbeit bei relevanten technischen und genehmigungsrechtlichen Aufgabenstellungen" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutsch- und sehr gute Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Fließende Deutsch- und sehr gute Englischkenntnisse in Wort und Schrift" }
+      ]
+    },
+    {
+      "id": "hydrogenious-projectlead",
+      "firma": "Hydrogenious LOHC Technologies GmbH",
+      "titel": "Commercial and Technical Project Lead (m/f/x)",
+      "ort": "Erlangen",
+      "beworben_am": "2026-07-21",
+      "status": "beworben",
+      "link": "https://hydrogenious-lohc-technologies-gmbh.jobs.personio.de/job/2692206",
+      "quelle": "Applications/Hydrogenious_ProjectLead/Commercial and Technical Project Lead (m_f_x) _ Jobs bei Hydrogenious LOHC Technologies GmbH.pdf",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        { "skill": "projektkoordination",  "gewicht": 3, "beleg": "Technische, vertragliche und kommerzielle Koordination, Steuerung und Verantwortung der Basic-Engineering-Phase" },
+        { "skill": "anlagentechnik",       "gewicht": 3, "beleg": "Hervorragende methodische Kompetenz in der Planung, Leitung und Überwachung von Anlagenbauprojekten" },
+        { "skill": "reporting",            "gewicht": 2, "beleg": "Durchführung eines regelmäßigen Progress Reporting an das Management inkl. Vorbereitung von Steering Committees und Management-Entscheidungsvorlagen" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Einnahme einer zentralen Schnittstellenfunktion zwischen internen Fachabteilungen, Kunden sowie externen Engineering- und Projektpartnern" },
+        { "skill": "verhandlung",          "gewicht": 2, "beleg": "Unterstützung bei der Vertragsgestaltung und den Vertragsverhandlungen insbesondere im Rahmen der Akquise der nachfolgenden Umsetzungsphase" },
+        { "skill": "wasserstoff",          "gewicht": 2, "beleg": "Wasserstoffspeichersysteme auf Basis der innovativen Liquid Organic Hydrogen Carrier (LOHC)-Technologie" },
+        { "skill": "business-case",        "gewicht": 1, "beleg": "Verantwortung und Durchführung des Kostencontrolling durch strukturierte Erfassung, Analyse und kontinuierliche Verfolgung der Ist-Kosten sowie der Forecast-Planung" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutsch und sehr gute Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Fließende Deutsch und sehr gute Englischkenntnisse in Wort und Schrift" }
+      ]
+    },
+    {
+      "id": "ey-consultant-energiewirtschaft",
+      "firma": "EY (Ernst & Young), Business Transformation",
+      "titel": "Consultant Energiewirtschaft – Business Transformation (w/m/d)",
+      "ort": "Düsseldorf (bundesweit; Team auch München/Stuttgart/Berlin)",
+      "beworben_am": "2026-08-06",
+      "status": "beworben",
+      "link": "https://careers.ey.com/ey/job/D%C3%BCsseldorf-Consultant-Energiewirtschaft-Business-Transformation-%28wmd%29-40219/1206479901/",
+      "quelle": "Applications/EY_ConsultantEnergiewirtschaft/Stellenausschreibung_EY_Consultant_Energiewirtschaft.md",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Consultant-Grade, verlangt werden nur 'erste Erfahrungen' – Fernandos Erfahrung liegt deutlich darüber.",
+      "anforderungen": [
+        { "skill": "consulting",           "gewicht": 3, "beleg": "berätst du unsere Kund:innen im Rahmen von komplexen Transformationsprojekten aus unternehmerischer und ganzheitlicher Perspektive" },
+        { "skill": "strategie",            "gewicht": 3, "beleg": "Umfassende Rundumbetreuung von Energieunternehmen mit Fokus auf die Entwicklung und Implementierung innovativer Geschäftsmodelle im Rahmen der Dekarbonisierung" },
+        { "skill": "prozesswaerme",        "gewicht": 2, "beleg": "innovativen und relevanten Projektstrukturen rund um das Thema Energie- und Wärmewende" },
+        { "skill": "business-case",        "gewicht": 2, "beleg": "Durchführung von Organisations-, Prozess- und Wirtschaftlichkeitsanalysen inklusive der Ableitung von konkreten Verbesserungsvorschlägen" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Umfassende Rundumbetreuung von Energieunternehmen" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutschkenntnisse auf C1-Niveau" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Englischkenntnisse auf B2-Niveau" }
+      ]
+    },
+    {
+      "id": "roedl-consultant-erneuerbare-energien",
+      "firma": "Rödl & Partner (Rödl GmbH RAG StBG)",
+      "titel": "Consultant Erneuerbare Energien – Investments & Transformation (m/w/d)",
+      "ort": "Nürnberg",
+      "beworben_am": "2026-08-06",
+      "status": "beworben",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002239434-S",
+      "quelle": "Applications/Roedl_ConsultantErneuerbareEnergien/Stellenausschreibung_Roedl_Consultant_Erneuerbare_Energien.md",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Anzeige auf Einsteiger zugeschnitten ('Erste Berufserfahrung – gerne auch durch Praktika') – Fernandos Erfahrung liegt deutlich darüber.",
+      "anforderungen": [
+        { "skill": "consulting",           "gewicht": 3, "beleg": "Engagierte Beratung bei Dekarbonisierungsprojekten für Unternehmen, Kommunen und Versorger" },
+        { "skill": "prozesswaerme",        "gewicht": 3, "beleg": "Unterstützung bei der Wärmewende und Dekarbonisierung von Bestands-Nahwärmenetzen; Begleitung von Beratungsmandaten zu Abwärme, Nahwärmenetzen, Wärmenetzen der neuesten Generation" },
+        { "skill": "business-case",        "gewicht": 3, "beleg": "Wirtschaftliche Bewertung dezentraler Energieerzeugungsanlagen: PV, Wind, Solarthermie, Geothermie, Wärmepumpen, Nahwärme" },
+        { "skill": "strategie",            "gewicht": 2, "beleg": "Strategische Beratung zur Anpassung an Klimapolitik und Auswirkungen des Klimawandels" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Beratung bei Dekarbonisierungsprojekten für Unternehmen, Kommunen und Versorger" },
+        { "skill": "waermepumpe",          "gewicht": 1, "beleg": "dezentraler Energieerzeugungsanlagen: PV, Wind, Solarthermie, Geothermie, Wärmepumpen" }
+      ]
+    },
+    {
+      "id": "victoria-produktmanager-energiespeicher",
+      "firma": "Victoria Consulting GmbH (Personalvermittlung, Arbeitgeber anonym)",
+      "titel": "Produktmanager Energiespeichersysteme (m/w/d)",
+      "ort": "Bamberg",
+      "beworben_am": "2026-08-06",
+      "status": "beworben",
+      "link": "https://www.victoria-consulting.de/stellen/11921/Produktmanager%20Energiespeichersysteme%20(m-w-d)",
+      "quelle": "Applications/VictoriaConsulting_ProduktmanagerEnergiespeicher/Stellenausschreibung_Produktmanager_Energiespeichersysteme.md",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Anonyme Anzeige (Arbeitgeber und Speichertechnologie nicht genannt); den Titel 'Produktmanager' hat Fernando nie geführt, die Aufgaben sind aber inhaltlich belegt.",
+      "anforderungen": [
+        { "skill": "produktstrategie",     "gewicht": 3, "beleg": "Produkte und Lösungen strategisch weiterentwickeln; Produktstrategien und Markteinführungen aktiv gestalten" },
+        { "skill": "markteintritt",        "gewicht": 2, "beleg": "Markttrends, Kundenanforderungen und Wettbewerber im Blick behalten; Produkteinführungen aktiv gestalten" },
+        { "skill": "speicher",             "gewicht": 2, "beleg": "Verständnis für komplexe technische Produkte und deren Marktpositionierung (Titel: Energiespeichersysteme)" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Fachbereiche, Projekte und Stakeholder souverän koordinieren" },
+        { "skill": "key-account",          "gewicht": 1, "beleg": "Vertriebs- und Marketingaktivitäten mit produktrelevantem Know-how unterstützen" },
+        { "skill": "business-development", "gewicht": 1, "beleg": "Neue Potenziale und Geschäftsmöglichkeiten identifizieren" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Sehr gute Deutsch- und Englischkenntnisse" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Sehr gute Deutsch- und Englischkenntnisse" }
+      ]
+    }
+  ]
+}/*__JOBS_END__*/;
+
+const LS_KEY = "skills_profil_edits_v1";
+const STATE = { data: null, base: null, jobs: [], sel: null, selType: null,
+                hidden: new Set(), q: "", labels: false, showJobs: true };
+
+/* ---------- Laden ---------- */
+async function boot() {
+  let data = null, jobs = null;
+  try {
+    const r = await fetch("skills_profil.json", { cache: "no-store" });
+    if (r.ok) data = await r.json();
+  } catch (e) { /* file:// – Fallback greift */ }
+  if (!data || !data.skills) data = JSON.parse(JSON.stringify(EMBEDDED));
+
+  try {
+    const r = await fetch("stellen_profile.json", { cache: "no-store" });
+    if (r.ok) jobs = await r.json();
+  } catch (e) { /* file:// – Fallback greift */ }
+  if (!jobs || !jobs.stellen) jobs = JSON.parse(JSON.stringify(EMBEDDED_JOBS));
+  STATE.jobs = jobs.stellen || [];
+
+  STATE.base = JSON.parse(JSON.stringify(data));
+
+  // gespeicherte Zwischenstände wieder auflegen
+  try {
+    const saved = JSON.parse(localStorage.getItem(LS_KEY) || "null");
+    if (saved) {
+      if (typeof saved.__schwelle === "number") data.quadranten.schwelle = saved.__schwelle;
+      data.skills.forEach(s => {
+        if (saved[s.id]) {
+          if (typeof saved[s.id].koennen === "number") s.koennen = saved[s.id].koennen;
+          if (typeof saved[s.id].wollen === "number") s.wollen = saved[s.id].wollen;
+        }
+      });
+    }
+  } catch (e) { /* ignorieren */ }
+
+  STATE.data = data;
+  renderAll();
+}
+
+/* ---------- Hilfen ---------- */
+const thr = () => (STATE.data.quadranten && STATE.data.quadranten.schwelle) || 5.5;
+const clusterOf = id => STATE.data.cluster.find(c => c.id === id) || { label: id, farbe: "#64748b" };
+
+function quadOf(s) {
+  const t = thr();
+  if (s.koennen >= t && s.wollen >= t) return "sweet";
+  if (s.koennen <  t && s.wollen >= t) return "grow";
+  if (s.koennen >= t && s.wollen <  t) return "trap";
+  return "none";
+}
+const QUAD = {
+  sweet: { key: "hoch_hoch",      cls: "q-sweet", farbe: "#059669" },
+  grow:  { key: "niedrig_hoch",   cls: "q-grow",  farbe: "#2563eb" },
+  trap:  { key: "hoch_niedrig",   cls: "q-trap",  farbe: "#d97706" },
+  none:  { key: "niedrig_niedrig",cls: "q-none",  farbe: "#94a3b8" }
+};
+const quadMeta = k => (STATE.data.quadranten && STATE.data.quadranten[QUAD[k].key]) || { label: k, beschreibung: "" };
+
+/* Position einer Stelle: gewichtetes Mittel über die Anforderungen der Anzeige */
+function jobPos(job) {
+  const byId = {};
+  STATE.data.skills.forEach(s => byId[s.id] = s);
+  let wsum = 0, k = 0, w = 0;
+  const req = [];
+  (job.anforderungen || []).forEach(a => {
+    const s = byId[a.skill];
+    if (!s) return;
+    const g = a.gewicht || 1;
+    wsum += g; k += s.koennen * g; w += s.wollen * g;
+    req.push({ skill: s, gewicht: g, beleg: a.beleg });
+  });
+  if (!wsum) return null;
+  req.sort((a, b) => b.gewicht - a.gewicht || a.skill.label.localeCompare(b.skill.label));
+  return { koennen: k / wsum, wollen: w / wsum, req, wsum };
+}
+
+function visible() {
+  const q = STATE.q.trim().toLowerCase();
+  return STATE.data.skills.filter(s => {
+    if (STATE.hidden.has(s.cluster)) return false;
+    if (!q) return true;
+    const hay = (s.label + " " + (s.keywords || []).join(" ") + " " + (s.quelle || "")).toLowerCase();
+    return hay.includes(q);
+  });
+}
+
+function markDirty() {
+  const edits = {};
+  let dirty = false;
+  STATE.data.skills.forEach(s => {
+    const b = STATE.base.skills.find(x => x.id === s.id);
+    if (b && (b.koennen !== s.koennen || b.wollen !== s.wollen)) {
+      edits[s.id] = { koennen: s.koennen, wollen: s.wollen };
+      dirty = true;
+    }
+  });
+  const baseThr = (STATE.base.quadranten && STATE.base.quadranten.schwelle) || 5.5;
+  if (thr() !== baseThr) { edits.__schwelle = thr(); dirty = true; }
+  try { localStorage.setItem(LS_KEY, JSON.stringify(edits)); } catch (e) {}
+  document.getElementById("dirty").classList.toggle("show", dirty);
+}
+
+/* ---------- Kopfzeile ---------- */
+function renderChips() {
+  document.getElementById("subtitle").textContent =
+    (STATE.data.profil || "") + " · Stand " + (STATE.data.stand || "–");
+  const all = STATE.data.skills;
+  const c = k => all.filter(s => quadOf(s) === k).length;
+  document.getElementById("chips").innerHTML = [
+    ["🎯 " + c("sweet") + " Sweet Spot", ""],
+    ["📈 " + c("grow") + " Ausbaufeld", ""],
+    ["⚠️ " + c("trap") + " Fallstrick", ""],
+    ["⚪ " + c("none") + " Irrelevant", ""],
+    ["Σ " + all.length + " Fähigkeiten", ""],
+    ["◆ " + STATE.jobs.length + " beworbene Stellen", ""]
+  ].map(x => '<span class="chip">' + x[0] + "</span>").join("");
+}
+
+/* ---------- Legende ---------- */
+function renderLegend() {
+  const el = document.getElementById("legend");
+  el.innerHTML = STATE.data.cluster.map(c =>
+    '<button class="lg' + (STATE.hidden.has(c.id) ? " off" : "") + '" data-c="' + c.id + '">' +
+    '<span class="dot" style="background:' + c.farbe + '"></span>' + c.label + "</button>"
+  ).join("");
+  el.querySelectorAll(".lg").forEach(b => b.onclick = () => {
+    const id = b.dataset.c;
+    STATE.hidden.has(id) ? STATE.hidden.delete(id) : STATE.hidden.add(id);
+    renderLegend(); renderChart(); renderRows(); renderQuads();
+  });
+}
+
+/* ---------- Streudiagramm ---------- */
+const M = { l: 62, r: 24, t: 24, b: 56 }, W = 640, H = 560;
+const px = v => M.l + (v / 10) * (W - M.l - M.r);
+const py = v => H - M.b - (v / 10) * (H - M.t - M.b);
+
+function renderChart() {
+  const svg = document.getElementById("svg");
+  const t = thr(), tx = px(t), ty = py(t);
+  let g = "";
+
+  // Quadrantenflächen
+  const areas = [
+    ["none",  M.l, ty, tx - M.l, H - M.b - ty],
+    ["trap",  tx,  ty, W - M.r - tx, H - M.b - ty],
+    ["grow",  M.l, M.t, tx - M.l, ty - M.t],
+    ["sweet", tx,  M.t, W - M.r - tx, ty - M.t]
+  ];
+  areas.forEach(([k, x, y, w, h]) => {
+    g += '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h +
+         '" fill="' + QUAD[k].farbe + '" fill-opacity="0.07"/>';
+  });
+
+  // Gitter
+  for (let i = 0; i <= 10; i += 2) {
+    g += '<line x1="' + px(i) + '" y1="' + M.t + '" x2="' + px(i) + '" y2="' + (H - M.b) + '" stroke="#e2e8f0"/>';
+    g += '<line x1="' + M.l + '" y1="' + py(i) + '" x2="' + (W - M.r) + '" y2="' + py(i) + '" stroke="#e2e8f0"/>';
+    g += '<text class="axlabel" x="' + px(i) + '" y="' + (H - M.b + 18) + '" text-anchor="middle">' + i + "</text>";
+    g += '<text class="axlabel" x="' + (M.l - 10) + '" y="' + (py(i) + 4) + '" text-anchor="end">' + i + "</text>";
+  }
+  // Schwellenlinien
+  g += '<line x1="' + tx + '" y1="' + M.t + '" x2="' + tx + '" y2="' + (H - M.b) + '" stroke="#94a3b8" stroke-dasharray="5 4"/>';
+  g += '<line x1="' + M.l + '" y1="' + ty + '" x2="' + (W - M.r) + '" y2="' + ty + '" stroke="#94a3b8" stroke-dasharray="5 4"/>';
+  // Achsen
+  g += '<line x1="' + M.l + '" y1="' + (H - M.b) + '" x2="' + (W - M.r) + '" y2="' + (H - M.b) + '" stroke="#334155"/>';
+  g += '<line x1="' + M.l + '" y1="' + M.t + '" x2="' + M.l + '" y2="' + (H - M.b) + '" stroke="#334155"/>';
+  g += '<text class="axtitle" x="' + ((M.l + W - M.r) / 2) + '" y="' + (H - 12) + '" text-anchor="middle">Können →</text>';
+  g += '<text class="axtitle" transform="translate(16,' + ((M.t + H - M.b) / 2) + ') rotate(-90)" text-anchor="middle">Wollen →</text>';
+
+  // Quadranten-Überschriften
+  const qpos = [
+    ["sweet", (tx + W - M.r) / 2, M.t + 16],
+    ["grow",  (M.l + tx) / 2,     M.t + 16],
+    ["trap",  (tx + W - M.r) / 2, H - M.b - 8],
+    ["none",  (M.l + tx) / 2,     H - M.b - 8]
+  ];
+  qpos.forEach(([k, x, y]) => {
+    g += '<text class="qlabel" x="' + x + '" y="' + y + '" text-anchor="middle" fill="' +
+         QUAD[k].farbe + '" fill-opacity="0.8">' + quadMeta(k).label + "</text>";
+  });
+
+  // Punkte – gleiche Koordinaten deterministisch auffächern
+  const seen = {};
+  const pts = visible().map(s => {
+    const key = s.koennen + ":" + s.wollen;
+    const n = (seen[key] = (seen[key] || 0) + 1) - 1;
+    const ang = n * 2.399963, rad = n === 0 ? 0 : 6 + n * 1.6;
+    return { s, x: px(s.koennen) + Math.cos(ang) * rad, y: py(s.wollen) + Math.sin(ang) * rad };
+  });
+
+  pts.forEach(p => {
+    const c = clusterOf(p.s.cluster);
+    const sel = STATE.selType === "skill" && STATE.sel === p.s.id;
+    g += '<circle class="pt' + (sel ? " sel" : "") + '" data-id="' + p.s.id + '" cx="' + p.x.toFixed(1) +
+         '" cy="' + p.y.toFixed(1) + '" r="' + (sel ? 9 : 6.5) + '" fill="' + c.farbe + '">' +
+         "<title>" + esc(p.s.label) + " — Können " + p.s.koennen + " / Wollen " + p.s.wollen + "</title></circle>";
+    if (STATE.labels || sel) {
+      g += '<text class="ptlabel" x="' + (p.x + 10).toFixed(1) + '" y="' + (p.y + 3.5).toFixed(1) + '">' +
+           esc(short(p.s.label)) + "</text>";
+    }
+  });
+
+  // Beworbene Stellen als Rauten – immer sichtbar, unabhängig vom Cluster-Filter
+  if (STATE.showJobs) {
+    STATE.jobs.forEach(j => {
+      const pos = jobPos(j); if (!pos) return;
+      const x = px(pos.koennen), y = py(pos.wollen);
+      const sel = STATE.selType === "job" && STATE.sel === j.id;
+      const r = sel ? 12 : 9, k = quadOf(pos);
+      g += '<polygon class="jm' + (sel ? " sel" : "") + '" data-job="' + j.id + '" points="' +
+           [[x, y - r], [x + r, y], [x, y + r], [x - r, y]].map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ") +
+           '" fill="' + QUAD[k].farbe + '">' + "<title>" + esc(j.firma + " — " + j.titel) +
+           " — Können " + pos.koennen.toFixed(1) + " / Wollen " + pos.wollen.toFixed(1) + "</title></polygon>";
+      const lx = (x + r + 4).toFixed(1), ly = (y - r - 3).toFixed(1);
+      const lt = esc(j.firma.split(" ")[0].replace(/,$/, ""));
+      // Halo separat zeichnen statt paint-order – funktioniert in jedem Renderer
+      g += '<text class="jmlabel halo" x="' + lx + '" y="' + ly + '">' + lt + "</text>";
+      g += '<text class="jmlabel" x="' + lx + '" y="' + ly + '">' + lt + "</text>";
+    });
+  }
+
+  svg.innerHTML = g;
+  svg.querySelectorAll(".pt").forEach(c => c.onclick = () => select("skill", c.dataset.id));
+  svg.querySelectorAll(".jm").forEach(c => c.onclick = () => select("job", c.dataset.job));
+}
+const short = s => s.length > 30 ? s.slice(0, 29) + "…" : s;
+const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
+
+/* ---------- Detailbox ---------- */
+function renderDetail() {
+  const el = document.getElementById("detail");
+  if (STATE.selType === "job") { renderJobDetail(el); return; }
+  const s = STATE.data.skills.find(x => x.id === STATE.sel);
+  if (!s) {
+    el.innerHTML = '<h3>Detail</h3><p class="empty">Punkt oder Raute in der Matrix anklicken – ' +
+      "Kreise sind Fähigkeiten, Rauten sind beworbene Stellen.</p>";
+    return;
+  }
+  const c = clusterOf(s.cluster), q = quadOf(s);
+  el.innerHTML =
+    '<span class="tag" style="background:' + c.farbe + '">' + esc(c.label) + "</span>" +
+    "<h3>" + esc(s.label) + "</h3>" +
+    '<div class="vals"><strong style="color:' + QUAD[q].farbe + '">' + esc(quadMeta(q).label) + "</strong>" +
+    " · Können <strong>" + s.koennen + "</strong> · Wollen <strong>" + s.wollen + "</strong></div>" +
+    '<div class="src">' + esc(s.quelle || "") + "</div>" +
+    '<div class="kw">' + (s.keywords || []).map(k => "<span>" + esc(k) + "</span>").join("") + "</div>";
+}
+
+function renderJobDetail(el) {
+  const j = STATE.jobs.find(x => x.id === STATE.sel);
+  const pos = j && jobPos(j);
+  if (!pos) { el.innerHTML = '<h3>Detail</h3><p class="empty">Keine Daten.</p>'; return; }
+  const k = quadOf(pos);
+  el.innerHTML =
+    '<span class="tag" style="background:' + QUAD[k].farbe + '">Beworbene Stelle</span>' +
+    "<h3>" + esc(j.titel) + "</h3>" +
+    '<div class="src">' + esc(j.firma) + (j.ort ? " · " + esc(j.ort) : "") + "</div>" +
+    '<div class="vals"><strong style="color:' + QUAD[k].farbe + '">' + esc(quadMeta(k).label) + "</strong>" +
+    " · Können <strong>" + pos.koennen.toFixed(1) + "</strong> · Wollen <strong>" + pos.wollen.toFixed(1) + "</strong></div>" +
+    '<div class="src" style="font-size:.8rem">Aus ' + pos.req.length + " Anforderungen der Anzeige, Gewichtssumme " + pos.wsum + ".</div>" +
+    '<ul class="reqs">' + pos.req.map(r => {
+      const rq = quadOf(r.skill);
+      return "<li>" + '<span class="rq" style="background:' + QUAD[rq].farbe + '">' + esc(quadMeta(rq).label) + "</span>" +
+        esc(r.skill.label) + ' <span class="rw">×' + r.gewicht + " · " + r.skill.koennen + "/" + r.skill.wollen + "</span>" +
+        (r.beleg ? '<span class="rb">„' + esc(r.beleg) + "“</span>" : "") + "</li>";
+    }).join("") + "</ul>";
+}
+
+/* ---------- Stellen-Karten ---------- */
+function renderJobs() {
+  const el = document.getElementById("jobs");
+  if (!STATE.jobs.length) { el.innerHTML = '<p class="empty">Keine Stellen hinterlegt.</p>'; return; }
+  el.innerHTML = STATE.jobs.map(j => {
+    const pos = jobPos(j); if (!pos) return "";
+    const k = quadOf(pos);
+    const traps = pos.req.filter(r => quadOf(r.skill) === "trap").sort((a, b) => b.gewicht - a.gewicht);
+    const sel = STATE.selType === "job" && STATE.sel === j.id;
+    return '<div class="job' + (sel ? " sel" : "") + '" data-job="' + j.id + '" style="border-left-color:' + QUAD[k].farbe + '">' +
+      '<div class="jt">' + esc(j.titel) + "</div>" +
+      '<div class="jc">' + esc(j.firma) + (j.ort ? " · " + esc(j.ort) : "") + "</div>" +
+      '<div class="jq" style="color:' + QUAD[k].farbe + '">' + esc(quadMeta(k).label) +
+      ' <span style="color:#94a3b8;font-weight:400">Können ' + pos.koennen.toFixed(1) +
+      " · Wollen " + pos.wollen.toFixed(1) + "</span></div>" +
+      (traps.length
+        ? '<div class="jtrap"><strong>Fallstricke in der Anzeige:</strong> ' +
+          traps.map(r => esc(r.skill.label) + " (×" + r.gewicht + ")").join(", ") + "</div>"
+        : '<div class="jok">Keine Anforderung im Fallstrick-Quadranten.</div>') +
+      "</div>";
+  }).join("");
+  el.querySelectorAll(".job").forEach(c => c.onclick = () => select("job", c.dataset.job));
+}
+
+/* ---------- Quadranten-Listen ---------- */
+function renderQuads() {
+  const el = document.getElementById("quads");
+  const list = visible();
+  el.innerHTML = ["sweet", "grow", "trap", "none"].map(k => {
+    const items = list.filter(s => quadOf(s) === k)
+      .sort((a, b) => (b.koennen + b.wollen) - (a.koennen + a.wollen));
+    const m = quadMeta(k);
+    return '<div class="quad ' + QUAD[k].cls + '">' +
+      "<h3><span>" + esc(m.label) + '</span><span class="cnt">' + items.length + "</span></h3>" +
+      "<p>" + esc(m.beschreibung) + "</p>" +
+      (items.length
+        ? "<ul>" + items.map(s => '<li data-id="' + s.id + '">' + esc(s.label) +
+            ' <span style="color:#94a3b8">(' + s.koennen + "/" + s.wollen + ")</span></li>").join("") + "</ul>"
+        : '<p style="margin:0">–</p>') +
+      "</div>";
+  }).join("");
+  el.querySelectorAll("li[data-id]").forEach(li => li.onclick = () => select("skill", li.dataset.id));
+}
+
+/* ---------- Editor ---------- */
+function renderRows() {
+  const tb = document.getElementById("rows");
+  const list = visible().slice().sort((a, b) =>
+    a.cluster === b.cluster ? a.label.localeCompare(b.label)
+      : STATE.data.cluster.findIndex(c => c.id === a.cluster) - STATE.data.cluster.findIndex(c => c.id === b.cluster));
+
+  tb.innerHTML = list.map(s => {
+    const c = clusterOf(s.cluster);
+    return '<tr data-id="' + s.id + '"' + (STATE.selType === "skill" && STATE.sel === s.id ? ' class="sel"' : "") + ">" +
+      '<td><div class="sk-name">' + esc(s.label) + "</div>" +
+      '<div class="sk-cluster"><span style="color:' + c.farbe + '">●</span> ' + esc(c.label) + "</div></td>" +
+      slider(s, "koennen") + slider(s, "wollen") + "</tr>";
+  }).join("");
+
+  tb.querySelectorAll("input[type=range]").forEach(inp => {
+    inp.oninput = () => {
+      const s = STATE.data.skills.find(x => x.id === inp.dataset.id);
+      s[inp.dataset.f] = +inp.value;
+      const v = inp.parentNode.querySelector(".val");
+      v.textContent = inp.value; v.className = "val " + tone(+inp.value);
+      markDirty(); renderChart(); renderQuads(); renderChips(); renderDetail(); renderJobs();
+    };
+  });
+  tb.querySelectorAll(".sk-name").forEach(n => n.onclick = () => select("skill", n.closest("tr").dataset.id));
+}
+const tone = v => v >= 7 ? "hi" : v >= 4 ? "mid" : "lo";
+function slider(s, f) {
+  return '<td class="slider-cell"><input type="range" min="0" max="10" step="1" value="' + s[f] +
+    '" data-id="' + s.id + '" data-f="' + f + '" aria-label="' + esc(s.label + " " + f) + '">' +
+    '<span class="val ' + tone(s[f]) + '">' + s[f] + "</span></td>";
+}
+
+/* ---------- Auswahl ---------- */
+function select(type, id) {
+  const same = STATE.sel === id && STATE.selType === type;
+  STATE.sel = same ? null : id;
+  STATE.selType = same ? null : type;
+  renderChart(); renderDetail(); renderQuads(); renderRows(); renderJobs();
+  if (!same && type === "skill") {
+    const tr = document.querySelector('tr[data-id="' + id + '"]');
+    if (tr) tr.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+}
+
+function renderThr() {
+  const inp = document.getElementById("thr");
+  inp.value = thr();
+  const v = document.getElementById("thr-val");
+  v.textContent = (+thr()).toFixed(1).replace(".", ",");
+}
+
+function renderAll() { renderThr(); renderChips(); renderLegend(); renderChart(); renderDetail(); renderQuads(); renderJobs(); renderRows(); }
+
+/* ---------- Toolbar ---------- */
+document.getElementById("thr").oninput = e => {
+  STATE.data.quadranten.schwelle = +e.target.value;
+  document.getElementById("thr-val").textContent = (+e.target.value).toFixed(1).replace(".", ",");
+  markDirty(); renderChips(); renderChart(); renderQuads(); renderDetail(); renderJobs();
+};
+document.getElementById("search").oninput = e => {
+  STATE.q = e.target.value; renderChart(); renderQuads(); renderRows();
+};
+document.getElementById("btn-jobs").onclick = e => {
+  STATE.showJobs = !STATE.showJobs;
+  e.target.textContent = STATE.showJobs ? "Stellen ausblenden" : "Stellen einblenden";
+  if (!STATE.showJobs && STATE.selType === "job") { STATE.sel = null; STATE.selType = null; renderDetail(); renderJobs(); }
+  renderChart();
+};
+document.getElementById("btn-labels").onclick = e => {
+  STATE.labels = !STATE.labels;
+  e.target.textContent = STATE.labels ? "Beschriftung ausblenden" : "Beschriftung einblenden";
+  renderChart();
+};
+document.getElementById("btn-export").onclick = () => {
+  const out = JSON.parse(JSON.stringify(STATE.data));
+  out.stand = new Date().toISOString().slice(0, 10);
+  const blob = new Blob([JSON.stringify(out, null, 2) + "\n"], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "skills_profil.json";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+};
+document.getElementById("file-import").onchange = e => {
+  const f = e.target.files[0]; if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    try {
+      const d = JSON.parse(rd.result);
+      if (!d.skills || !d.cluster) throw new Error("Kein gültiges Skill-Profil");
+      STATE.data = d; STATE.base = JSON.parse(JSON.stringify(d)); STATE.sel = null; STATE.selType = null;
+      localStorage.removeItem(LS_KEY);
+      document.getElementById("dirty").classList.remove("show");
+      renderAll();
+    } catch (err) { alert("Import fehlgeschlagen: " + err.message); }
+  };
+  rd.readAsText(f);
+  e.target.value = "";
+};
+document.getElementById("btn-reset").onclick = () => {
+  if (!confirm("Alle Änderungen seit dem letzten Export verwerfen?")) return;
+  STATE.data = JSON.parse(JSON.stringify(STATE.base));
+  localStorage.removeItem(LS_KEY);
+  document.getElementById("dirty").classList.remove("show");
+  renderAll();
+};
+
+boot();
+</script>
+</body>
+</html>

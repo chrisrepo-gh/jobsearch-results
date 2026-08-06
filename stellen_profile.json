@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "stand": "2026-08-06",
+  "hinweis": "Anforderungsprofile ausschließlich aus den im Projekt abgelegten Stellenanzeigen abgeleitet. Jede Anforderung trägt einen wörtlichen Beleg aus der Anzeige. Keine Stelle ohne Anzeigentext im Ordner Applications/.",
+  "gewicht_skala": {
+    "3": "Kernanforderung – steht ganz oben oder wiederholt sich in Aufgaben und Profil",
+    "2": "klar benannte Anforderung",
+    "1": "Randanforderung oder 'von Vorteil'"
+  },
+  "berechnung": "Position der Stelle = gewichtetes Mittel der koennen- bzw. wollen-Werte aus skills_profil.json über alle Anforderungen. Verschiebt sich live, wenn die Skill-Gewichte geändert werden.",
+  "stellen": [
+    {
+      "id": "enerpipe-bdm",
+      "firma": "ENERPIPE GmbH",
+      "titel": "International Business Development Manager (m/w/d)",
+      "ort": "Hilpoltstein",
+      "beworben_am": "2026-07-29",
+      "status": "beworben",
+      "quelle": "Applications/ENERPIPE_InternationalBDM/International Business Development Manager (m_w_d) _ Enerpipe GmbH.pdf",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        { "skill": "partnerschaften",      "gewicht": 3, "beleg": "Identifikation und Gewinnung geeigneter Vertriebspartner und potenzieller Franchisenehmer; Aufbau und Entwicklung langfristiger, unternehmerischer Partnerschaften" },
+        { "skill": "business-development", "gewicht": 3, "beleg": "Erfahrung im technischen Vertrieb, Business Development oder Partnermanagement" },
+        { "skill": "markteintritt",        "gewicht": 3, "beleg": "Entwicklung von Markteintrittsstrategien; Du entwickelst unseren Vertrieb in Europa – Schritt für Schritt, Land für Land" },
+        { "skill": "deal-origination",     "gewicht": 2, "beleg": "Ausgeprägte „Hunter-Mentalität“: Du hast Freude daran, neue Märkte zu erschließen" },
+        { "skill": "strategie",            "gewicht": 2, "beleg": "Mitgestaltung von Vertriebsstrategien und Preisstrukturen; Analyse von Märkten, Potenzialen und Branchenstrukturen" },
+        { "skill": "technologietransfer",  "gewicht": 2, "beleg": "Vorstellung und Erklärung unseres Produktportfolios sowie des ENERPIPE-Systemansatzes; Vermittlung des Systemgedankens" },
+        { "skill": "key-account",          "gewicht": 2, "beleg": "Erfahrung im technischen Vertrieb; Fähigkeit, komplexe Systeme verständlich zu erklären" },
+        { "skill": "verhandlung",          "gewicht": 2, "beleg": "Gewinnung von Vertriebspartnern und Franchisenehmern; sicherer Auftritt im internationalen Umfeld" },
+        { "skill": "interkulturell",       "gewicht": 2, "beleg": "Aufbau eines belastbaren internationalen Netzwerks; Reisebereitschaft innerhalb Europas" },
+        { "skill": "prozesswaerme",        "gewicht": 2, "beleg": "nachhaltige Wärmenetze auf Basis erneuerbarer Energien; Kenntnisse im Bereich Nah- oder Fernwärme sind von Vorteil" },
+        { "skill": "unternehmensaufbau",   "gewicht": 1, "beleg": "Unternehmerisches Denken; eine Persönlichkeit, die nicht verwaltet, sondern aufbaut" },
+        { "skill": "business-case",        "gewicht": 1, "beleg": "Mitgestaltung von Vertriebsstrategien und Preisstrukturen" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutsch- und Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Fließende Deutsch- und Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-italienisch",  "gewicht": 1, "beleg": "weitere Sprachen von Vorteil (Vertriebsaufbau Europa)" },
+        { "skill": "sprache-spanisch",     "gewicht": 1, "beleg": "weitere Sprachen von Vorteil (Vertriebsaufbau Europa)" }
+      ]
+    },
+    {
+      "id": "h2b-referent-international",
+      "firma": "Zentrum Wasserstoff.Bayern (H2.B)",
+      "titel": "Referent/in Internationale Angelegenheiten (m/w/d)",
+      "ort": "Nürnberg (Energie Campus, FAU)",
+      "beworben_am": "2026-07-20",
+      "status": "beworben",
+      "quelle": "Applications/H2B_InternationaleAngelegenheiten/Stellenausschreibung Referent_in Internationale Angelegenheiten (m_w_d) _ Zentrum Wasserstoff.Bayern (H2.B).pdf",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Elternzeitvertretung, befristet bis voraussichtlich Oktober 2027, TV-L E12/E13.",
+      "anforderungen": [
+        { "skill": "interkulturell",       "gewicht": 3, "beleg": "Betreuung des internationalen Kontaktnetzwerks (Kommunikation mit internationalen Akteuren, Erschließen neuer Kontakte)" },
+        { "skill": "stakeholder",          "gewicht": 3, "beleg": "Freude am Networking sowie am (politischen) Diskurs; Schnittstelle von Wirtschaft, Wissenschaft und Politik" },
+        { "skill": "wasserstoff",          "gewicht": 3, "beleg": "Gutes und breites Hintergrundwissen im Bereich Wasserstoff; Wasserstofftechnologien und Energiesysteme" },
+        { "skill": "partnerschaften",      "gewicht": 2, "beleg": "Erschließen neuer Kontakte; Bearbeitung von Anfragen (z.B. zur Vermittlung von Kontakten)" },
+        { "skill": "projektkoordination",  "gewicht": 2, "beleg": "Unterstützung bei der Organisation von Veranstaltungsformaten (Side-Events auf Messen, Delegationsbesuche, Round Tables)" },
+        { "skill": "hr-admin",             "gewicht": 2, "beleg": "Aktualisierung von Kontaktdaten; Bearbeitung von Anfragen in Abstimmung mit dem Team; Gute Kenntnisse in Microsoft Office und Teams" },
+        { "skill": "markteintritt",        "gewicht": 2, "beleg": "Systematische Erfassung von wasserstoffbezogenen Aktivitäten und Entwicklungen in ausgewählten internationalen Märkten" },
+        { "skill": "sprache-deutsch",      "gewicht": 2, "beleg": "Hervorragende Deutschkenntnisse (C2 oder Muttersprache)" },
+        { "skill": "sprache-englisch",     "gewicht": 2, "beleg": "sehr gute Englischkenntnisse (mindestens Sprachniveau C1)" },
+        { "skill": "reporting",            "gewicht": 1, "beleg": "Systematische Erfassung von Aktivitäten und Entwicklungen; sehr gute organisatorische Fähigkeiten" },
+        { "skill": "consulting",           "gewicht": 1, "beleg": "Wir vernetzen, informieren und beraten Wasserstoffakteure" },
+        { "skill": "energiesysteme",       "gewicht": 1, "beleg": "Bereich „Wasserstofftechnologien und Energiesysteme“" }
+      ]
+    },
+    {
+      "id": "hydrogenious-techpm",
+      "firma": "Hydrogenious LOHC Technologies GmbH",
+      "titel": "Technical Project Manager (m/f/x)",
+      "ort": "Erlangen",
+      "status": "beworben",
+      "link": "https://hydrogenious-lohc-technologies-gmbh.jobs.personio.de/job/2577606",
+      "quelle": "Applications/Hydrogenious_TechPM/Technical Project Manager (m_f_x) _ Jobs bei Hydrogenious LOHC Technologies GmbH.pdf",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        { "skill": "projektkoordination",  "gewicht": 3, "beleg": "Übernahme der Gesamtprojektverantwortung und Koordination aller technischen Umfänge von Anlagenbauprojekten" },
+        { "skill": "operations",           "gewicht": 3, "beleg": "von der Projektinitiierung über die Umsetzung bis hin zur Inbetriebnahme; Betreuung der Baumaßnahmen vor Ort" },
+        { "skill": "anlagentechnik",       "gewicht": 3, "beleg": "Hervorragende methodische Kompetenz in der Planung, Leitung und Überwachung von Anlagenbauprojekten; Bauleitung im Bereich verfahrenstechnischer Anlagen" },
+        { "skill": "reporting",            "gewicht": 2, "beleg": "Sicherstellen der Einhaltung der projektbezogenen Budget-, Qualitäts- und Terminziele; Regelmäßiges Reporting an die Geschäftsführung" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Federführende Kommunikation mit unseren Projektpartnern, Zulieferern und Kunden; Teilnahme an Sicherheitsgesprächen und behördlichen Audits" },
+        { "skill": "wasserstoff",          "gewicht": 2, "beleg": "Wasserstoffspeichersysteme auf Basis der Liquid Organic Hydrogen Carrier (LOHC)-Technologie" },
+        { "skill": "teamfuehrung",         "gewicht": 2, "beleg": "Sicherstellen einer effizienten Kommunikation innerhalb des Projektteams; Ressourcenverfügbarkeit und deren Priorisierung" },
+        { "skill": "hr-admin",             "gewicht": 1, "beleg": "Ableiten von Maßnahmen hinsichtlich der firmenweiten Ressourcenverfügbarkeit; Mitarbeit bei der Weiterentwicklung der Projektmanagementstandards" },
+        { "skill": "verhandlung",          "gewicht": 1, "beleg": "Erfahrung in der Vergabe von Engineering- und Baumaßnahmen im Anlagenbau" },
+        { "skill": "prototyping",          "gewicht": 1, "beleg": "Fachliche Mitarbeit bei relevanten technischen und genehmigungsrechtlichen Aufgabenstellungen" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutsch- und sehr gute Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Fließende Deutsch- und sehr gute Englischkenntnisse in Wort und Schrift" }
+      ]
+    },
+    {
+      "id": "hydrogenious-projectlead",
+      "firma": "Hydrogenious LOHC Technologies GmbH",
+      "titel": "Commercial and Technical Project Lead (m/f/x)",
+      "ort": "Erlangen",
+      "beworben_am": "2026-07-21",
+      "status": "beworben",
+      "link": "https://hydrogenious-lohc-technologies-gmbh.jobs.personio.de/job/2692206",
+      "quelle": "Applications/Hydrogenious_ProjectLead/Commercial and Technical Project Lead (m_f_x) _ Jobs bei Hydrogenious LOHC Technologies GmbH.pdf",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        { "skill": "projektkoordination",  "gewicht": 3, "beleg": "Technische, vertragliche und kommerzielle Koordination, Steuerung und Verantwortung der Basic-Engineering-Phase" },
+        { "skill": "anlagentechnik",       "gewicht": 3, "beleg": "Hervorragende methodische Kompetenz in der Planung, Leitung und Überwachung von Anlagenbauprojekten" },
+        { "skill": "reporting",            "gewicht": 2, "beleg": "Durchführung eines regelmäßigen Progress Reporting an das Management inkl. Vorbereitung von Steering Committees und Management-Entscheidungsvorlagen" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Einnahme einer zentralen Schnittstellenfunktion zwischen internen Fachabteilungen, Kunden sowie externen Engineering- und Projektpartnern" },
+        { "skill": "verhandlung",          "gewicht": 2, "beleg": "Unterstützung bei der Vertragsgestaltung und den Vertragsverhandlungen insbesondere im Rahmen der Akquise der nachfolgenden Umsetzungsphase" },
+        { "skill": "wasserstoff",          "gewicht": 2, "beleg": "Wasserstoffspeichersysteme auf Basis der innovativen Liquid Organic Hydrogen Carrier (LOHC)-Technologie" },
+        { "skill": "business-case",        "gewicht": 1, "beleg": "Verantwortung und Durchführung des Kostencontrolling durch strukturierte Erfassung, Analyse und kontinuierliche Verfolgung der Ist-Kosten sowie der Forecast-Planung" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutsch und sehr gute Englischkenntnisse in Wort und Schrift" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Fließende Deutsch und sehr gute Englischkenntnisse in Wort und Schrift" }
+      ]
+    },
+    {
+      "id": "ey-consultant-energiewirtschaft",
+      "firma": "EY (Ernst & Young), Business Transformation",
+      "titel": "Consultant Energiewirtschaft – Business Transformation (w/m/d)",
+      "ort": "Düsseldorf (bundesweit; Team auch München/Stuttgart/Berlin)",
+      "beworben_am": "2026-08-06",
+      "status": "beworben",
+      "link": "https://careers.ey.com/ey/job/D%C3%BCsseldorf-Consultant-Energiewirtschaft-Business-Transformation-%28wmd%29-40219/1206479901/",
+      "quelle": "Applications/EY_ConsultantEnergiewirtschaft/Stellenausschreibung_EY_Consultant_Energiewirtschaft.md",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Consultant-Grade, verlangt werden nur 'erste Erfahrungen' – Fernandos Erfahrung liegt deutlich darüber.",
+      "anforderungen": [
+        { "skill": "consulting",           "gewicht": 3, "beleg": "berätst du unsere Kund:innen im Rahmen von komplexen Transformationsprojekten aus unternehmerischer und ganzheitlicher Perspektive" },
+        { "skill": "strategie",            "gewicht": 3, "beleg": "Umfassende Rundumbetreuung von Energieunternehmen mit Fokus auf die Entwicklung und Implementierung innovativer Geschäftsmodelle im Rahmen der Dekarbonisierung" },
+        { "skill": "prozesswaerme",        "gewicht": 2, "beleg": "innovativen und relevanten Projektstrukturen rund um das Thema Energie- und Wärmewende" },
+        { "skill": "business-case",        "gewicht": 2, "beleg": "Durchführung von Organisations-, Prozess- und Wirtschaftlichkeitsanalysen inklusive der Ableitung von konkreten Verbesserungsvorschlägen" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Umfassende Rundumbetreuung von Energieunternehmen" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Fließende Deutschkenntnisse auf C1-Niveau" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Englischkenntnisse auf B2-Niveau" }
+      ]
+    },
+    {
+      "id": "roedl-consultant-erneuerbare-energien",
+      "firma": "Rödl & Partner (Rödl GmbH RAG StBG)",
+      "titel": "Consultant Erneuerbare Energien – Investments & Transformation (m/w/d)",
+      "ort": "Nürnberg",
+      "beworben_am": "2026-08-06",
+      "status": "beworben",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002239434-S",
+      "quelle": "Applications/Roedl_ConsultantErneuerbareEnergien/Stellenausschreibung_Roedl_Consultant_Erneuerbare_Energien.md",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Anzeige auf Einsteiger zugeschnitten ('Erste Berufserfahrung – gerne auch durch Praktika') – Fernandos Erfahrung liegt deutlich darüber.",
+      "anforderungen": [
+        { "skill": "consulting",           "gewicht": 3, "beleg": "Engagierte Beratung bei Dekarbonisierungsprojekten für Unternehmen, Kommunen und Versorger" },
+        { "skill": "prozesswaerme",        "gewicht": 3, "beleg": "Unterstützung bei der Wärmewende und Dekarbonisierung von Bestands-Nahwärmenetzen; Begleitung von Beratungsmandaten zu Abwärme, Nahwärmenetzen, Wärmenetzen der neuesten Generation" },
+        { "skill": "business-case",        "gewicht": 3, "beleg": "Wirtschaftliche Bewertung dezentraler Energieerzeugungsanlagen: PV, Wind, Solarthermie, Geothermie, Wärmepumpen, Nahwärme" },
+        { "skill": "strategie",            "gewicht": 2, "beleg": "Strategische Beratung zur Anpassung an Klimapolitik und Auswirkungen des Klimawandels" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Beratung bei Dekarbonisierungsprojekten für Unternehmen, Kommunen und Versorger" },
+        { "skill": "waermepumpe",          "gewicht": 1, "beleg": "dezentraler Energieerzeugungsanlagen: PV, Wind, Solarthermie, Geothermie, Wärmepumpen" }
+      ]
+    },
+    {
+      "id": "victoria-produktmanager-energiespeicher",
+      "firma": "Victoria Consulting GmbH (Personalvermittlung, Arbeitgeber anonym)",
+      "titel": "Produktmanager Energiespeichersysteme (m/w/d)",
+      "ort": "Bamberg",
+      "beworben_am": "2026-08-06",
+      "status": "beworben",
+      "link": "https://www.victoria-consulting.de/stellen/11921/Produktmanager%20Energiespeichersysteme%20(m-w-d)",
+      "quelle": "Applications/VictoriaConsulting_ProduktmanagerEnergiespeicher/Stellenausschreibung_Produktmanager_Energiespeichersysteme.md",
+      "quelle_typ": "stellenanzeige",
+      "anmerkung": "Anonyme Anzeige (Arbeitgeber und Speichertechnologie nicht genannt); den Titel 'Produktmanager' hat Fernando nie geführt, die Aufgaben sind aber inhaltlich belegt.",
+      "anforderungen": [
+        { "skill": "produktstrategie",     "gewicht": 3, "beleg": "Produkte und Lösungen strategisch weiterentwickeln; Produktstrategien und Markteinführungen aktiv gestalten" },
+        { "skill": "markteintritt",        "gewicht": 2, "beleg": "Markttrends, Kundenanforderungen und Wettbewerber im Blick behalten; Produkteinführungen aktiv gestalten" },
+        { "skill": "speicher",             "gewicht": 2, "beleg": "Verständnis für komplexe technische Produkte und deren Marktpositionierung (Titel: Energiespeichersysteme)" },
+        { "skill": "stakeholder",          "gewicht": 2, "beleg": "Fachbereiche, Projekte und Stakeholder souverän koordinieren" },
+        { "skill": "key-account",          "gewicht": 1, "beleg": "Vertriebs- und Marketingaktivitäten mit produktrelevantem Know-how unterstützen" },
+        { "skill": "business-development", "gewicht": 1, "beleg": "Neue Potenziale und Geschäftsmöglichkeiten identifizieren" },
+        { "skill": "sprache-deutsch",      "gewicht": 1, "beleg": "Sehr gute Deutsch- und Englischkenntnisse" },
+        { "skill": "sprache-englisch",     "gewicht": 1, "beleg": "Sehr gute Deutsch- und Englischkenntnisse" }
+      ]
+    }
+  ]
+}
