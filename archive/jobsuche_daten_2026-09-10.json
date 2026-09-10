@@ -11,14 +11,14 @@
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-10",
       "status": "open",
-      "match_note": "Sehr starker Match: BD-Strategie für Utilities/Stadtwerke, Netzmodernisierung und Elektrifizierung. Anforderung Ingenieurstudium und KAM-Erfahrung passen zu Fernandos Profil. Impact A: Direkte industrielle Dekarbonisierung. Innovation: hoch (Aufbau neuer Geschäftsfelder).",
+      "match_note": "Sehr starker Match: BD-Strategie für Utilities/Stadtwerke, Netzmodernisierung und Elektrifizierung. Anforderung Ingenieurstudium und KAM-Erfahrung passen zu Fernandos Profil. Impact A: Direkte industrielle Dekarbonisierung. Innovation: hoch (Aufbau neuer Geschäftsfelder). Hinweis: bei Michael Page (für internationales Technologieunternehmen, Bereich Digital Power) bereits beworben (Ordner MichaelPage_BDM_Utilities_DigitalPower).",
       "impact_class": "A",
       "innovation_room": "hoch",
-      "link": "https://www.linkedin.com/jobs/view/4465073495/",
       "source": "karriereportal",
-      "gesehen_am": "2026-09-10",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.linkedin.com/jobs/view/4465073495/",
+      "gesehen_am": "2026-09-10"
     },
     {
       "id": "the-green-recruitment-company-commercial-origination-manager",
@@ -34,11 +34,11 @@
       "match_note": "Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels. Titel passt exzellent zur Deal-Origination-Erfahrung. Impact B: Enabler für Energieprojekte (sitzt auf Revenue-Pfad für Projektvermarktung; würde ohne Energiewende nicht existieren). Innovation: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "link": "https://www.linkedin.com/jobs/view/4454986542/",
       "source": "karriereportal",
-      "gesehen_am": "2026-09-10",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.linkedin.com/jobs/view/4454986542/",
+      "gesehen_am": "2026-09-10"
     },
     {
       "id": "siemens-ag-gis-portfolio-expert-u-s-market",
@@ -54,11 +54,11 @@
       "match_note": "Rolle erfordert tiefes technisches Engineering-Know-how für Schaltanlagen. Score limitiert durch Ausschluss tief-technischer Elektrotechnik-Rollen. Impact B: Enabler für Netzinfrastruktur (sitzt auf Revenue-Pfad). Innovation: mittel. Hinweis: bei Siemens AG bereits beworben (Ordner Siemens_IndustryDevelopmentManager_Waste).",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/507900",
       "source": "karriereportal",
-      "gesehen_am": "2026-09-10",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/507900",
+      "gesehen_am": "2026-09-10"
     },
     {
       "id": "siemens-energy-senior-project-manager-digital-procurement",
@@ -74,10 +74,10 @@
       "match_note": "Fokus auf digitale Procurement-Transformation, Projektsteuerung, KPI-Management und SteerCo-Vorbereitung. Rolle ist stark intern getrieben und orientiert sich an Konzernprozessen und -governance. Impact C: Kein klarer Klimahebel. Innovation: mittel. Hinweis: bei Siemens Energy Global GmbH & Co. KG bereits beworben (Ordner SiemensEnergy_SeniorStrategyManager).",
       "impact_class": "C",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-482767757-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-482767757-S"
     },
     {
       "id": "thost-projektmanagement-consultant-energiewende",
@@ -93,11 +93,11 @@
       "match_note": "Beratung und Begleitung von Energieprojekten, technische Koordination. Impact A: Direkte Umsetzung von Energiewende-Infrastruktur. Innovation: mittel (Gestaltung der Projektsteuerung).",
       "impact_class": "A",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4931072031-S",
       "source": "arbeitsagentur",
-      "link_extern": "https://www.persy.jobs/persy/l/job-ji1v3-b",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4931072031-S",
+      "link_extern": "https://www.persy.jobs/persy/l/job-ji1v3-b"
     },
     {
       "id": "fluence-energy-site-manager",
@@ -113,10 +113,10 @@
       "match_note": "Site Management für komplexe Elektroprojekte, EHS-Überwachung, Koordination. Rolle erfordert 10+ Jahre Erfahrung in Site-Execution, daher Fokus stärker auf operative Umsetzung als auf strategischen Deal-Aufbau. Impact A: Direkte Dekarbonisierung. Innovation: gering.",
       "impact_class": "A",
       "innovation_room": "gering",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002537569-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002537569-S"
     },
     {
       "id": "n-ergie-projektmanager-prozesse-systeme-energiewirtschaft-m-w-d",
@@ -132,11 +132,11 @@
       "match_note": "Analyse und Automatisierung von Geschäftsprozessen im kommunalen Energieversorger. Impact B: Rolle sitzt auf Revenue-Pfad für Prozess-Effizienz; existiert primär, um Betrieb im Transition-Umfeld wirtschaftlich zu halten. Innovation: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "link": "https://karriere.n-ergie.de/offer/projektmanager-prozesse-systeme-ene/ca55d200-c95e-43eb-92de-b55d8fa829ea?showApplicationForm=false",
       "source": "karriereportal",
-      "gesehen_am": "2026-09-10",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://karriere.n-ergie.de/offer/projektmanager-prozesse-systeme-ene/ca55d200-c95e-43eb-92de-b55d8fa829ea?showApplicationForm=false",
+      "gesehen_am": "2026-09-10"
     },
     {
       "id": "siemens-energy-lead-consultant-f-m-d",
@@ -167,10 +167,10 @@
       "match_note": "Entwicklung von Windkraft; Fokus auf Genehmigungsverfahren und Projektmanagement. Impact A: Direkte Dekarbonisierung. Innovation: mittel.",
       "impact_class": "A",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002755680-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002755680-S"
     },
     {
       "id": "brose-business-development-manager-humanoid-robotics",
@@ -186,10 +186,10 @@
       "match_note": "Starke kommerzielle BD-Rolle für neue Märkte. Impact B: Rolle existiert auf Revenue-Pfad für Systemlösungen; würde ohne den Druck zur Prozess-Transformation in der Industrie nicht existieren. Innovation: hoch.",
       "impact_class": "B",
       "innovation_room": "hoch",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003542348-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003542348-S"
     },
     {
       "id": "1komma5grad-auftragsmanager-aufbau-pv-waermepumpen",
@@ -205,10 +205,10 @@
       "match_note": "Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels. Impact A: Direkte Dekarbonisierung. Innovation: hoch.",
       "impact_class": "A",
       "innovation_room": "hoch",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000605083-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000605083-S"
     },
     {
       "id": "max-boegl-experte-markt-geschaeftsfeldentwicklung",
@@ -224,11 +224,11 @@
       "match_note": "Strategische Analyse, Geschäftsfeldentwicklung und Strategieprozess. Impact C: Kein direkter Klimahebel. Innovation: hoch.",
       "impact_class": "C",
       "innovation_room": "hoch",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2318525-S",
       "source": "arbeitsagentur",
-      "link_extern": "https://www.finest-jobs.com/stellenanzeige/Experte-D-Markt-Und-Geschaeftsfeldentwicklung-Mark-1303825?cp=BA",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2318525-S",
+      "link_extern": "https://www.finest-jobs.com/stellenanzeige/Experte-D-Markt-Und-Geschaeftsfeldentwicklung-Mark-1303825?cp=BA"
     },
     {
       "id": "umweltbank-kreditspezialist-erneuer-erneuerbare-energien",
@@ -241,13 +241,13 @@
       "first_seen": "2026-08-04",
       "last_seen": "2026-09-10",
       "status": "open",
-      "match_note": "Relevante Erfahrung in Projektfinanzierung. Impact B: Finanzieller Enabler; existiert als Teil des Revenue-Pfads für Kredite zur Transition. Innovation: gering.",
+      "match_note": "Relevante Erfahrung in Projektfinanzierung. Impact B: Finanzieller Enabler; existiert als Teil des Revenue-Pfad für Kredite zur Transition. Innovation: gering.",
       "impact_class": "B",
       "innovation_room": "gering",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003487180-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003487180-S"
     },
     {
       "id": "joseph-stiftung-energiemanager",
@@ -263,10 +263,10 @@
       "match_note": "Energiemanagement, Klimastrategie und Wirtschaftlichkeitsuntersuchungen für Gebäudesektor. Impact B: Enabler; Identifikation von Einsparpotentialen. Innovation: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003554113-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003554113-S"
     },
     {
       "id": "deutsche-reihenhaus-planer-energieeffizientes-bauen",
@@ -282,10 +282,10 @@
       "match_note": "Energiekonzepte für den Wohnbau. Impact A: Dekarbonisierung. Innovation: mittel.",
       "impact_class": "A",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003594208-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003594208-S"
     },
     {
       "id": "terraluma-sales-manager-erneuerbare-energien",
@@ -316,10 +316,10 @@
       "match_note": "Planungen, Wirtschaftlichkeitsanalysen und regulatorische Nachweise. Impact B: Regulatorischer Enabler (sitzt auf Revenue-Pfad für Netzbetreiber). Innovation: gering.",
       "impact_class": "B",
       "innovation_room": "gering",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-2972-1782902-0-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-2972-1782902-0-S"
     },
     {
       "id": "bdo-germany-senior-manager-deal-advisory-energy-power-utilities-w-m-d",
@@ -350,10 +350,10 @@
       "match_note": "Vertrieb von Stromversorgungsanlagen. Impact B: Enabler für Infrastrukturabsatz. Innovation: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003633591-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003633591-S"
     },
     {
       "id": "hermos-it-security-expert",
@@ -369,10 +369,10 @@
       "match_note": "Entwicklung von Sicherheitskonzepten für Netzwerksicherheit im Umfeld von Gebäude- und Industrieautomatisierung. Impact B: Enabler; schützt betriebskritische Infrastruktur auf dem Weg zur Dekarbonisierung. Innovation: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003031305-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003031305-S"
     },
     {
       "id": "baker-tilly-director-transformation",
@@ -388,11 +388,11 @@
       "match_note": "Führung von Transformationsprojekten (Finanzprozesse, ERP, ESG), Akquise-Lead. Impact C: Kein direkter Klimahebel. Innovation: mittel.",
       "impact_class": "C",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-1941706-S",
       "source": "arbeitsagentur",
-      "link_extern": "https://www.finest-jobs.com/stellenanzeige/Director-D-Transformation-Amp-Performance-Improvem-1180632?cp=BA",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-1941706-S",
+      "link_extern": "https://www.finest-jobs.com/stellenanzeige/Director-D-Transformation-Amp-Performance-Improvem-1180632?cp=BA"
     },
     {
       "id": "flexy-leader-du-courtage-en-nergie-country-manager-deutschland-gesch-fts",
@@ -438,30 +438,10 @@
       "match_note": "Strategische Vertriebssteuerung und KI-Enablement im Finanzsektor. Impact C: Kein direkter Klimahebel. Innovation: mittel (Implementierung neuer Tools).",
       "impact_class": "C",
       "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20431-2297618-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
-    },
-    {
-      "id": "zalando-growth-strategy-manager",
-      "refnr": "18251-32897-S",
-      "title": "Growth Strategy Manager (all genders)",
-      "company": "Zalando SE",
-      "location": "Ansbach, Mittelfranken",
-      "category": "partial",
-      "fit_score": 55,
-      "first_seen": "2026-09-09",
-      "last_seen": "2026-09-09",
-      "status": "gone",
-      "match_note": "Fokus auf Commercial Operations und RevOps-Dashboards. Hard exclusion: Keine Konzernerfahrung/Anforderung an CRM-Tool-Expertise. Impact C: Kein Klimahebel. Innovation: mittel.",
-      "impact_class": "C",
-      "innovation_room": "mittel",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-32897-S",
-      "source": "arbeitsagentur",
-      "link_verified": false,
-      "verified_on": "2026-09-09",
-      "gone_reason": "Anzeige in der Stellendatenbank nicht mehr vorhanden"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20431-2297618-S"
     },
     {
       "id": "thost-projektmanagement-dokumentenmanagement-energiewende",
@@ -519,9 +499,7 @@
       "innovation_room": "gering",
       "source": "karriereportal",
       "link_verified": true,
-      "verified_on": "2026-09-10",
-      "link": "https://www.linkedin.com/jobs/view/3955560000/",
-      "gesehen_am": "2026-09-01"
+      "verified_on": "2026-09-10"
     },
     {
       "id": "siemens-energy-bauingenieur-bauleiter",
@@ -580,6 +558,26 @@
       "link_verified": true,
       "verified_on": "2026-09-10",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1202104947-S"
+    },
+    {
+      "id": "zalando-growth-strategy-manager",
+      "refnr": "18251-32897-S",
+      "title": "Growth Strategy Manager (all genders)",
+      "company": "Zalando SE",
+      "location": "Ansbach, Mittelfranken",
+      "category": "partial",
+      "fit_score": 55,
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "status": "gone",
+      "match_note": "Fokus auf Commercial Operations und RevOps-Dashboards. Hard exclusion: Keine Konzernerfahrung/Anforderung an CRM-Tool-Expertise. Impact C: Kein Klimahebel. Innovation: mittel.",
+      "impact_class": "C",
+      "innovation_room": "mittel",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-32897-S",
+      "source": "arbeitsagentur",
+      "link_verified": false,
+      "verified_on": "2026-09-09",
+      "gone_reason": "Anzeige in der Stellendatenbank nicht mehr vorhanden"
     },
     {
       "id": "papp-personal-scrum-master",
