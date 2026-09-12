@@ -11,7 +11,7 @@
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-12",
       "status": "open",
-      "match_note": "Sehr starker Match: BD-Strategie fuer Utilities/Stadtwerke, Netzmodernisierung und Elektrifizierung. Anforderung Ingenieurstudium und KAM-Erfahrung passen zu Fernandos Profil. Impact A: Direkte industrielle Dekarbonisierung. Innovation: hoch (Aufbau neuer Geschaeftsfelder). Hinweis: bei Michael Page (für internationales Technologieunternehmen, Bereich Digital Power) bereits beworben (Ordner MichaelPage_BDM_Utilities_DigitalPower).",
+      "match_note": "Sehr starker Match: BD-Strategie fuer Utilities/Stadtwerke, Netzmodernisierung und Elektrifizierung. Anforderung Ingenieurstudium und KAM-Erfahrung passen zum Kandidatenprofil. Impact A: Direkte industrielle Dekarbonisierung. Innovation: hoch (Aufbau neuer Geschaeftsfelder). Hinweis: bei Michael Page (für internationales Technologieunternehmen, Bereich Digital Power) bereits beworben (Ordner MichaelPage_BDM_Utilities_DigitalPower).",
       "impact_class": "A",
       "innovation_room": "hoch",
       "source": "karriereportal",
@@ -46,7 +46,7 @@
       "first_seen": "2026-08-18",
       "last_seen": "2026-09-12",
       "status": "open",
-      "match_note": "Strategische PO-Rolle fuer dezentrale Energiesysteme; E2E-Verantwortung fuer Markt- und Business-Anforderungen passt gut zu Fernandos Profil. Impact A: Dekarbonisierung/Dezentralisierung. Innovation: hoch. Hinweis: bei Siemens AG bereits beworben (Ordner Siemens_IndustryDevelopmentManager_Waste).",
+      "match_note": "Strategische PO-Rolle fuer dezentrale Energiesysteme; E2E-Verantwortung fuer Markt- und Business-Anforderungen passt gut zum Kandidatenprofil. Impact A: Dekarbonisierung/Dezentralisierung. Innovation: hoch. Hinweis: bei Siemens AG bereits beworben (Ordner Siemens_IndustryDevelopmentManager_Waste).",
       "impact_class": "A",
       "innovation_room": "hoch",
       "source": "karriereportal",
@@ -54,6 +54,46 @@
       "verified_on": "2026-09-12",
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/515110",
       "gesehen_am": "2026-09-10"
+    },
+    {
+      "id": "hinen-country-manager-germany",
+      "refnr": "manual:country-hinen-country-manager-germany-energy-storage",
+      "title": "Country Manager – Germany (Energy Storage)",
+      "company": "Hinen",
+      "location": "Frankfurt am Main",
+      "category": "top",
+      "fit_score": 85,
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Starke unternehmerische Rolle: Aufbau Markteintritt und Vertriebsstrategie fuer Energiespeicher; erfordert 5+ Jahre BD/Vertrieb im Energiesektor. Impact A (direkte Dekarbonisierung durch Heimspeicher), Innovation hoch (Marktaufbau).",
+      "impact_class": "A",
+      "innovation_room": "hoch",
+      "link": "https://de.linkedin.com/jobs/view/country-manager-at-hinen-4463004794",
+      "source": "karriereportal",
+      "gesehen_am": "2026-09-12",
+      "link_verified": true,
+      "verified_on": "2026-09-12"
+    },
+    {
+      "id": "the-green-recruitment-company-country-manager",
+      "refnr": "manual:country-the-green-recruitment-company-f-r-einen-nicht-genannten-ener-country-manager-germany-bess-infrastructure",
+      "title": "Country Manager – Germany (BESS Infrastructure)",
+      "company": "The Green Recruitment Company (für einen nicht genannten Energieinfrastruktur-Anbieter)",
+      "location": "Deutschland",
+      "category": "top",
+      "fit_score": 85,
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Entrepreneurial leadership fuer Markteintritt BESS/Ladeinfrastruktur; Fokus auf End-to-End Opportunity Ownership und Plattformaufbau. Impact A, Innovation hoch. Hinweis: TGRC Personalberater.",
+      "impact_class": "A",
+      "innovation_room": "hoch",
+      "link": "https://de.linkedin.com/jobs/view/country-manager-at-the-green-recruitment-company-4453584380",
+      "source": "karriereportal",
+      "gesehen_am": "2026-09-12",
+      "link_verified": true,
+      "verified_on": "2026-09-12"
     },
     {
       "id": "dbv-biomasse-vertrieb",
@@ -69,70 +109,11 @@
       "match_note": "Fokus auf Rohstoffkonzepte fuer Biogasanlagen und Wirtschaftsanalysen. Anforderungen an Zahlenverstaendnis (Methanertrag, TS-Gehalte) und aktive Neukundenakquise passen zum NextHeat-Erfahrungsprofil. Impact A: Direkte Dekarbonisierung. Innovation: mittel.",
       "impact_class": "A",
       "innovation_room": "mittel",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-49003-YF-S",
-      "source": "arbeitsagentur",
-      "link_extern": "https://www.yourfirm.de/job/detail/YF-49003/?utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=000",
-      "link_verified": true,
-      "verified_on": "2026-09-12"
-    },
-    {
-      "id": "thost-projektmanagement-consultant-energiewende",
-      "refnr": "12288-4931072031-S",
-      "title": "#VE2619 | Consultant (m/w/d) im Projektmanagement der Energiewende",
-      "company": "THOST Projektmanagement GmbH",
-      "location": "Nürnberg, Mittelfranken",
-      "category": "partial",
-      "fit_score": 68,
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-12",
-      "status": "open",
-      "match_note": "Beratung und Begleitung von Energieprojekten, technische Koordination. Impact A: Direkte Umsetzung von Energiewende-Infrastruktur. Innovation: mittel (Gestaltung der Projektsteuerung).",
-      "impact_class": "A",
-      "innovation_room": "mittel",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4931072031-S",
-      "link_extern": "https://www.persy.jobs/persy/l/job-ji1v3-b"
-    },
-    {
-      "id": "fluence-energy-site-manager",
-      "refnr": "10001-1002537569-S",
-      "title": "Site Manager - Erneuerbare Energien (m/w/d)",
-      "company": "Fluence Energy GmbH",
-      "location": "Erlangen",
-      "category": "partial",
-      "fit_score": 62,
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-12",
-      "status": "open",
-      "match_note": "Site Management für komplexe Elektroprojekte, EHS-Überwachung, Koordination. Rolle erfordert 10+ Jahre Erfahrung in Site-Execution, daher Fokus stärker auf operative Umsetzung als auf strategischen Deal-Aufbau. Impact A: Direkte Dekarbonisierung. Innovation: gering.",
-      "impact_class": "A",
-      "innovation_room": "gering",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002537569-S"
-    },
-    {
-      "id": "n-ergie-projektmanager-prozesse-systeme-energiewirtschaft-m-w-d",
-      "refnr": "manual:n-ergie-projektmanager-prozesse-systeme-energiewirtschaft-m-w-d",
-      "title": "Projektmanager Prozesse & Systeme – Energiewirtschaft (m/w/d)",
-      "company": "N-ERGIE",
-      "location": "Nürnberg",
-      "category": "partial",
-      "fit_score": 68,
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-12",
-      "status": "open",
-      "match_note": "Analyse und Automatisierung von Geschäftsprozessen im kommunalen Energieversorger. Impact B: Rolle sitzt auf Revenue-Pfad für Prozess-Effizienz; existiert primär, um Betrieb im Transition-Umfeld wirtschaftlich zu halten. Innovation: mittel.",
-      "impact_class": "B",
-      "innovation_room": "mittel",
-      "source": "karriereportal",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://karriere.n-ergie.de/offer/projektmanager-prozesse-systeme-ene/ca55d200-c95e-43eb-92de-b55d8fa829ea?showApplicationForm=false",
-      "gesehen_am": "2026-09-10"
+      "link_extern": "https://www.yourfirm.de/job/detail/YF-49003/?utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=000"
     },
     {
       "id": "mhb-projektentwickler-windenergie",
@@ -152,6 +133,25 @@
       "link_verified": true,
       "verified_on": "2026-09-12",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002755680-S"
+    },
+    {
+      "id": "brose-business-development-manager-humanoid-robotics",
+      "refnr": "10001-1003542348-S",
+      "title": "Business Development Manager Humanoid Robotics (m/w/d)",
+      "company": "Brose Fahrzeugteile SE & Co. KG",
+      "location": "Bamberg",
+      "category": "partial",
+      "fit_score": 78,
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Starke kommerzielle BD-Rolle für neue Märkte. Impact B: Rolle existiert auf Revenue-Pfad für Systemlösungen; würde ohne den Druck zur Prozess-Transformation in der Industrie nicht existieren. Innovation: hoch.",
+      "impact_class": "B",
+      "innovation_room": "hoch",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003542348-S"
     },
     {
       "id": "1komma5grad-auftragsmanager-aufbau-pv-waermepumpen",
@@ -212,6 +212,65 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003487180-S"
     },
     {
+      "id": "thost-projektmanagement-consultant-energiewende",
+      "refnr": "12288-4931072031-S",
+      "title": "#VE2619 | Consultant (m/w/d) im Projektmanagement der Energiewende",
+      "company": "THOST Projektmanagement GmbH",
+      "location": "Nürnberg, Mittelfranken",
+      "category": "partial",
+      "fit_score": 68,
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Beratung und Begleitung von Energieprojekten, technische Koordination. Impact A: Direkte Umsetzung von Energiewende-Infrastruktur. Innovation: mittel (Gestaltung der Projektsteuerung).",
+      "impact_class": "A",
+      "innovation_room": "mittel",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4931072031-S",
+      "link_extern": "https://www.persy.jobs/persy/l/job-ji1v3-b"
+    },
+    {
+      "id": "n-ergie-projektmanager-prozesse-systeme-energiewirtschaft-m-w-d",
+      "refnr": "manual:n-ergie-projektmanager-prozesse-systeme-energiewirtschaft-m-w-d",
+      "title": "Projektmanager Prozesse & Systeme – Energiewirtschaft (m/w/d)",
+      "company": "N-ERGIE",
+      "location": "Nürnberg",
+      "category": "partial",
+      "fit_score": 68,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Analyse und Automatisierung von Geschäftsprozessen im kommunalen Energieversorger. Impact B: Rolle sitzt auf Revenue-Pfad für Prozess-Effizienz; existiert primär, um Betrieb im Transition-Umfeld wirtschaftlich zu halten. Innovation: mittel.",
+      "impact_class": "B",
+      "innovation_room": "mittel",
+      "source": "karriereportal",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://karriere.n-ergie.de/offer/projektmanager-prozesse-systeme-ene/ca55d200-c95e-43eb-92de-b55d8fa829ea?showApplicationForm=false",
+      "gesehen_am": "2026-09-10"
+    },
+    {
+      "id": "joseph-stiftung-energiemanager",
+      "refnr": "10001-1003554113-S",
+      "title": "Energiemanager/in (m/w/d) in Vollzeit oder Teilzeit - die Stelle ist vorerst befristet für 3 Jahre",
+      "company": "Joseph-Stiftung",
+      "location": "Bamberg",
+      "category": "partial",
+      "fit_score": 68,
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-09-11",
+      "status": "open",
+      "match_note": "Energiemanagement, Klimastrategie und Wirtschaftlichkeitsuntersuchungen für Gebäudesektor. Impact B: Enabler; Identifikation von Einsparpotentialen. Innovation: mittel.",
+      "impact_class": "B",
+      "innovation_room": "mittel",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003554113-S"
+    },
+    {
       "id": "terraluma-sales-manager-erneuerbare-energien",
       "refnr": "10000-1207667031-S",
       "title": "Sales Manager (m/w/d) - erneuerbare Energien",
@@ -240,44 +299,6 @@
       "match_note": "BDO-Rolle in Deal Advisory Energie/Versorger. Impact B (finanzieller Enabler; existiert zur Finanzierung der Energiewende). Innovation: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel"
-    },
-    {
-      "id": "esv-erfurter-schaltschrankbau-vertrieb",
-      "refnr": "10001-1003633591-S",
-      "title": "Technischer Vertrieb Energieverteileranlagen (m/w/d) Außendienst Deutschland Süd-Ost",
-      "company": "ESV Erfurter Schaltschrankbau GmbH",
-      "location": "Nürnberg, Mittelfranken",
-      "category": "partial",
-      "fit_score": 62,
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-12",
-      "status": "open",
-      "match_note": "Vertrieb von Stromversorgungsanlagen. Impact B: Enabler für Infrastrukturabsatz. Innovation: mittel.",
-      "impact_class": "B",
-      "innovation_room": "mittel",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003633591-S"
-    },
-    {
-      "id": "hermos-it-security-expert",
-      "refnr": "10001-1003031305-S",
-      "title": "IT Security Expert – Netzwerksicherheit und Zugriffsmanagement (m/w/d)",
-      "company": "HERMOS AG",
-      "location": "Mistelgau",
-      "category": "partial",
-      "fit_score": 60,
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-12",
-      "status": "open",
-      "match_note": "Entwicklung von Sicherheitskonzepten für Netzwerksicherheit im Umfeld von Gebäude- und Industrieautomatisierung. Impact B: Enabler; schützt betriebskritische Infrastruktur auf dem Weg zur Dekarbonisierung. Innovation: mittel.",
-      "impact_class": "B",
-      "innovation_room": "mittel",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003031305-S"
     },
     {
       "id": "flexy-leader-du-courtage-en-nergie-country-manager-deutschland-gesch-fts",
@@ -326,6 +347,82 @@
       "source": "karriereportal",
       "link_verified": true,
       "verified_on": "2026-09-10"
+    },
+    {
+      "id": "deutsche-reihenhaus-planer-energieeffizientes-bauen",
+      "refnr": "10001-1003594208-S",
+      "title": "Planer:in Energieeffizientes Bauen (w/m/d)",
+      "company": "Deutsche Reihenhaus AG",
+      "location": "Nürnberg, Mittelfranken",
+      "category": "partial",
+      "fit_score": 65,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Energiekonzepte für den Wohnbau. Impact A: Dekarbonisierung. Innovation: mittel.",
+      "impact_class": "A",
+      "innovation_room": "mittel",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003594208-S"
+    },
+    {
+      "id": "de-engineering-referent-regulierungsmanagement",
+      "refnr": "12946-2972-1782902-0-S",
+      "title": "Referent Regulierungsmanagement Energiewirtschaft (m/w/d) (KZ 2972)",
+      "company": "de engineering gmbh",
+      "location": "Bayreuth",
+      "category": "partial",
+      "fit_score": 65,
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-09-11",
+      "status": "open",
+      "match_note": "Planungen, Wirtschaftlichkeitsanalysen und regulatorische Nachweise. Impact B: Regulatorischer Enabler (sitzt auf Revenue-Pfad für Netzbetreiber). Innovation: gering.",
+      "impact_class": "B",
+      "innovation_room": "gering",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-2972-1782902-0-S"
+    },
+    {
+      "id": "fluence-energy-site-manager",
+      "refnr": "10001-1002537569-S",
+      "title": "Site Manager - Erneuerbare Energien (m/w/d)",
+      "company": "Fluence Energy GmbH",
+      "location": "Erlangen",
+      "category": "partial",
+      "fit_score": 62,
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Site Management für komplexe Elektroprojekte, EHS-Überwachung, Koordination. Rolle erfordert 10+ Jahre Erfahrung in Site-Execution, daher Fokus stärker auf operative Umsetzung als auf strategischen Deal-Aufbau. Impact A: Direkte Dekarbonisierung. Innovation: gering.",
+      "impact_class": "A",
+      "innovation_room": "gering",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002537569-S"
+    },
+    {
+      "id": "esv-erfurter-schaltschrankbau-vertrieb",
+      "refnr": "10001-1003633591-S",
+      "title": "Technischer Vertrieb Energieverteileranlagen (m/w/d) Außendienst Deutschland Süd-Ost",
+      "company": "ESV Erfurter Schaltschrankbau GmbH",
+      "location": "Nürnberg, Mittelfranken",
+      "category": "partial",
+      "fit_score": 62,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Vertrieb von Stromversorgungsanlagen. Impact B: Enabler für Infrastrukturabsatz. Innovation: mittel.",
+      "impact_class": "B",
+      "innovation_room": "mittel",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003633591-S"
     },
     {
       "id": "siemens-energy-bauingenieur-bauleiter",
@@ -386,44 +483,6 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-482767757-S"
     },
     {
-      "id": "brose-business-development-manager-humanoid-robotics",
-      "refnr": "10001-1003542348-S",
-      "title": "Business Development Manager Humanoid Robotics (m/w/d)",
-      "company": "Brose Fahrzeugteile SE & Co. KG",
-      "location": "Bamberg",
-      "category": "partial",
-      "fit_score": 78,
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-09-12",
-      "status": "open",
-      "match_note": "Starke kommerzielle BD-Rolle für neue Märkte. Impact B: Rolle existiert auf Revenue-Pfad für Systemlösungen; würde ohne den Druck zur Prozess-Transformation in der Industrie nicht existieren. Innovation: hoch.",
-      "impact_class": "B",
-      "innovation_room": "hoch",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003542348-S"
-    },
-    {
-      "id": "deutsche-reihenhaus-planer-energieeffizientes-bauen",
-      "refnr": "10001-1003594208-S",
-      "title": "Planer:in Energieeffizientes Bauen (w/m/d)",
-      "company": "Deutsche Reihenhaus AG",
-      "location": "Nürnberg, Mittelfranken",
-      "category": "partial",
-      "fit_score": 65,
-      "first_seen": "2026-08-28",
-      "last_seen": "2026-09-12",
-      "status": "open",
-      "match_note": "Energiekonzepte für den Wohnbau. Impact A: Dekarbonisierung. Innovation: mittel.",
-      "impact_class": "A",
-      "innovation_room": "mittel",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003594208-S"
-    },
-    {
       "id": "baker-tilly-director-transformation",
       "refnr": "12811-1941706-S",
       "title": "Director (m/w/d) Transformation & Performance Improvement,Düsseldorf,Berlin,Dor...",
@@ -444,6 +503,25 @@
       "link_extern": "https://www.finest-jobs.com/stellenanzeige/Director-D-Transformation-Amp-Performance-Improvem-1180632?cp=BA"
     },
     {
+      "id": "hermos-it-security-expert",
+      "refnr": "10001-1003031305-S",
+      "title": "IT Security Expert – Netzwerksicherheit und Zugriffsmanagement (m/w/d)",
+      "company": "HERMOS AG",
+      "location": "Mistelgau",
+      "category": "partial",
+      "fit_score": 60,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-12",
+      "status": "open",
+      "match_note": "Entwicklung von Sicherheitskonzepten für Netzwerksicherheit im Umfeld von Gebäude- und Industrieautomatisierung. Impact B: Enabler; schützt betriebskritische Infrastruktur auf dem Weg zur Dekarbonisierung. Innovation: mittel.",
+      "impact_class": "B",
+      "innovation_room": "mittel",
+      "source": "arbeitsagentur",
+      "link_verified": true,
+      "verified_on": "2026-09-12",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003031305-S"
+    },
+    {
       "id": "bayernwerk-projektmanager-leitungsbau-hochspannung",
       "refnr": "12728-244449-2-S",
       "title": "Projektmanager Leitungsbau Hochspannung 110 kV (m/w/d)",
@@ -461,44 +539,6 @@
       "link_verified": true,
       "verified_on": "2026-09-12",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-244449-2-S"
-    },
-    {
-      "id": "joseph-stiftung-energiemanager",
-      "refnr": "10001-1003554113-S",
-      "title": "Energiemanager/in (m/w/d) in Vollzeit oder Teilzeit - die Stelle ist vorerst befristet für 3 Jahre",
-      "company": "Joseph-Stiftung",
-      "location": "Bamberg",
-      "category": "partial",
-      "fit_score": 68,
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-09-11",
-      "status": "open",
-      "match_note": "Energiemanagement, Klimastrategie und Wirtschaftlichkeitsuntersuchungen für Gebäudesektor. Impact B: Enabler; Identifikation von Einsparpotentialen. Innovation: mittel.",
-      "impact_class": "B",
-      "innovation_room": "mittel",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003554113-S"
-    },
-    {
-      "id": "de-engineering-referent-regulierungsmanagement",
-      "refnr": "12946-2972-1782902-0-S",
-      "title": "Referent Regulierungsmanagement Energiewirtschaft (m/w/d) (KZ 2972)",
-      "company": "de engineering gmbh",
-      "location": "Bayreuth",
-      "category": "partial",
-      "fit_score": 65,
-      "first_seen": "2026-08-29",
-      "last_seen": "2026-09-11",
-      "status": "open",
-      "match_note": "Planungen, Wirtschaftlichkeitsanalysen und regulatorische Nachweise. Impact B: Regulatorischer Enabler (sitzt auf Revenue-Pfad für Netzbetreiber). Innovation: gering.",
-      "impact_class": "B",
-      "innovation_room": "gering",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-2972-1782902-0-S"
     },
     {
       "id": "siemens-ag-gis-portfolio-expert-u-s-market",
@@ -578,26 +618,6 @@
       "verified_on": "2026-09-12",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-029bab67_JB5238036-S",
       "link_extern": "https://www.jobexport.de/job/5238036.html?exp=81&cid=029bab67-ec5d-4adf-8515-b309e6cf06e3"
-    },
-    {
-      "id": "dbv-vertriebsmitarbeiter-biomasse",
-      "refnr": "12117-YF-49003-YF-S",
-      "title": "Vertriebsmitarbeiter (m/w/d) Vertriebsinnendienst Biomasse-Rohstoffe",
-      "company": "DBV DieBiogasVersorger GmbH",
-      "location": "Roth, Mittelfranken",
-      "category": "partial",
-      "fit_score": 60,
-      "first_seen": "2026-08-12",
-      "last_seen": "2026-09-09",
-      "status": "open",
-      "match_note": "Biomasse-Vertrieb. Impact A: Direkte Dekarbonisierung. Innovation: mittel.",
-      "impact_class": "A",
-      "innovation_room": "mittel",
-      "source": "arbeitsagentur",
-      "link_verified": true,
-      "verified_on": "2026-09-12",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-49003-YF-S",
-      "link_extern": "https://www.yourfirm.de/job/detail/YF-49003/?utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=000"
     },
     {
       "id": "evo-sales-consultant-b2c",
@@ -859,7 +879,7 @@
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-01",
       "status": "open",
-      "match_note": "Anzeigentext nicht abrufbar. Rolle erfordert tiefe elektrotechnische Auslegung, was dem Ausschlusskriterium 'Deep technical Elektrotechnik' für Fernando entspricht. Impact A. Innovation: gering. Hinweis: bei Siemens Energy Global GmbH & Co. KG bereits beworben (Ordner SiemensEnergy_SeniorStrategyManager).",
+      "match_note": "Anzeigentext nicht abrufbar. Rolle erfordert tiefe elektrotechnische Auslegung, was dem Ausschlusskriterium 'Deep technical Elektrotechnik' für den Kandidaten entspricht. Impact A. Innovation: gering. Hinweis: bei Siemens Energy Global GmbH & Co. KG bereits beworben (Ordner SiemensEnergy_SeniorStrategyManager).",
       "impact_class": "A",
       "innovation_room": "gering",
       "source": "arbeitsagentur",
@@ -1068,7 +1088,7 @@
       "first_seen": "2026-09-04",
       "last_seen": "2026-09-04",
       "status": "rejected",
-      "match_note": "Hard Exclusion: Post-2026-08-06 rule excludes roles whose core is M&A transaction execution and valuations; Fernando has no competitive experience here. Impact C.",
+      "match_note": "Hard Exclusion: Post-2026-08-06 rule excludes roles whose core is M&A transaction execution and valuations; the candidate has no competitive experience here. Impact C.",
       "impact_class": "C",
       "innovation_room": "gering",
       "source": "arbeitsagentur",
@@ -1140,7 +1160,7 @@
     {
       "id": "bechmann-projektmanager-pv",
       "refnr": "10001-1003147244-S",
-      "title": "Technischer Projektmanager AC-Photovoltaik (m/w/d)  / Leiter AC-Technik & Montage (m/w/d)",
+      "title": "Technischer Projektmanager AC-Photovoltaik (m/w/d) / Leiter AC-Technik & Montage (m/w/d)",
       "company": "Bechmann Elektro GmbH & Co KG",
       "location": "Mühlhausen, Mittelfranken",
       "category": "partial",
@@ -1188,7 +1208,7 @@
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-01",
       "status": "rejected",
-      "match_note": "Hard Exclusion: M&A Transaktionssteuerung und Investmentbanking-Erfahrung sind harte Ausschlusskriterien für Fernando. Impact C. Innovation: gering.",
+      "match_note": "Hard Exclusion: M&A Transaktionssteuerung und Investmentbanking-Erfahrung sind harte Ausschlusskriterien für den Kandidaten. Impact C. Innovation: gering.",
       "impact_class": "C",
       "innovation_room": "gering",
       "source": "arbeitsagentur",
@@ -1235,7 +1255,7 @@
       "verified_on": "2026-08-29",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207587004-S",
       "rejected_reason": "in einer Kirche zu arbeiten ist für mich ein Alptraum",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "diehl-metall-leitung-hse-decarbonisation",
@@ -1256,7 +1276,7 @@
       "verified_on": "2026-08-29",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003268672-S",
       "rejected_reason": "für Diehl zu arbeiten, eine Rüstungsfirma, kann ich nicht",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "ribe-business-development-engineer",
@@ -1298,7 +1318,7 @@
       "link_verified": true,
       "verified_on": "2026-08-29",
       "rejected_reason": "I don't believe in this business case anymore",
-      "rejected_by": "fernando",
+      "rejected_by": "manuell",
       "gesehen_am": "2026-09-01"
     },
     {
@@ -1320,7 +1340,7 @@
       "verified_on": "2026-08-29",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002755404-S",
       "rejected_reason": "reine Projektentwicklung: Durch die Vielzahl bereits akquirierter Projekte wird der aktuelle Schwerpunkt deiner Tätigkeit vor allem in der Verantwortung für die notwendigen Bauleitverfahren oder Bauanträge liegen",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "bing-power-systems-vertrieb-business-development",
@@ -1341,7 +1361,7 @@
       "verified_on": "2026-08-29",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003471882-S",
       "rejected_reason": "kaufmännisch, eher Vertrieb als Business Development",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "fb-freitag-projektleiter-erneuerbare",
@@ -1363,7 +1383,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100BR0003Mw3h-S",
       "link_extern": "https://helixjobs.com/_/jobad?prj=709p12954&source=ba",
       "rejected_reason": "Projektumsetzung, ich bringe keinen Mehrwert gegenüber einen Elektrotechnik-Meister, bin wahrscheinlich zu teuer",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "hardy-barth-vertrieb-gewerbekunden",
@@ -1384,7 +1404,7 @@
       "verified_on": "2026-08-29",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206640125-S",
       "rejected_reason": "Vertriebsassistent, da bringe ich keinen Mehrwert gegenüber einen kaufmännischen Mitarberter, bin wahrscheinlich zu teuer",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-ag-industry-development-manager-waste-circular",
@@ -1626,7 +1646,7 @@
       "id": "lorenz-personal-team-lead-service-bd",
       "refnr": "12601-12081-1788581-0-S",
       "title": "Team Lead Service Business Development (m/w/d)",
-      "company": "Lorenz Personal GmbH   Co. KG",
+      "company": "Lorenz Personal GmbH Co. KG",
       "location": "Nürnberg, Mittelfranken",
       "category": "partial",
       "fit_score": 60,
@@ -1814,7 +1834,7 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "I don't have: roven long term experience in B2B software GTM, product/portfolio marketing, or pricing—ideally in industrial automation, grid automation, or energy software markets",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-venture-client-manager",
@@ -1835,7 +1855,7 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "not available anymore",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-graduate-strategy-manager-stg",
@@ -1854,7 +1874,7 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "too junior, this is a graduate program",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-senior-consultant-grid-integration",
@@ -1872,8 +1892,8 @@
       "source": "arbeitsagentur",
       "link_verified": true,
       "verified_on": "2026-09-01",
-      "rejected_reason": "I don't have Solid technical understanding of grid code compliance   and   grid integration",
-      "rejected_by": "fernando"
+      "rejected_reason": "I don't have Solid technical understanding of grid code compliance and grid integration",
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-rd-project-manager-syncon",
@@ -1892,7 +1912,7 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "I don't have: Strong expertise in power systems, high-voltage engineering, and grid stabilization technologies (FACTS/HVDC knowledge is an advantage)",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-senior-consultant-grid-integration-simulation",
@@ -1910,8 +1930,8 @@
       "source": "arbeitsagentur",
       "link_verified": true,
       "verified_on": "2026-09-01",
-      "rejected_reason": "I don't have University degree in electrical power engineering (M.Sc. or Ph.D.), with a minimum of six years of combined  professional and   research experience in power system modelling ,   grid integration   and consulting",
-      "rejected_by": "fernando"
+      "rejected_reason": "I don't have University degree in electrical power engineering (M.Sc. or Ph.D.), with a minimum of six years of combined professional and research experience in power system modelling , grid integration and consulting",
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-strategy-manager-energy-sector-2026",
@@ -1930,7 +1950,7 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "I don't have several years of professional experience in Strategy Projects within a leading Consulting firm or a reputable Energy company",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-senior-strategy-consultant-grid",
@@ -1949,7 +1969,7 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "I don't have Confident professional experience in Grid Technologies business, where you have developed an in-depth knowledge about the industry and current trends",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-senior-strategy-project-manager-grid",
@@ -1967,8 +1987,8 @@
       "source": "arbeitsagentur",
       "link_verified": true,
       "verified_on": "2026-09-01",
-      "rejected_reason": "I don't have  Lonstanding professional experience, with at least 3 years of experience in management consultancy or strategy within a large or mid-sized corporation preferelbly in the energy sector",
-      "rejected_by": "fernando"
+      "rejected_reason": "I don't have Lonstanding professional experience, with at least 3 years of experience in management consultancy or strategy within a large or mid-sized corporation preferelbly in the energy sector",
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-senior-strategy-project-manager-gso",
@@ -1987,7 +2007,7 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "I don't want to work with natural gas projects",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-commercial-project-manager-industrial",
@@ -2400,7 +2420,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-08-28",
       "status": "open",
-      "match_note": "Vertriebsführungsrolle für KI-Plattformen. Fokus auf ACV/ARR-Ziele. Da Fernando kein dedizierter Software-Vertriebsleiter ist, Score gedeckelt. Impact C. Innovation: mittel. Hinweis: bei Siemens AG bereits beworben (Ordner Siemens_IndustryDevelopmentManager_Waste).",
+      "match_note": "Vertriebsführungsrolle für KI-Plattformen. Fokus auf ACV/ARR-Ziele. Da der Kandidat kein dedizierter Software-Vertriebsleiter ist, Score gedeckelt. Impact C. Innovation: mittel. Hinweis: bei Siemens AG bereits beworben (Ordner Siemens_IndustryDevelopmentManager_Waste).",
       "impact_class": "C",
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
@@ -2443,7 +2463,7 @@
       "verified_on": "2026-08-29",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1606552-1-S",
       "rejected_reason": "Projektfreigaben und Transferpreise fuer zugeordnete Kunden - interne Preissteuerung in der Konzernmatrix, nicht Geschaeftsaufbau.",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-expert-gas-turbine-controls",
@@ -2634,7 +2654,7 @@
       "link_verified": false,
       "gone_reason": "Anzeige in der Stellendatenbank nicht mehr vorhanden",
       "rejected_reason": "link broken, not found on company portal",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "aeberle-business-development-manager-regelungstechnik",
@@ -2955,7 +2975,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002239434-S",
       "source": "arbeitsagentur",
       "rejected_reason": "bereits beworben",
-      "rejected_by": "fernando",
+      "rejected_by": "manuell",
       "applied_folder": "Roedl_ConsultantErneuerbareEnergien"
     },
     {
@@ -2975,7 +2995,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18847-44325208-720-S",
       "source": "arbeitsagentur",
       "rejected_reason": "Eletrotechnik ist nicht meine Stärke",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-energy-project-lead-ai-transformation",
@@ -2988,13 +3008,13 @@
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-13",
       "status": "rejected",
-      "match_note": "Schnittstelle Strategie/KI. Hinweis: AI-Expertise nicht Fernando's Stärke; Score aufgrund dieser Vorbehalte gedeckelt. Hinweis: bei Siemens Energy Global GmbH & Co. KG bereits beworben (Ordner SiemensEnergy_SeniorStrategyManager).",
+      "match_note": "Schnittstelle Strategie/KI. Hinweis: AI-Expertise nicht die Stärke des Kandidaten; Score aufgrund dieser Vorbehalte gedeckelt. Hinweis: bei Siemens Energy Global GmbH & Co. KG bereits beworben (Ordner SiemensEnergy_SeniorStrategyManager).",
       "impact_class": "C",
       "innovation_room": "mittel",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-459597402-S",
       "source": "arbeitsagentur",
       "rejected_reason": "I am not an AI expert",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "siemens-healthineers-manager-strategy-projects-advanced-therapies",
@@ -3013,7 +3033,7 @@
       "link_verified": true,
       "verified_on": "2026-08-12",
       "rejected_reason": "das ist nicht in Energie-Bereich, ich habe keine Kompetenzen in Health-Bereich",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "bayerische-hausbau-senior-business-development-manager",
@@ -3171,7 +3191,7 @@
       "source": "karriereportal",
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/503626",
       "gesehen_am": "2026-08-05",
-      "rejected_reason": "Konzern-Governance-Rolle: Kern ist konzernweite Klima-Governance, CSRD/ESRS-Compliance und Alignment quer durch alle Business Areas einer Matrixorganisation. Fernando hat keine Konzernerfahrung; die Anzeige verlangt explizit \"proven track record of implementation in a matrixed environment\" und \"many years leading climate strategy in a large, mature organization\". Konzerneinstieg ja, aber nicht ueber eine Rolle, die genau diese fehlende Erfahrung voraussetzt. (Feedback 2026-08-06)",
+      "rejected_reason": "Konzern-Governance-Rolle: Kern ist konzernweite Klima-Governance, CSRD/ESRS-Compliance und Alignment quer durch alle Business Areas einer Matrixorganisation. Der Kandidat hat keine Konzernerfahrung; die Anzeige verlangt explizit \"proven track record of implementation in a matrixed environment\" und \"many years leading climate strategy in a large, mature organization\". Konzerneinstieg ja, aber nicht ueber eine Rolle, die genau diese fehlende Erfahrung voraussetzt. (Feedback 2026-08-06)",
       "rejected_on": "2026-08-06"
     },
     {
@@ -3191,7 +3211,7 @@
       "source": "karriereportal",
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/512156",
       "gesehen_am": "2026-08-05",
-      "rejected_reason": "Konzern-R&D-Rolle: Kern ist die Steuerung interner Entwicklungsteams, Architekten und Product Owner (Requirements Engineering, SAFe/Scrum, Abhaengigkeiten und Budgets in komplexen Entwicklungsprogrammen). Fernando hat keine R&D-/Product-Owner-Erfahrung in einem Konzern - in einem KMU waere die Rolle vorstellbar, bei einem Grosskonzern nicht. (Feedback 2026-08-06)",
+      "rejected_reason": "Konzern-R&D-Rolle: Kern ist die Steuerung interner Entwicklungsteams, Architekten und Product Owner (Requirements Engineering, SAFe/Scrum, Abhaengigkeiten und Budgets in komplexen Entwicklungsprogrammen). Der Kandidat hat keine R&D-/Product-Owner-Erfahrung in einem Konzern - in einem KMU waere die Rolle vorstellbar, bei einem Grosskonzern nicht. (Feedback 2026-08-06)",
       "rejected_on": "2026-08-06"
     },
     {
@@ -3259,7 +3279,7 @@
       "first_seen": "2026-07-27",
       "last_seen": "2026-07-29",
       "status": "rejected",
-      "match_note": "Von Fernando ausgeschlossen (29.07.2026). Die Anzeige verlangt „Führung von M&A-Projekten“ und „4–6 Jahre im Corporate M&A, Investment Banking oder Private Equity“ sowie Unternehmensbewertung/Finanzmodellierung. Der Titel „Strategy & Business Development“ war irreführend; ursprünglicher Fit-Score 88 beruhte nur auf dem Titel.",
+      "match_note": "Von der Kandidat ausgeschlossen (29.07.2026). Die Anzeige verlangt „Führung von M&A-Projekten“ und „4–6 Jahre im Corporate M&A, Investment Banking oder Private Equity“ sowie Unternehmensbewertung/Finanzmodellierung. Der Titel „Strategy & Business Development“ war irreführend; ursprünglicher Fit-Score 88 beruhte nur auf dem Titel.",
       "rejected_reason": "Anforderungen sind M&A / Investment Banking / Private Equity – kein Profil-Fit",
       "refnr": "manual:schaeffler-strategy-business-development-professional-d-m-w",
       "source": "karriereportal",
@@ -3332,7 +3352,7 @@
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-20",
       "status": "gone",
-      "match_note": "Strategieentwicklung für Gas-Services; exzellente Passung zu Fernandos Fähigkeit, komplexe Sachverhalte auf Entscheiderebene zu verhandeln. Siehe siemensenergy-senior-strategy-manager-hub-europe (Job-ID 297281) – moeglicherweise dieselbe bzw. eine Nachfolge-Ausschreibung mit funktionierendem Link; dort beworben am 29.07.2026."
+      "match_note": "Strategieentwicklung für Gas-Services; exzellente Passung zu die Fähigkeit des Kandidaten, komplexe Sachverhalte auf Entscheiderebene zu verhandeln. Siehe siemensenergy-senior-strategy-manager-hub-europe (Job-ID 297281) – moeglicherweise dieselbe bzw. eine Nachfolge-Ausschreibung mit funktionierendem Link; dort beworben am 29.07.2026."
     },
     {
       "id": "siemensenergy-senior-energy-expert-global-commodity-manager-ppa",
@@ -3456,7 +3476,7 @@
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
       "status": "applied",
-      "match_note": "Beworben 29.07.2026 (englische Unterlagen). Regional Hubs / Europe. Anforderungen laut Anzeige: Studium BWL/Ingenieurwesen/VWL, langjaehrige Erfahrung in Strategieberatung, Strategieabteilungen ODER verwandtem Feld, Verstaendnis des Energiesektors und/oder organisatorischer Transformation, Fuehrung komplexer cross-funktionaler Projekte, Stakeholder-Management, idealerweise KI-Einsatz zur Prozesseffizienz, verhandlungssicheres Englisch. Kein Deutsch gefordert. Hinweis: Standortangabe der Anzeige widerspruechlich (Header Erlangen, Felder Berlin) - Bewerbung auf Erlangen ausgerichtet; Berlin ist fuer Fernando KEINE Option. Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/.",
+      "match_note": "Beworben 29.07.2026 (englische Unterlagen). Regional Hubs / Europe. Anforderungen laut Anzeige: Studium BWL/Ingenieurwesen/VWL, langjaehrige Erfahrung in Strategieberatung, Strategieabteilungen ODER verwandtem Feld, Verstaendnis des Energiesektors und/oder organisatorischer Transformation, Fuehrung komplexer cross-funktionaler Projekte, Stakeholder-Management, idealerweise KI-Einsatz zur Prozesseffizienz, verhandlungssicheres Englisch. Kein Deutsch gefordert. Hinweis: Standortangabe der Anzeige widerspruechlich (Header Erlangen, Felder Berlin) - Bewerbung auf Erlangen ausgerichtet; Berlin ist fuer der Kandidat KEINE Option. Unterlagen: Applications/SiemensEnergy_SeniorStrategyManager/.",
       "applied_folder": "SiemensEnergy_SeniorStrategyManager"
     },
     {
@@ -3531,7 +3551,7 @@
       "verified_on": "2026-08-29",
       "fit_score": 65,
       "rejected_reason": "I don't want to work alone, remote",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "sioux-technologies-senior-new-business-development-manager-m-f-d",
@@ -3551,7 +3571,7 @@
       "verified_on": "2026-08-29",
       "fit_score": 65,
       "rejected_reason": "Entwicklungsdienstleister ohne Energiebezug - kein Wirkungshebel auf die Klimakrise.",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "excellence-ag-greentech-engineering-technischer-projektleiter-energieanl",
@@ -3571,7 +3591,7 @@
       "verified_on": "2026-08-29",
       "fit_score": 65,
       "rejected_reason": "Ingenieurdienstleister, Projektleitung in der Ausfuehrung - kein Gestaltungsspielraum, kein eigener Wirkungshebel.",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "fraunhofer-iisb-senior-business-developer-eu-forschungsprojekte-all-gend",
@@ -3591,7 +3611,7 @@
       "verified_on": "2026-08-29",
       "fit_score": 65,
       "rejected_reason": "Elektrotechnik-lastig und auf Forschung fokussiert. Ich will etwas mit direktem Wirkungshebel in Energie und Klima, keine Forschungseinrichtung als Arbeitgeber.",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
     },
     {
       "id": "rehau-water-technologies-deutschland-specialist-strategic-projects-m-w-d",
@@ -3611,7 +3631,25 @@
       "verified_on": "2026-08-29",
       "fit_score": 65,
       "rejected_reason": "Wasserinfrastruktur statt Energie - kein Wirkungshebel auf die Klimakrise.",
-      "rejected_by": "fernando"
+      "rejected_by": "manuell"
+    },
+    {
+      "id": "taylor-hopkinson-powered-by-brunel-f-r-eine-internationale-investmentpla",
+      "refnr": "manual:country-taylor-hopkinson-powered-by-brunel-f-r-eine-internationale-i-project-ceo-germany-bess",
+      "title": "Project CEO Germany BESS",
+      "company": "Taylor Hopkinson | Powered by Brunel (für eine internationale Investmentplattform)",
+      "location": "Hamburg",
+      "link": "https://de.linkedin.com/jobs/view/project-ceo-germany-bess-at-taylor-hopkinson-powered-by-brunel-4459193022",
+      "link_verified": true,
+      "category": "partial",
+      "status": "open",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12",
+      "source": "karriereportal",
+      "gesehen_am": "2026-09-12",
+      "match_note": "Manuell im Browser gesichtet am 2026-09-12. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
+      "verified_on": "2026-09-12",
+      "fit_score": 65
     }
   ]
 }
