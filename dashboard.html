@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bewerbungs-Cockpit – Fernando Reichert</title>
+<title>Bewerbungs-Cockpit</title>
 <style>
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
@@ -58,118 +58,264 @@
 <body>
 <header>
   <div class="wrap">
-    <h1>Bewerbungs-Cockpit – Fernando Reichert</h1>
-    <div class="subtitle">Generiert am 06.08.2026</div>
+    <h1>Bewerbungs-Cockpit</h1>
+    <div class="subtitle">Generiert am 17.09.2026</div>
     <div class="chips">
-      <span class="chip">📨 16 Bewerbungen</span>
-      <span class="chip">🤖 Letzter automatischer Lauf: 06.08.2026</span>
-      <span class="chip">🔎 Letzte manuelle Suche: 05.08.2026</span>
-      <span class="chip">🎯 30 offene Stellen im Suchlauf (5 Top-Treffer ≥80%)</span>
+      <span class="chip">📨 29 Bewerbungen</span>
+      <span class="chip">🤖 Letzter automatischer Lauf: 16.09.2026</span>
+      <span class="chip">🔎 Letzte manuelle Suche: 15.09.2026 (bosch, linkedin, linkedin-country-manager, linkedin-general-manager, n-ergie, schaeffler, siemens)</span>
+      <span class="chip">🎯 163 offene Stellen im Suchlauf (5 Top-Treffer ≥80%)</span>
     </div>
   </div>
 </header>
 <div class="wrap">
   
-  
+  <div class="dirty-note" id="dirty">
+    Ungespeicherte Änderungen. <strong>JSON exportieren</strong> klicken und die Datei
+    <code>bewerbungs_status.json</code> im Projektordner ersetzen – erst dann sind die Änderungen im Repo.
+    <button class="btn primary" id="btn-export" type="button">JSON exportieren</button>
+  </div>
+  <h2>Handlungsbedarf</h2>
+<div class="action-card"><strong>RIBE Gruppe</strong> — Business Development Engineer (m/w/d)<div class="row-summary">Eingangsbestätigung am 01.09.2026, Einladung zum Interview am 14.09.2026 durch Chantal Biesike (karriere@ribe.de). Termin am 16.09.2026 14:00 per Teams von der Kandidat bestätigt — das Gespräch hat stattgefunden, Rückmeldung steht aus.</div></div>
+<div class="action-card"><strong>Enerpipe GmbH</strong> — International Business Development Manager<div class="row-summary">Nach einem Telefonat Einladung zum ersten Kennenlernen erhalten (Ansprechpartnerin Karin Bittner, Teamassistenz Vertrieb, Termin mit ihr und Herrn Bachmann). Zusage erfolgt.</div></div>
+<div class="action-card"><strong>Hydrogenious LOHC Technologies GmbH</strong> — Technical Project Manager<div class="row-summary">Zwei Interview-Einladungen von Sebastian Sander (Head of Product Line Small Plants) erhalten: zuerst für Do 06.08. 11:30 (bestätigt am 31.07.), dann eine zweite Einladung für Mo 10.08. 14:30 (ebenfalls bestätigt, am 04.08.). Unklar, ob die zweite Einladung eine Verschiebung war oder eine zweite Gesprächsrunde ist — bitte Kalender/Posteingang prüfen, welcher Termin gilt.</div></div>
+<div class="action-card"><strong>FERCHAU GmbH</strong> — Spezialist Energietechnik<div class="row-summary">FERCHAU fordert seit 29.07. die fehlenden Gehaltsvorstellungen über ein Online-Formular an (Frist: 5 Werktage). Die Frist ist mit Stand 06.08. bereits abgelaufen, ohne dass eine Antwort verschickt wurde — Handlungsbedarf.</div></div>
+
   <h2>Alle Bewerbungen</h2>
   <table>
-    <thead><tr><th>Firma / Position</th><th>Beworben am</th><th>Status</th></tr></thead>
+    <thead><tr><th>Firma / Position</th><th>Beworben am</th><th>Status</th><th>Notiz</th></tr></thead>
     <tbody>
       
-        <tr>
-          <td>EY Consulting GmbH<div class="row-title">Consultant Energiewirtschaft – Business Transformation</div></td>
-          <td>06.08.2026, 13:51 Uhr</td>
-          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        <tr data-folder="RIBE_BusinessDevelopmentEngineer" data-keys='[&quot;ribe-business-development-engineer&quot;]'>
+          <td><a class="folder-link" href="Applications/RIBE_BusinessDevelopmentEngineer/">RIBE Gruppe</a>
+              <div class="row-title">Business Development Engineer (m/w/d)</div></td>
+          <td class="applied-on">14.09.2026, 21:31 Uhr</td>
+          <td><select class="status-select" data-folder="RIBE_BusinessDevelopmentEngineer" style="background:#dcfce7;color:#166534"><option value="einladung" selected>Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Eingangsbestätigung am 01.09.2026, Einladung zum Interview am 14.09.2026 durch Chantal Biesike (karriere@ribe.de). Termin am 16.09.2026 14:00 per Teams von der Kandidat bestätigt — das Gespräch hat stattgefunden, Rückmeldung steht aus.</td>
         </tr>
 
-        <tr>
-          <td>Victoria Consulting GmbH<div class="row-title">Produktmanager Energiespeichersysteme</div></td>
-          <td>06.08.2026, 13:14 Uhr</td>
-          <td><span class="status-badge" style="background:#dbeafe;color:#1e40af">Eingangsbestätigt</span></td>
+        <tr data-folder="ENERPIPE_InternationalBDM" data-keys='[&quot;enerpipe-international-business-development-manager&quot;]'>
+          <td><a class="folder-link" href="Applications/ENERPIPE_InternationalBDM/">Enerpipe GmbH</a>
+              <div class="row-title">International Business Development Manager</div></td>
+          <td class="applied-on">05.08.2026, 14:48 Uhr</td>
+          <td><select class="status-select" data-folder="ENERPIPE_InternationalBDM" style="background:#dcfce7;color:#166534"><option value="einladung" selected>Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Nach einem Telefonat Einladung zum ersten Kennenlernen erhalten (Ansprechpartnerin Karin Bittner, Teamassistenz Vertrieb, Termin mit ihr und Herrn Bachmann). Zusage erfolgt.</td>
         </tr>
 
-        <tr>
-          <td>Rödl GmbH RAG StBG<div class="row-title">Consultant Erneuerbare Energien – Investments &amp; Transformation</div></td>
-          <td>06.08.2026, 12:59 Uhr</td>
-          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        <tr data-folder="Hydrogenious_TechPM" data-keys='[&quot;hydrogenious-technical-project-manager&quot;]'>
+          <td><a class="folder-link" href="Applications/Hydrogenious_TechPM/">Hydrogenious LOHC Technologies GmbH</a>
+              <div class="row-title">Technical Project Manager</div></td>
+          <td class="applied-on">27.07.2026, 09:29 Uhr</td>
+          <td><select class="status-select" data-folder="Hydrogenious_TechPM" style="background:#dcfce7;color:#166534"><option value="einladung" selected>Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Zwei Interview-Einladungen von Sebastian Sander (Head of Product Line Small Plants) erhalten: zuerst für Do 06.08. 11:30 (bestätigt am 31.07.), dann eine zweite Einladung für Mo 10.08. 14:30 (ebenfalls bestätigt, am 04.08.). Unklar, ob die zweite Einladung eine Verschiebung war oder eine zweite Gesprächsrunde ist — bitte Kalender/Posteingang prüfen, welcher Termin gilt.</td>
         </tr>
 
-        <tr>
-          <td>ILLUTHERM GmbH<div class="row-title">Business Development</div></td>
-          <td>06.08.2026, 10:28 Uhr</td>
-          <td><span class="status-badge" style="background:#dbeafe;color:#1e40af">Eingangsbestätigt</span></td>
+        <tr data-folder="FERCHAU_Energietechnik" data-keys='[&quot;ferchau-spezialist-energietechnik&quot;]'>
+          <td><a class="folder-link" href="Applications/FERCHAU_Energietechnik/">FERCHAU GmbH</a>
+              <div class="row-title">Spezialist Energietechnik</div></td>
+          <td class="applied-on">27.07.2026, 08:52 Uhr</td>
+          <td><select class="status-select" data-folder="FERCHAU_Energietechnik" style="background:#fef3c7;color:#92400e"><option value="einladung">Einladung</option><option value="rueckfrage" selected>Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">FERCHAU fordert seit 29.07. die fehlenden Gehaltsvorstellungen über ein Online-Formular an (Frist: 5 Werktage). Die Frist ist mit Stand 06.08. bereits abgelaufen, ohne dass eine Antwort verschickt wurde — Handlungsbedarf.</td>
         </tr>
 
-        <tr>
-          <td>Zentrum Wasserstoff.Bayern (H2.B)<div class="row-title">Referent/in Internationale Angelegenheiten</div></td>
-          <td>05.08.2026, 20:22 Uhr</td>
-          <td><span class="status-badge" style="background:#dcfce7;color:#166534">Einladung</span></td>
+        <tr data-folder="SiemensEnergy_TechnologyScouting" data-keys='[&quot;siemens-energy-technology-scouting-innovation-manager&quot;]'>
+          <td><a class="folder-link" href="Applications/SiemensEnergy_TechnologyScouting/">Siemens Energy Global GmbH &amp; Co. KG</a>
+              <div class="row-title">Technology Scouting &amp; Innovation Manager (f/m/d), Req. 303164</div></td>
+          <td class="applied-on">15.09.2026, 16:52 Uhr</td>
+          <td><select class="status-select" data-folder="SiemensEnergy_TechnologyScouting" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Automatische Eingangsbestätigung von Siemens Energy am 15.09.2026 (Req. 303164), am Tag der Bewerbung.</td>
         </tr>
 
-        <tr>
-          <td>Enerpipe GmbH<div class="row-title">International Business Development Manager</div></td>
-          <td>05.08.2026, 14:48 Uhr</td>
-          <td><span class="status-badge" style="background:#dcfce7;color:#166534">Einladung</span></td>
+        <tr data-folder="MichaelPage_BDM_Utilities_DigitalPower" data-keys='[&quot;michaelpage-bdm-utilities-digital-power&quot;]'>
+          <td><a class="folder-link" href="Applications/MichaelPage_BDM_Utilities_DigitalPower/">Michael Page (Arbeitgeber nicht genannt)</a>
+              <div class="row-title">Business Development Manager Utilities (m/w/d), Ref. JN-092026-7098803</div></td>
+          <td class="applied-on">10.09.2026, 18:15 Uhr</td>
+          <td><select class="status-select" data-folder="MichaelPage_BDM_Utilities_DigitalPower" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Eingangsbestätigung von Michael Page am 10.09.2026 mit Referenznummer JN-092026-7098803. Danach nur Marketing-Mails (Profil vervollständigen, Job-Alerts), keine inhaltliche Rückmeldung eines Beraters.</td>
         </tr>
 
-        <tr>
-          <td>Siemens Energy Global GmbH &amp; Co. KG<div class="row-title">Senior Strategy Manager, Hub Europe</div></td>
-          <td>29.07.2026, 14:49 Uhr</td>
-          <td><span class="status-badge" style="background:#fee2e2;color:#991b1b">Absage</span></td>
+        <tr data-folder="Fluence_BusinessDevelopmentManager" data-keys='[&quot;fluence-business-development-manager-m-f-d-germany&quot;]'>
+          <td><a class="folder-link" href="Applications/Fluence_BusinessDevelopmentManager/">Fluence</a>
+              <div class="row-title">Business Development Manager (m/f/d) – Germany</div></td>
+          <td class="applied-on">02.09.2026, 15:35 Uhr</td>
+          <td><select class="status-select" data-folder="Fluence_BusinessDevelopmentManager" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Workday-Eingangsbestätigung am 02.09.2026: Bewerbung in Bearbeitung, Rückmeldung angekündigt. Seither still.</td>
         </tr>
 
-        <tr>
-          <td>Siemens AG / Siemens Advanta<div class="row-title">Strategy Project Leader @ Siemens Advanta</div></td>
-          <td>29.07.2026, 12:21 Uhr</td>
-          <td><span class="status-badge" style="background:#fee2e2;color:#991b1b">Absage</span></td>
+        <tr data-folder="ErlangerStadtwerke_Waermetransformation" data-keys='[&quot;erlanger-stadtwerke-projektingenieur-waermetransformation&quot;]'>
+          <td><a class="folder-link" href="Applications/ErlangerStadtwerke_Waermetransformation/">Erlanger Stadtwerke AG</a>
+              <div class="row-title">Projektingenieur Energie- und Wärmetechnik (m/w/d) – Wärmetransformation</div></td>
+          <td class="applied-on">01.09.2026, 09:19 Uhr</td>
+          <td><select class="status-select" data-folder="ErlangerStadtwerke_Waermetransformation" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Eingangsbestätigung von Nicole-Jessy Brühl (ESTW) am 02.09.2026, einen Tag nach der Bewerbung. Inhaltlich noch keine Rückmeldung.</td>
         </tr>
 
-        <tr>
-          <td>Ramboll<div class="row-title">Management Consulting</div></td>
-          <td>28.07.2026, 21:17 Uhr</td>
-          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        <tr data-folder="Siemens_IndustryDevelopmentManager_Waste" data-keys='[&quot;siemens-ag-industry-development-manager-waste-circular&quot;]'>
+          <td><a class="folder-link" href="Applications/Siemens_IndustryDevelopmentManager_Waste/">Siemens AG</a>
+              <div class="row-title">Industry Development Manager (f/m/d) – Waste &amp; Circular Economy</div></td>
+          <td class="applied-on">01.09.2026, 09:19 Uhr</td>
+          <td><select class="status-select" data-folder="Siemens_IndustryDevelopmentManager_Waste" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Automatische Eingangsbestätigung von Siemens Talent Acquisition am 01.09.2026 (Req. 517643). Inhaltlich noch keine Rückmeldung.</td>
         </tr>
 
-        <tr>
-          <td>Siemens Smart Infrastructure<div class="row-title">Sustainability Manager</div></td>
-          <td>27.07.2026, 10:51 Uhr</td>
-          <td><span class="status-badge" style="background:#fee2e2;color:#991b1b">Absage</span></td>
+        <tr data-folder="IBCSolar_SeniorInvestmentManager" data-keys='[&quot;ibc-solar-senior-investment-manager&quot;]'>
+          <td><a class="folder-link" href="Applications/IBCSolar_SeniorInvestmentManager/">IBC SOLAR AG</a>
+              <div class="row-title">Senior Investment Manager (m/w/d)</div></td>
+          <td class="applied-on">01.09.2026, 09:18 Uhr</td>
+          <td><select class="status-select" data-folder="IBCSolar_SeniorInvestmentManager" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Automatische Eingangsbestätigung des IBC-SOLAR-Bewerberportals am 01.09.2026; angekündigt wurde eine längere Bearbeitungszeit.</td>
         </tr>
 
-        <tr>
-          <td>Siemens Energy Global GmbH &amp; Co. KG<div class="row-title">Senior Energy Expert – Global Commodity Manager PPA</div></td>
-          <td>27.07.2026, 10:14 Uhr</td>
-          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        <tr data-folder="Illutherm_BusinessDevelopment" data-keys='[&quot;illutherm-business-development&quot;]'>
+          <td><a class="folder-link" href="Applications/Illutherm_BusinessDevelopment/">ILLUTHERM GmbH</a>
+              <div class="row-title">Business Development</div></td>
+          <td class="applied-on">06.08.2026, 10:28 Uhr</td>
+          <td><select class="status-select" data-folder="Illutherm_BusinessDevelopment" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Automatische Eingangsbestätigung über das Bewerbungssystem &#x27;join.com&#x27; erhalten. Betreff nennt generisch eine Talentpool-Initiativbewerbung statt der konkreten Business-Development-Rolle — vermutlich ATS-Standardtext.</td>
         </tr>
 
-        <tr>
-          <td>Hydrogenious LOHC Technologies GmbH<div class="row-title">Technical Project Manager</div></td>
-          <td>27.07.2026, 09:29 Uhr</td>
-          <td><span class="status-badge" style="background:#dcfce7;color:#166534">Einladung</span></td>
+        <tr data-folder="Hydrogenious_ProjectLead" data-keys='[&quot;hydrogenious-commercial-technical-project-lead&quot;]'>
+          <td><a class="folder-link" href="Applications/Hydrogenious_ProjectLead/">Hydrogenious LOHC Technologies GmbH</a>
+              <div class="row-title">Commercial and Technical Project Lead</div></td>
+          <td class="applied-on">21.07.2026, 22:45 Uhr</td>
+          <td><select class="status-select" data-folder="Hydrogenious_ProjectLead" style="background:#dbeafe;color:#1e40af"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt" selected>Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Automatische Eingangsbestätigung für die Position &#x27;Commercial and Technical Project Lead&#x27;. Seither keine weitere Reaktion; die Mail kündigte eine zeitintensive Prüfung an.</td>
         </tr>
 
-        <tr>
-          <td>ThirtyEight Capital (38 Capital)<div class="row-title">Co-Founder Energy/Climate Space</div></td>
-          <td>27.07.2026, 08:52 Uhr</td>
-          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        <tr data-folder="JASolar_LeadBDM_BESS" data-keys='[&quot;jasolar-lead-business-development-manager-bess&quot;]'>
+          <td><a class="folder-link" href="Applications/JASolar_LeadBDM_BESS/">JA Solar</a>
+              <div class="row-title">Lead Business Development Manager – BESS</div></td>
+          <td class="applied-on">15.09.2026, 17:58 Uhr</td>
+          <td><select class="status-select" data-folder="JASolar_LeadBDM_BESS" style="background:#f1f5f9;color:#475569"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht" selected>Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Bewerbung am 15.09.2026, keine Mail im Postfach. Bewerbung lief offenbar über ein Portal/LinkedIn ohne Bestätigungsmail.</td>
         </tr>
 
-        <tr>
-          <td>FERCHAU GmbH<div class="row-title">Spezialist Energietechnik</div></td>
-          <td>27.07.2026, 08:52 Uhr</td>
-          <td><span class="status-badge" style="background:#fef3c7;color:#92400e">Rückfrage – Handeln</span></td>
+        <tr data-folder="LONGi_SeniorBDM_BESS" data-keys='[&quot;longi-senior-business-development-manager-bess&quot;]'>
+          <td><a class="folder-link" href="Applications/LONGi_SeniorBDM_BESS/">LONGi</a>
+              <div class="row-title">Senior Business Development Manager – BESS</div></td>
+          <td class="applied-on">15.09.2026, 17:58 Uhr</td>
+          <td><select class="status-select" data-folder="LONGi_SeniorBDM_BESS" style="background:#f1f5f9;color:#475569"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht" selected>Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Bewerbung am 15.09.2026, keine Mail im Postfach. Bewerbung lief offenbar über ein Portal/LinkedIn ohne Bestätigungsmail.</td>
         </tr>
 
-        <tr>
-          <td>Siemens Financial Services GmbH<div class="row-title">Initiativbewerbung – Energieprojekte</div></td>
-          <td>27.07.2026, 08:52 Uhr</td>
-          <td><span class="status-badge" style="background:#f1f5f9;color:#475569">Eingereicht</span></td>
+        <tr data-folder="TGRC_CountryManager_BESS" data-keys='[&quot;tgrc-country-manager-germany-bess&quot;]'>
+          <td><a class="folder-link" href="Applications/TGRC_CountryManager_BESS/">The Green Recruitment Company (Arbeitgeber nicht genannt)</a>
+              <div class="row-title">Country Manager Germany – BESS und Ladeinfrastruktur</div></td>
+          <td class="applied-on">12.09.2026, 20:50 Uhr</td>
+          <td><select class="status-select" data-folder="TGRC_CountryManager_BESS" style="background:#f1f5f9;color:#475569"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht" selected>Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Mail im Postfach. Kontakt läuft über The Green Recruitment Company, offenbar außerhalb dieses Postfachs (LinkedIn).</td>
         </tr>
 
-        <tr>
-          <td>Hydrogenious LOHC Technologies GmbH<div class="row-title">Commercial and Technical Project Lead</div></td>
-          <td>21.07.2026, 22:45 Uhr</td>
-          <td><span class="status-badge" style="background:#dbeafe;color:#1e40af">Eingangsbestätigt</span></td>
+        <tr data-folder="TGRC_CommercialOriginationManager_BESS" data-keys='[&quot;tgrc-commercial-origination-manager-bess&quot;]'>
+          <td><a class="folder-link" href="Applications/TGRC_CommercialOriginationManager_BESS/">The Green Recruitment Company (Arbeitgeber nicht genannt)</a>
+              <div class="row-title">Commercial Origination Manager – BESS (Deutschland, remote)</div></td>
+          <td class="applied-on">10.09.2026, 18:30 Uhr</td>
+          <td><select class="status-select" data-folder="TGRC_CommercialOriginationManager_BESS" style="background:#f1f5f9;color:#475569"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht" selected>Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Mail im Postfach. Kontakt läuft über The Green Recruitment Company, offenbar außerhalb dieses Postfachs (LinkedIn).</td>
+        </tr>
+
+        <tr data-folder="FTXT_CustomerRelationshipManager" data-keys='[&quot;ftxt-customer-relationship-manager-muenchen&quot;]'>
+          <td><a class="folder-link" href="Applications/FTXT_CustomerRelationshipManager/">FTXT Energy Technology (Great Wall Motor)</a>
+              <div class="row-title">Customer Relationship Manager, München</div></td>
+          <td class="applied-on">10.09.2026, 17:10 Uhr</td>
+          <td><select class="status-select" data-folder="FTXT_CustomerRelationshipManager" style="background:#f1f5f9;color:#475569"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht" selected>Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Mail im Postfach — Kontakt lief über den Recruiter (Ansprache 09.09.2026, Call 11.09.2026, laut Projektnotiz). Aus Gmail allein nicht belegbar; Status daher bewusst nur &#x27;eingereicht&#x27;.</td>
+        </tr>
+
+        <tr data-folder="AEberle_BDMInternational" data-keys='[&quot;aeberle-business-development-manager-international&quot;]'>
+          <td><a class="folder-link" href="Applications/AEberle_BDMInternational/">A. Eberle GmbH &amp; Co. KG</a>
+              <div class="row-title">Business Development Manager:in International (m/w/d) für Regelungstechnik in Umspannwerken</div></td>
+          <td class="applied-on">12.08.2026, 00:00 Uhr</td>
+          <td><select class="status-select" data-folder="AEberle_BDMInternational" style="background:#fff7ed;color:#9a3412"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion" selected>Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Antwort im Postfach, 36 Tage nach Bewerbung. Nachfassen wäre fällig.</td>
+        </tr>
+
+        <tr data-folder="EY_ConsultantEnergiewirtschaft" data-keys='[&quot;ey-consultant-energiewirtschaft-business-transformation-duesseldorf&quot;]'>
+          <td><a class="folder-link" href="Applications/EY_ConsultantEnergiewirtschaft/">EY Consulting GmbH</a>
+              <div class="row-title">Consultant Energiewirtschaft – Business Transformation</div></td>
+          <td class="applied-on">06.08.2026, 13:51 Uhr</td>
+          <td><select class="status-select" data-folder="EY_ConsultantEnergiewirtschaft" style="background:#fff7ed;color:#9a3412"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion" selected>Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Antwort im Postfach, über einen Monat nach Bewerbung.</td>
+        </tr>
+
+        <tr data-folder="Roedl_ConsultantErneuerbareEnergien" data-keys='[&quot;roedl-consultant-erneuerbare-energien-investments&quot;]'>
+          <td><a class="folder-link" href="Applications/Roedl_ConsultantErneuerbareEnergien/">Rödl GmbH RAG StBG</a>
+              <div class="row-title">Consultant Erneuerbare Energien – Investments &amp; Transformation</div></td>
+          <td class="applied-on">06.08.2026, 12:59 Uhr</td>
+          <td><select class="status-select" data-folder="Roedl_ConsultantErneuerbareEnergien" style="background:#fff7ed;color:#9a3412"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion" selected>Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Antwort im Postfach, 35 Tage nach Bewerbung.</td>
+        </tr>
+
+        <tr data-folder="Ramboll_ManagementConsulting" data-keys='[&quot;ramboll-management-consulting&quot;]'>
+          <td><a class="folder-link" href="Applications/Ramboll_ManagementConsulting/">Ramboll</a>
+              <div class="row-title">Management Consulting</div></td>
+          <td class="applied-on">28.07.2026, 21:17 Uhr</td>
+          <td><select class="status-select" data-folder="Ramboll_ManagementConsulting" style="background:#fff7ed;color:#9a3412"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion" selected>Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Antwort im Postfach seit der Bewerbung Ende Juli 2026.</td>
+        </tr>
+
+        <tr data-folder="SiemensEnergy_PPA" data-keys='[&quot;siemensenergy-senior-energy-expert-global-commodity-manager-ppa&quot;]'>
+          <td><a class="folder-link" href="Applications/SiemensEnergy_PPA/">Siemens Energy Global GmbH &amp; Co. KG</a>
+              <div class="row-title">Senior Energy Expert – Global Commodity Manager PPA</div></td>
+          <td class="applied-on">27.07.2026, 10:14 Uhr</td>
+          <td><select class="status-select" data-folder="SiemensEnergy_PPA" style="background:#fff7ed;color:#9a3412"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion" selected>Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Antwort im Postfach seit der Bewerbung Ende Juli 2026.</td>
+        </tr>
+
+        <tr data-folder="38Capital" data-keys='[&quot;38capital-co-founder-energy-climate&quot;]'>
+          <td><a class="folder-link" href="Applications/38Capital/">ThirtyEight Capital (38 Capital)</a>
+              <div class="row-title">Co-Founder Energy/Climate Space</div></td>
+          <td class="applied-on">27.07.2026, 08:52 Uhr</td>
+          <td><select class="status-select" data-folder="38Capital" style="background:#fff7ed;color:#9a3412"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion" selected>Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Keine Antwort im Postfach. Initiativbewerbung vom 27.07.2026, seither über 50 Tage ohne Reaktion.</td>
+        </tr>
+
+        <tr data-folder="Siemens_SFS" data-keys='[&quot;siemens-financial-services-initiativbewerbung&quot;]'>
+          <td><a class="folder-link" href="Applications/Siemens_SFS/">Siemens Financial Services GmbH</a>
+              <div class="row-title">Initiativbewerbung – Energieprojekte</div></td>
+          <td class="applied-on">27.07.2026, 08:52 Uhr</td>
+          <td><select class="status-select" data-folder="Siemens_SFS" style="background:#fff7ed;color:#9a3412"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion" selected>Keine Reaktion (&gt;21T)</option><option value="absage">Absage</option></select></td>
+          <td class="row-summary">Initiativbewerbung Ende Juli 2026, keine Antwort im Postfach.</td>
+        </tr>
+
+        <tr data-folder="VictoriaConsulting_ProduktmanagerEnergiespeicher" data-keys='[&quot;victoria-produktmanager-energiespeichersysteme&quot;]'>
+          <td><a class="folder-link" href="Applications/VictoriaConsulting_ProduktmanagerEnergiespeicher/">Victoria Consulting GmbH</a>
+              <div class="row-title">Produktmanager Energiespeichersysteme</div></td>
+          <td class="applied-on">06.08.2026, 13:14 Uhr</td>
+          <td><select class="status-select" data-folder="VictoriaConsulting_ProduktmanagerEnergiespeicher" style="background:#fee2e2;color:#991b1b"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage" selected>Absage</option></select></td>
+          <td class="row-summary">Absage von Jana Borger (Victoria Consulting) am 01.09.2026 für beide vorgestellten Vakanzen: MOLL Batterien ist nicht mehr vakant, beim Wärmepumpenhersteller wird umfangreichere Führungserfahrung vorausgesetzt. Profil bleibt in der Datenbank.</td>
+        </tr>
+
+        <tr data-folder="H2B_InternationaleAngelegenheiten" data-keys='[&quot;h2b-referent-internationale-angelegenheiten&quot;]'>
+          <td><a class="folder-link" href="Applications/H2B_InternationaleAngelegenheiten/">Zentrum Wasserstoff.Bayern (H2.B)</a>
+              <div class="row-title">Referent/in Internationale Angelegenheiten</div></td>
+          <td class="applied-on">05.08.2026, 20:22 Uhr</td>
+          <td><select class="status-select" data-folder="H2B_InternationaleAngelegenheiten" style="background:#fee2e2;color:#991b1b"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage" selected>Absage</option></select></td>
+          <td class="row-summary">Absage nach dem Online-Gespräch: Dr. Fabian Pfaffenberger (Geschäftsführer H2.B) am 31.08.2026 — andere Kandidaten entsprachen dem Anforderungsprofil besser. Kontakt ausdrücklich offen gehalten (&#x27;sehen uns im Rahmen von H2.B-Aktivitäten&#x27;).</td>
+        </tr>
+
+        <tr data-folder="SiemensEnergy_SeniorStrategyManager" data-keys='[&quot;siemensenergy-senior-strategy-manager-hub-europe&quot;]'>
+          <td><a class="folder-link" href="Applications/SiemensEnergy_SeniorStrategyManager/">Siemens Energy Global GmbH &amp; Co. KG</a>
+              <div class="row-title">Senior Strategy Manager, Hub Europe</div></td>
+          <td class="applied-on">29.07.2026, 14:49 Uhr</td>
+          <td><select class="status-select" data-folder="SiemensEnergy_SeniorStrategyManager" style="background:#fee2e2;color:#991b1b"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage" selected>Absage</option></select></td>
+          <td class="row-summary">Absage von Siemens Energy zur Bewerbung als Senior Strategy Manager (f/m/d), Hub Europe. Gilt nur für diese eine Stelle – die früher hier vermerkte Übertragung auf 13 ähnliche Ausschreibungen war falsch und wurde am 01.09.2026 entfernt.</td>
+        </tr>
+
+        <tr data-folder="Siemens_Advanta_StrategyProjectLeader" data-keys='[&quot;siemens-advanta-strategy-project-leader&quot;]'>
+          <td><a class="folder-link" href="Applications/Siemens_Advanta_StrategyProjectLeader/">Siemens AG / Siemens Advanta</a>
+              <div class="row-title">Strategy Project Leader @ Siemens Advanta</div></td>
+          <td class="applied-on">29.07.2026, 12:21 Uhr</td>
+          <td><select class="status-select" data-folder="Siemens_Advanta_StrategyProjectLeader" style="background:#fee2e2;color:#991b1b"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage" selected>Absage</option></select></td>
+          <td class="row-summary">Absage am 03.08. für &#x27;Strategy Project Leader @ Siemens Advanta, Consulting&#x27; (454599) — Siemens hat sich für andere Kandidat:innen entschieden.</td>
+        </tr>
+
+        <tr data-folder="SiemensSmartInfrastructure_Sustainability-Manager" data-keys='[&quot;siemens-smart-infrastructure-sustainability-manager&quot;]'>
+          <td><a class="folder-link" href="Applications/SiemensSmartInfrastructure_Sustainability-Manager/">Siemens Smart Infrastructure</a>
+              <div class="row-title">Sustainability Manager</div></td>
+          <td class="applied-on">27.07.2026, 10:51 Uhr</td>
+          <td><select class="status-select" data-folder="SiemensSmartInfrastructure_Sustainability-Manager" style="background:#fee2e2;color:#991b1b"><option value="einladung">Einladung</option><option value="rueckfrage">Rückfrage – Handeln</option><option value="bestaetigt">Eingangsbestätigt</option><option value="eingereicht">Eingereicht</option><option value="keine_reaktion">Keine Reaktion (&gt;21T)</option><option value="absage" selected>Absage</option></select></td>
+          <td class="row-summary">Absage am 30.07. für &#x27;Sustainability Manager (f/m/d)&#x27; (499175). Hinweis: Diese Position steht nicht in jobsuche_daten.json (Bewerbung nur über den Applications/-Ordner nachvollziehbar).</td>
         </tr>
     </tbody>
   </table>
@@ -185,9 +331,17 @@
       <div class="tt">📊 Skill-Matrix (Können vs. Wollen)</div>
       <div class="td">Profilkonfiguration und Positionierung; beworbene Stellen sind als Rauten integriert.</div>
     </a>
+    <a class="tool-card" href="Applications/">
+      <div class="tt">📁 Bewerbungsordner</div>
+      <div class="td">CV, Anschreiben und Stellenausschreibung je Bewerbung.</div>
+    </a>
+    <a class="tool-card" href="README.md">
+      <div class="tt">📘 README</div>
+      <div class="td">Architektur, Datenflüsse und Setup aller Werkzeuge in diesem Projekt.</div>
+    </a>
   </div>
 
-  
+  <p class="muted">CV- und Anschreiben-Erstellung weiterhin über <code>app_interface.py</code> (CLI) — nicht Teil dieses Dashboards.</p>
 
   <footer>
     Generiert von <code>dashboard_generator.py</code> aus <code>jobsuche_daten.json</code>,
@@ -195,7 +349,70 @@
     Neu erzeugen: <code>python dashboard_generator.py</code>.
   </footer>
 </div>
+<script>window.APPLICATIONS_DATA = {"hydrogenious-commercial-technical-project-lead": {"company": "Hydrogenious LOHC Technologies GmbH", "title": "Commercial and Technical Project Lead", "applied_folder": "Hydrogenious_ProjectLead", "applied_on": "2026-07-21T22:45", "state": "bestaetigt", "last_message_date": "2026-07-21T22:45", "days_silent": 58, "summary": "Automatische Eingangsbestätigung für die Position 'Commercial and Technical Project Lead'. Seither keine weitere Reaktion; die Mail kündigte eine zeitintensive Prüfung an.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19f866d71ea25de1"]}, "hydrogenious-technical-project-manager": {"company": "Hydrogenious LOHC Technologies GmbH", "title": "Technical Project Manager", "applied_folder": "Hydrogenious_TechPM", "applied_on": "2026-07-27T09:29", "state": "einladung", "last_message_date": "2026-08-04T11:57", "days_silent": 44, "summary": "Zwei Interview-Einladungen von Sebastian Sander (Head of Product Line Small Plants) erhalten: zuerst für Do 06.08. 11:30 (bestätigt am 31.07.), dann eine zweite Einladung für Mo 10.08. 14:30 (ebenfalls bestätigt, am 04.08.). Unklar, ob die zweite Einladung eine Verschiebung war oder eine zweite Gesprächsrunde ist — bitte Kalender/Posteingang prüfen, welcher Termin gilt.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19fa27a8db497e80", "19fb795efb9db74f", "19fcc34b50cc9098"]}, "siemensenergy-senior-energy-expert-global-commodity-manager-ppa": {"company": "Siemens Energy Global GmbH & Co. KG", "title": "Senior Energy Expert – Global Commodity Manager PPA", "applied_folder": "SiemensEnergy_PPA", "applied_on": "2026-07-27T10:14", "state": "keine_reaktion", "last_message_date": "2026-07-27T10:14", "days_silent": 52, "summary": "Keine Antwort im Postfach seit der Bewerbung Ende Juli 2026.", "checked_on": "2026-09-17T12:00", "thread_ids": []}, "ferchau-spezialist-energietechnik": {"company": "FERCHAU GmbH", "title": "Spezialist Energietechnik", "applied_folder": "FERCHAU_Energietechnik", "applied_on": "2026-07-27T08:52", "state": "rueckfrage", "last_message_date": "2026-07-29T10:06", "days_silent": 50, "summary": "FERCHAU fordert seit 29.07. die fehlenden Gehaltsvorstellungen über ein Online-Formular an (Frist: 5 Werktage). Die Frist ist mit Stand 06.08. bereits abgelaufen, ohne dass eine Antwort verschickt wurde — Handlungsbedarf.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19face902b78c85b"]}, "38capital-co-founder-energy-climate": {"company": "ThirtyEight Capital (38 Capital)", "title": "Co-Founder Energy/Climate Space", "applied_folder": "38Capital", "applied_on": "2026-07-27T08:52", "state": "keine_reaktion", "last_message_date": "2026-07-27T08:52", "days_silent": 52, "summary": "Keine Antwort im Postfach. Initiativbewerbung vom 27.07.2026, seither über 50 Tage ohne Reaktion.", "checked_on": "2026-09-17T12:00", "thread_ids": []}, "siemens-financial-services-initiativbewerbung": {"company": "Siemens Financial Services GmbH", "title": "Initiativbewerbung – Energieprojekte", "applied_folder": "Siemens_SFS", "applied_on": "2026-07-27T08:52", "state": "keine_reaktion", "last_message_date": "2026-07-27T08:52", "days_silent": 52, "summary": "Initiativbewerbung Ende Juli 2026, keine Antwort im Postfach.", "checked_on": "2026-09-17T12:00", "thread_ids": []}, "siemens-advanta-strategy-project-leader": {"company": "Siemens AG / Siemens Advanta", "title": "Strategy Project Leader @ Siemens Advanta", "applied_folder": "Siemens_Advanta_StrategyProjectLeader", "applied_on": "2026-07-29T12:21", "state": "absage", "last_message_date": "2026-08-03T10:58", "days_silent": 45, "summary": "Absage am 03.08. für 'Strategy Project Leader @ Siemens Advanta, Consulting' (454599) — Siemens hat sich für andere Kandidat:innen entschieden.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19fad653c7bd5a2c", "19fc6d84f890f18b"]}, "siemensenergy-senior-strategy-manager-hub-europe": {"company": "Siemens Energy Global GmbH & Co. KG", "title": "Senior Strategy Manager, Hub Europe", "applied_folder": "SiemensEnergy_SeniorStrategyManager", "applied_on": "2026-07-29T14:49", "state": "absage", "last_message_date": "2026-08-03T17:43", "days_silent": 45, "summary": "Absage von Siemens Energy zur Bewerbung als Senior Strategy Manager (f/m/d), Hub Europe. Gilt nur für diese eine Stelle – die früher hier vermerkte Übertragung auf 13 ähnliche Ausschreibungen war falsch und wurde am 01.09.2026 entfernt.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19fadec34dffdd10", "19fc84b33ab39ee6"]}, "siemens-smart-infrastructure-sustainability-manager": {"company": "Siemens Smart Infrastructure", "title": "Sustainability Manager", "applied_folder": "SiemensSmartInfrastructure_Sustainability-Manager", "applied_on": "2026-07-27T10:51", "state": "absage", "last_message_date": "2026-07-30T10:06", "days_silent": 49, "summary": "Absage am 30.07. für 'Sustainability Manager (f/m/d)' (499175). Hinweis: Diese Position steht nicht in jobsuche_daten.json (Bewerbung nur über den Applications/-Ordner nachvollziehbar).", "checked_on": "2026-09-17T12:00", "thread_ids": ["19fa2c5f858a33b7", "19fb20fb0c6f46ab"], "note": "not_in_jobsuche_daten"}, "enerpipe-international-business-development-manager": {"company": "Enerpipe GmbH", "title": "International Business Development Manager", "applied_folder": "ENERPIPE_InternationalBDM", "applied_on": "2026-08-05T14:48", "state": "einladung", "last_message_date": "2026-08-05T14:48", "days_silent": 43, "summary": "Nach einem Telefonat Einladung zum ersten Kennenlernen erhalten (Ansprechpartnerin Karin Bittner, Teamassistenz Vertrieb, Termin mit ihr und Herrn Bachmann). Zusage erfolgt.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19fd1f7fc3eea694"], "note": "not_in_jobsuche_daten"}, "ey-consultant-energiewirtschaft-business-transformation-duesseldorf": {"company": "EY Consulting GmbH", "title": "Consultant Energiewirtschaft – Business Transformation", "applied_folder": "EY_ConsultantEnergiewirtschaft", "applied_on": "2026-08-06T13:51", "state": "keine_reaktion", "last_message_date": "2026-08-06T13:51", "days_silent": 42, "summary": "Keine Antwort im Postfach, über einen Monat nach Bewerbung.", "checked_on": "2026-09-17T12:00", "thread_ids": [], "note": "not_in_jobsuche_daten"}, "illutherm-business-development": {"company": "ILLUTHERM GmbH", "title": "Business Development", "applied_folder": "Illutherm_BusinessDevelopment", "applied_on": "2026-08-06T10:28", "state": "bestaetigt", "last_message_date": "2026-08-06T10:28", "days_silent": 42, "summary": "Automatische Eingangsbestätigung über das Bewerbungssystem 'join.com' erhalten. Betreff nennt generisch eine Talentpool-Initiativbewerbung statt der konkreten Business-Development-Rolle — vermutlich ATS-Standardtext.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19fd63040d1a6466"], "note": "not_in_jobsuche_daten"}, "ramboll-management-consulting": {"company": "Ramboll", "title": "Management Consulting", "applied_folder": "Ramboll_ManagementConsulting", "applied_on": "2026-07-28T21:17", "state": "keine_reaktion", "last_message_date": "2026-07-28T21:17", "days_silent": 51, "summary": "Keine Antwort im Postfach seit der Bewerbung Ende Juli 2026.", "checked_on": "2026-09-17T12:00", "thread_ids": [], "note": "not_in_jobsuche_daten"}, "roedl-consultant-erneuerbare-energien-investments": {"company": "Rödl GmbH RAG StBG", "title": "Consultant Erneuerbare Energien – Investments & Transformation", "applied_folder": "Roedl_ConsultantErneuerbareEnergien", "applied_on": "2026-08-06T12:59", "state": "keine_reaktion", "last_message_date": "2026-08-06T12:59", "days_silent": 42, "summary": "Keine Antwort im Postfach, 35 Tage nach Bewerbung.", "checked_on": "2026-09-17T12:00", "thread_ids": ["19fd6b7f8651f7e5"], "note": "status_stale_in_jobsuche_daten"}, "victoria-produktmanager-energiespeichersysteme": {"company": "Victoria Consulting GmbH", "title": "Produktmanager Energiespeichersysteme", "applied_folder": "VictoriaConsulting_ProduktmanagerEnergiespeicher", "applied_on": "2026-08-06T13:14", "state": "absage", "last_message_date": "2026-09-01", "days_silent": 16, "summary": "Absage von Jana Borger (Victoria Consulting) am 01.09.2026 für beide vorgestellten Vakanzen: MOLL Batterien ist nicht mehr vakant, beim Wärmepumpenhersteller wird umfangreichere Führungserfahrung vorausgesetzt. Profil bleibt in der Datenbank.", "checked_on": "2026-09-17T12:00", "thread_ids": ["1a047e3b9e288b31"], "note": "status_stale_in_jobsuche_daten"}, "h2b-referent-internationale-angelegenheiten": {"company": "Zentrum Wasserstoff.Bayern (H2.B)", "title": "Referent/in Internationale Angelegenheiten", "applied_folder": "H2B_InternationaleAngelegenheiten", "applied_on": "2026-08-05T20:22", "state": "absage", "last_message_date": "2026-08-31", "days_silent": 17, "summary": "Absage nach dem Online-Gespräch: Dr. Fabian Pfaffenberger (Geschäftsführer H2.B) am 31.08.2026 — andere Kandidaten entsprachen dem Anforderungsprofil besser. Kontakt ausdrücklich offen gehalten ('sehen uns im Rahmen von H2.B-Aktivitäten').", "checked_on": "2026-09-17T12:00", "thread_ids": ["1a058fa7930ba044", "1a058d04ccb77731"], "note": "not_in_jobsuche_daten"}, "aeberle-business-development-manager-international": {"company": "A. Eberle GmbH & Co. KG", "title": "Business Development Manager:in International (m/w/d) für Regelungstechnik in Umspannwerken", "applied_folder": "AEberle_BDMInternational", "applied_on": "2026-08-12T00:00", "state": "keine_reaktion", "last_message_date": "2026-08-12T00:00", "days_silent": 36, "summary": "Keine Antwort im Postfach, 36 Tage nach Bewerbung. Nachfassen wäre fällig.", "note": "Datum und Versand vor dem naechsten Gmail-Abgleich pruefen: Unterlagen wurden am 12.08.2026 erstellt, den tatsaechlichen Versandzeitpunkt bitte bestaetigen. Fachliche Luecke Schutztechnik/IEC 61850 im Anschreiben offen benannt; Technik-Notiz fuer das Gespraech liegt im Ordner.", "checked_on": "2026-09-17T12:00", "thread_ids": []}, "erlanger-stadtwerke-projektingenieur-waermetransformation": {"company": "Erlanger Stadtwerke AG", "title": "Projektingenieur Energie- und Wärmetechnik (m/w/d) – Wärmetransformation", "applied_folder": "ErlangerStadtwerke_Waermetransformation", "applied_on": "2026-09-01T09:19", "thread_ids": ["1a05bd7d145d4a29"], "state": "bestaetigt", "last_message_date": "2026-09-02", "days_silent": 15, "summary": "Eingangsbestätigung von Nicole-Jessy Brühl (ESTW) am 02.09.2026, einen Tag nach der Bewerbung. Inhaltlich noch keine Rückmeldung.", "checked_on": "2026-09-17T12:00"}, "ibc-solar-senior-investment-manager": {"company": "IBC SOLAR AG", "title": "Senior Investment Manager (m/w/d)", "applied_folder": "IBCSolar_SeniorInvestmentManager", "applied_on": "2026-09-01T09:18", "thread_ids": ["1a05c48160bd4171"], "state": "bestaetigt", "last_message_date": "2026-09-01", "days_silent": 16, "summary": "Automatische Eingangsbestätigung des IBC-SOLAR-Bewerberportals am 01.09.2026; angekündigt wurde eine längere Bearbeitungszeit.", "checked_on": "2026-09-17T12:00"}, "siemens-ag-industry-development-manager-waste-circular": {"company": "Siemens AG", "title": "Industry Development Manager (f/m/d) – Waste & Circular Economy", "applied_folder": "Siemens_IndustryDevelopmentManager_Waste", "applied_on": "2026-09-01T09:19", "thread_ids": ["1a05c3d8aca6e000", "1a05d1ddbb5aabb1"], "state": "bestaetigt", "last_message_date": "2026-09-01", "days_silent": 16, "summary": "Automatische Eingangsbestätigung von Siemens Talent Acquisition am 01.09.2026 (Req. 517643). Inhaltlich noch keine Rückmeldung.", "checked_on": "2026-09-17T12:00"}, "fluence-business-development-manager-m-f-d-germany": {"company": "Fluence", "title": "Business Development Manager (m/f/d) – Germany", "applied_folder": "Fluence_BusinessDevelopmentManager", "applied_on": "2026-09-02T15:35", "thread_ids": ["1a0616724b3bde23"], "state": "bestaetigt", "last_message_date": "2026-09-02", "days_silent": 15, "summary": "Workday-Eingangsbestätigung am 02.09.2026: Bewerbung in Bearbeitung, Rückmeldung angekündigt. Seither still.", "checked_on": "2026-09-17T12:00"}, "michaelpage-bdm-utilities-digital-power": {"company": "Michael Page (Arbeitgeber nicht genannt)", "title": "Business Development Manager Utilities (m/w/d), Ref. JN-092026-7098803", "applied_folder": "MichaelPage_BDM_Utilities_DigitalPower", "applied_on": "2026-09-10T18:15", "thread_ids": ["1a08c8e5579a07f3"], "state": "bestaetigt", "last_message_date": "2026-09-10", "days_silent": 7, "summary": "Eingangsbestätigung von Michael Page am 10.09.2026 mit Referenznummer JN-092026-7098803. Danach nur Marketing-Mails (Profil vervollständigen, Job-Alerts), keine inhaltliche Rückmeldung eines Beraters.", "checked_on": "2026-09-17T12:00"}, "ribe-business-development-engineer": {"company": "RIBE Gruppe", "title": "Business Development Engineer (m/w/d)", "applied_folder": "RIBE_BusinessDevelopmentEngineer", "applied_on": "2026-09-14T21:31", "thread_ids": ["1a05c0927af4be97", "1a0a02be36a56c9f"], "state": "einladung", "last_message_date": "2026-09-14", "days_silent": 3, "summary": "Eingangsbestätigung am 01.09.2026, Einladung zum Interview am 14.09.2026 durch Chantal Biesike (karriere@ribe.de). Termin am 16.09.2026 14:00 per Teams von der Kandidat bestätigt — das Gespräch hat stattgefunden, Rückmeldung steht aus.", "checked_on": "2026-09-17T12:00"}, "siemens-energy-technology-scouting-innovation-manager": {"company": "Siemens Energy Global GmbH & Co. KG", "title": "Technology Scouting & Innovation Manager (f/m/d), Req. 303164", "applied_folder": "SiemensEnergy_TechnologyScouting", "applied_on": "2026-09-15T16:52", "thread_ids": ["1a0a617852eb926c"], "state": "bestaetigt", "last_message_date": "2026-09-15", "days_silent": 2, "summary": "Automatische Eingangsbestätigung von Siemens Energy am 15.09.2026 (Req. 303164), am Tag der Bewerbung.", "checked_on": "2026-09-17T12:00"}, "ftxt-customer-relationship-manager-muenchen": {"company": "FTXT Energy Technology (Great Wall Motor)", "title": "Customer Relationship Manager, München", "applied_folder": "FTXT_CustomerRelationshipManager", "applied_on": "2026-09-10T17:10", "thread_ids": [], "state": "eingereicht", "last_message_date": "2026-09-10T17:10", "days_silent": 7, "summary": "Keine Mail im Postfach — Kontakt lief über den Recruiter (Ansprache 09.09.2026, Call 11.09.2026, laut Projektnotiz). Aus Gmail allein nicht belegbar; Status daher bewusst nur 'eingereicht'.", "checked_on": "2026-09-17T12:00"}, "tgrc-commercial-origination-manager-bess": {"company": "The Green Recruitment Company (Arbeitgeber nicht genannt)", "title": "Commercial Origination Manager – BESS (Deutschland, remote)", "applied_folder": "TGRC_CommercialOriginationManager_BESS", "applied_on": "2026-09-10T18:30", "thread_ids": [], "state": "eingereicht", "last_message_date": "2026-09-10T18:30", "days_silent": 7, "summary": "Keine Mail im Postfach. Kontakt läuft über The Green Recruitment Company, offenbar außerhalb dieses Postfachs (LinkedIn).", "checked_on": "2026-09-17T12:00"}, "tgrc-country-manager-germany-bess": {"company": "The Green Recruitment Company (Arbeitgeber nicht genannt)", "title": "Country Manager Germany – BESS und Ladeinfrastruktur", "applied_folder": "TGRC_CountryManager_BESS", "applied_on": "2026-09-12T20:50", "thread_ids": [], "state": "eingereicht", "last_message_date": "2026-09-12T20:50", "days_silent": 5, "summary": "Keine Mail im Postfach. Kontakt läuft über The Green Recruitment Company, offenbar außerhalb dieses Postfachs (LinkedIn).", "checked_on": "2026-09-17T12:00"}, "jasolar-lead-business-development-manager-bess": {"company": "JA Solar", "title": "Lead Business Development Manager – BESS", "applied_folder": "JASolar_LeadBDM_BESS", "applied_on": "2026-09-15T17:58", "thread_ids": [], "state": "eingereicht", "last_message_date": "2026-09-15T17:58", "days_silent": 2, "summary": "Bewerbung am 15.09.2026, keine Mail im Postfach. Bewerbung lief offenbar über ein Portal/LinkedIn ohne Bestätigungsmail.", "checked_on": "2026-09-17T12:00"}, "longi-senior-business-development-manager-bess": {"company": "LONGi", "title": "Senior Business Development Manager – BESS", "applied_folder": "LONGi_SeniorBDM_BESS", "applied_on": "2026-09-15T17:58", "thread_ids": [], "state": "eingereicht", "last_message_date": "2026-09-15T17:58", "days_silent": 2, "summary": "Bewerbung am 15.09.2026, keine Mail im Postfach. Bewerbung lief offenbar über ein Portal/LinkedIn ohne Bestätigungsmail.", "checked_on": "2026-09-17T12:00"}};</script>
 
+<script>
+(function () {
+  var pending = {};
 
+  function markDirty(folder) {
+    pending[folder] = true;
+    document.getElementById("dirty").classList.add("show");
+  }
+
+  document.querySelectorAll(".status-select").forEach(function (sel) {
+    sel.addEventListener("change", function () {
+      markDirty(sel.dataset.folder);
+      var opt = sel.options[sel.selectedIndex];
+      // Farbe des Dropdowns an den neuen Status anpassen (grobe Zuordnung
+      // über die bekannten Badge-Farben je Status-Label).
+      var colors = {
+        "Einladung": ["#dcfce7", "#166534"], "Rückfrage – Handeln": ["#fef3c7", "#92400e"],
+        "Eingangsbestätigt": ["#dbeafe", "#1e40af"], "Eingereicht": ["#f1f5f9", "#475569"],
+        "Keine Reaktion (>21T)": ["#fff7ed", "#9a3412"], "Absage": ["#fee2e2", "#991b1b"]
+      };
+      var c = colors[opt.textContent] || ["#f1f5f9", "#475569"];
+      sel.style.background = c[0]; sel.style.color = c[1];
+    });
+  });
+
+  function fmtStamp(d) {
+    var p = function (n) { return String(n).padStart(2, "0"); };
+    return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) +
+      "T" + p(d.getHours()) + ":" + p(d.getMinutes());
+  }
+  function fmtDisplay(d) {
+    var p = function (n) { return String(n).padStart(2, "0"); };
+    return p(d.getDate()) + "." + p(d.getMonth() + 1) + "." + d.getFullYear() +
+      ", " + p(d.getHours()) + ":" + p(d.getMinutes()) + " Uhr";
+  }
+
+  document.getElementById("btn-export").addEventListener("click", function () {
+    var out = JSON.parse(JSON.stringify({ applications: window.APPLICATIONS_DATA }));
+    var now = new Date();
+    Object.keys(pending).forEach(function (folder) {
+      var row = document.querySelector('tr[data-folder="' + CSS.escape(folder) + '"]');
+      if (!row) return;
+      var sel = row.querySelector(".status-select");
+      var newState = sel.value;
+      var label = sel.options[sel.selectedIndex].textContent;
+      var keys = JSON.parse(row.dataset.keys || "[]");
+      keys.forEach(function (key) {
+        if (!out.applications[key]) return;
+        out.applications[key].state = newState;
+        out.applications[key].checked_on = fmtStamp(now);
+        out.applications[key].summary = "Status manuell von der Kandidat auf \"" + label +
+          "\" gesetzt am " + fmtDisplay(now) + ".";
+      });
+    });
+    var blob = new Blob([JSON.stringify(out, null, 2) + "\n"], { type: "application/json" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "bewerbungs_status.json";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+  });
+})();
+</script>
 </body>
 </html>
