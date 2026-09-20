@@ -746,7 +746,7 @@ const EMBEDDED = /*__DATA_START__*/{
       "label": "Innovationsfreiraum – eigene Ideen (Technologie & Geschäftsmodell)",
       "koennen": 9,
       "wollen": 10,
-      "quelle": "Zwei Patentanmeldungen, Aufbau neuartiger Wärme-/H2-Technologie und Geschäftsmodelle (NextHeat, Elianto) aus eigener Initiative heraus; explizit von Am 06.08.2026 als hochgewichteter Faktor ergänzt: Raum für eigene Ideen, technologisch wie geschäftlich, statt reiner Aufgabenausführung.",
+      "quelle": "Zwei Patentanmeldungen, Aufbau neuartiger Wärme-/H2-Technologie und Geschäftsmodelle (NextHeat, Elianto) aus eigener Initiative heraus; explizit vom Kandidaten am 06.08.2026 als hochgewichteter Faktor ergänzt: Raum für eigene Ideen, technologisch wie geschäftlich, statt reiner Aufgabenausführung.",
       "keywords": [
         "innovation",
         "kreativ",
@@ -1787,20 +1787,20 @@ const EMBEDDED_JOBS = /*__JOBS_START__*/{
 
 const LS_KEY = "skills_profil_edits_v1";
 const STATE = { data: null, base: null, jobs: [], sel: null, selType: null,
-                hidden: new Set(), q: "", labels: false, showJobs: true };
+                hidden: new Set, q: "", labels: false, showJobs: true };
 
 /* ---------- Laden ---------- */
-async function boot() {
+async function boot {
   let data = null, jobs = null;
   try {
     const r = await fetch("skills_profil.json", { cache: "no-store" });
-    if (r.ok) data = await r.json();
+    if (r.ok) data = await r.json;
   } catch (e) { /* file:// – Fallback greift */ }
   if (!data || !data.skills) data = JSON.parse(JSON.stringify(EMBEDDED));
 
   try {
     const r = await fetch("stellen_profile.json", { cache: "no-store" });
-    if (r.ok) jobs = await r.json();
+    if (r.ok) jobs = await r.json;
   } catch (e) { /* file:// – Fallback greift */ }
   if (!jobs || !jobs.stellen) jobs = JSON.parse(JSON.stringify(EMBEDDED_JOBS));
   STATE.jobs = jobs.stellen || [];
@@ -1822,15 +1822,15 @@ async function boot() {
   } catch (e) { /* ignorieren */ }
 
   STATE.data = data;
-  renderAll();
+  renderAll;
 }
 
 /* ---------- Hilfen ---------- */
-const thr = () => (STATE.data.quadranten && STATE.data.quadranten.schwelle) || 5.5;
+const thr = => (STATE.data.quadranten && STATE.data.quadranten.schwelle) || 5.5;
 const clusterOf = id => STATE.data.cluster.find(c => c.id === id) || { label: id, farbe: "#64748b" };
 
 function quadOf(s) {
-  const t = thr();
+  const t = thr;
   if (s.koennen >= t && s.wollen >= t) return "sweet";
   if (s.koennen < t && s.wollen >= t) return "grow";
   if (s.koennen >= t && s.wollen < t) return "trap";
@@ -1862,17 +1862,17 @@ function jobPos(job) {
   return { koennen: k / wsum, wollen: w / wsum, req, wsum };
 }
 
-function visible() {
-  const q = STATE.q.trim().toLowerCase();
+function visible {
+  const q = STATE.q.trim.toLowerCase;
   return STATE.data.skills.filter(s => {
     if (STATE.hidden.has(s.cluster)) return false;
     if (!q) return true;
-    const hay = (s.label + " " + (s.keywords || []).join(" ") + " " + (s.quelle || "")).toLowerCase();
+    const hay = (s.label + " " + (s.keywords || []).join(" ") + " " + (s.quelle || "")).toLowerCase;
     return hay.includes(q);
   });
 }
 
-function markDirty() {
+function markDirty {
   const edits = {};
   let dirty = false;
   STATE.data.skills.forEach(s => {
@@ -1883,13 +1883,13 @@ function markDirty() {
     }
   });
   const baseThr = (STATE.base.quadranten && STATE.base.quadranten.schwelle) || 5.5;
-  if (thr() !== baseThr) { edits.__schwelle = thr(); dirty = true; }
+  if (thr !== baseThr) { edits.__schwelle = thr; dirty = true; }
   try { localStorage.setItem(LS_KEY, JSON.stringify(edits)); } catch (e) {}
   document.getElementById("dirty").classList.toggle("show", dirty);
 }
 
 /* ---------- Kopfzeile ---------- */
-function renderChips() {
+function renderChips {
   document.getElementById("subtitle").textContent =
     (STATE.data.profil || "") + " · Stand " + (STATE.data.stand || "–");
   const all = STATE.data.skills;
@@ -1905,23 +1905,23 @@ function renderChips() {
 }
 
 /* ---------- Legende ---------- */
-function renderLegend() {
+function renderLegend {
   const el = document.getElementById("legend");
-  const jobsBtn = '<button class="lg jobs-toggle' + (STATE.showJobs ? "" : " off") +
+  const jobsBtn = '<button class="lg jobs-toggle' + (STATE.showJobs ? "": " off") +
     '" id="btn-jobs" title="Beworbene Stellen in der Matrix ein-/ausblenden">◆ Bewerbungen</button>';
   el.innerHTML = jobsBtn + STATE.data.cluster.map(c =>
-    '<button class="lg' + (STATE.hidden.has(c.id) ? " off" : "") + '" data-c="' + c.id + '">' +
+    '<button class="lg' + (STATE.hidden.has(c.id) ? " off": "") + '" data-c="' + c.id + '">' +
     '<span class="dot" style="background:' + c.farbe + '"></span>' + c.label + "</button>"
   ).join("");
-  document.getElementById("btn-jobs").onclick = () => {
+  document.getElementById("btn-jobs").onclick = => {
     STATE.showJobs = !STATE.showJobs;
-    if (!STATE.showJobs && STATE.selType === "job") { STATE.sel = null; STATE.selType = null; renderDetail(); renderJobs(); }
-    renderLegend(); renderChart();
+    if (!STATE.showJobs && STATE.selType === "job") { STATE.sel = null; STATE.selType = null; renderDetail; renderJobs; }
+    renderLegend; renderChart;
   };
-  el.querySelectorAll(".lg[data-c]").forEach(b => b.onclick = () => {
+  el.querySelectorAll(".lg[data-c]").forEach(b => b.onclick = => {
     const id = b.dataset.c;
-    STATE.hidden.has(id) ? STATE.hidden.delete(id) : STATE.hidden.add(id);
-    renderLegend(); renderChart(); renderRows(); renderQuads();
+    STATE.hidden.has(id) ? STATE.hidden.delete(id): STATE.hidden.add(id);
+    renderLegend; renderChart; renderRows; renderQuads;
   });
 }
 
@@ -1930,9 +1930,9 @@ const M = { l: 62, r: 24, t: 24, b: 56 }, W = 640, H = 560;
 const px = v => M.l + (v / 10) * (W - M.l - M.r);
 const py = v => H - M.b - (v / 10) * (H - M.t - M.b);
 
-function renderChart() {
+function renderChart {
   const svg = document.getElementById("svg");
-  const t = thr(), tx = px(t), ty = py(t);
+  const t = thr, tx = px(t), ty = py(t);
   let g = "";
 
   // Quadrantenflächen
@@ -1977,18 +1977,18 @@ function renderChart() {
 
   // Punkte – gleiche Koordinaten deterministisch auffächern
   const seen = {};
-  const pts = visible().map(s => {
+  const pts = visible.map(s => {
     const key = s.koennen + ":" + s.wollen;
     const n = (seen[key] = (seen[key] || 0) + 1) - 1;
-    const ang = n * 2.399963, rad = n === 0 ? 0 : 6 + n * 1.6;
+    const ang = n * 2.399963, rad = n === 0 ? 0: 6 + n * 1.6;
     return { s, x: px(s.koennen) + Math.cos(ang) * rad, y: py(s.wollen) + Math.sin(ang) * rad };
   });
 
   pts.forEach(p => {
     const c = clusterOf(p.s.cluster);
     const sel = STATE.selType === "skill" && STATE.sel === p.s.id;
-    g += '<circle class="pt' + (sel ? " sel" : "") + '" data-id="' + p.s.id + '" cx="' + p.x.toFixed(1) +
-         '" cy="' + p.y.toFixed(1) + '" r="' + (sel ? 9 : 6.5) + '" fill="' + c.farbe + '">' +
+    g += '<circle class="pt' + (sel ? " sel": "") + '" data-id="' + p.s.id + '" cx="' + p.x.toFixed(1) +
+         '" cy="' + p.y.toFixed(1) + '" r="' + (sel ? 9: 6.5) + '" fill="' + c.farbe + '">' +
          "<title>" + esc(p.s.label) + " — Können " + p.s.koennen + " / Wollen " + p.s.wollen + "</title></circle>";
     if (STATE.labels || sel) {
       g += '<text class="ptlabel" x="' + (p.x + 10).toFixed(1) + '" y="' + (p.y + 3.5).toFixed(1) + '">' +
@@ -2002,8 +2002,8 @@ function renderChart() {
       const pos = jobPos(j); if (!pos) return;
       const x = px(pos.koennen), y = py(pos.wollen);
       const sel = STATE.selType === "job" && STATE.sel === j.id;
-      const r = sel ? 12 : 9, k = quadOf(pos);
-      g += '<polygon class="jm' + (sel ? " sel" : "") + '" data-job="' + j.id + '" points="' +
+      const r = sel ? 12: 9, k = quadOf(pos);
+      g += '<polygon class="jm' + (sel ? " sel": "") + '" data-job="' + j.id + '" points="' +
            [[x, y - r], [x + r, y], [x, y + r], [x - r, y]].map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ") +
            '" fill="' + QUAD[k].farbe + '">' + "<title>" + esc(j.firma + " — " + j.titel) +
            " — Können " + pos.koennen.toFixed(1) + " / Wollen " + pos.wollen.toFixed(1) + "</title></polygon>";
@@ -2016,14 +2016,14 @@ function renderChart() {
   }
 
   svg.innerHTML = g;
-  svg.querySelectorAll(".pt").forEach(c => c.onclick = () => select("skill", c.dataset.id));
-  svg.querySelectorAll(".jm").forEach(c => c.onclick = () => select("job", c.dataset.job));
+  svg.querySelectorAll(".pt").forEach(c => c.onclick = => select("skill", c.dataset.id));
+  svg.querySelectorAll(".jm").forEach(c => c.onclick = => select("job", c.dataset.job));
 }
-const short = s => s.length > 30 ? s.slice(0, 29) + "…" : s;
+const short = s => s.length > 30 ? s.slice(0, 29) + "…": s;
 const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
 
 /* ---------- Detailbox ---------- */
-function renderDetail() {
+function renderDetail {
   const el = document.getElementById("detail");
   if (STATE.selType === "job") { renderJobDetail(el); return; }
   const s = STATE.data.skills.find(x => x.id === STATE.sel);
@@ -2050,7 +2050,7 @@ function renderJobDetail(el) {
   el.innerHTML =
     '<span class="tag" style="background:' + QUAD[k].farbe + '">Beworbene Stelle</span>' +
     "<h3>" + esc(j.titel) + "</h3>" +
-    '<div class="src">' + esc(j.firma) + (j.ort ? " · " + esc(j.ort) : "") + "</div>" +
+    '<div class="src">' + esc(j.firma) + (j.ort ? " · " + esc(j.ort): "") + "</div>" +
     '<div class="vals"><strong style="color:' + QUAD[k].farbe + '">' + esc(quadMeta(k).label) + "</strong>" +
     " · Können <strong>" + pos.koennen.toFixed(1) + "</strong> · Wollen <strong>" + pos.wollen.toFixed(1) + "</strong></div>" +
     '<div class="src" style="font-size:.8rem">Aus ' + pos.req.length + " Anforderungen der Anzeige, Gewichtssumme " + pos.wsum + ".</div>" +
@@ -2058,12 +2058,12 @@ function renderJobDetail(el) {
       const rq = quadOf(r.skill);
       return "<li>" + '<span class="rq" style="background:' + QUAD[rq].farbe + '">' + esc(quadMeta(rq).label) + "</span>" +
         esc(r.skill.label) + ' <span class="rw">×' + r.gewicht + " · " + r.skill.koennen + "/" + r.skill.wollen + "</span>" +
-        (r.beleg ? '<span class="rb">„' + esc(r.beleg) + "“</span>" : "") + "</li>";
+        (r.beleg ? '<span class="rb">„' + esc(r.beleg) + "“</span>": "") + "</li>";
     }).join("") + "</ul>";
 }
 
 /* ---------- Stellen-Karten ---------- */
-function renderJobs() {
+function renderJobs {
   const el = document.getElementById("jobs");
   if (!STATE.jobs.length) { el.innerHTML = '<p class="empty">Keine Stellen hinterlegt.</p>'; return; }
   el.innerHTML = STATE.jobs.map(j => {
@@ -2071,9 +2071,9 @@ function renderJobs() {
     const k = quadOf(pos);
     const traps = pos.req.filter(r => quadOf(r.skill) === "trap").sort((a, b) => b.gewicht - a.gewicht);
     const sel = STATE.selType === "job" && STATE.sel === j.id;
-    return '<div class="job' + (sel ? " sel" : "") + '" data-job="' + j.id + '" style="border-left-color:' + QUAD[k].farbe + '">' +
+    return '<div class="job' + (sel ? " sel": "") + '" data-job="' + j.id + '" style="border-left-color:' + QUAD[k].farbe + '">' +
       '<div class="jt">' + esc(j.titel) + "</div>" +
-      '<div class="jc">' + esc(j.firma) + (j.ort ? " · " + esc(j.ort) : "") + "</div>" +
+      '<div class="jc">' + esc(j.firma) + (j.ort ? " · " + esc(j.ort): "") + "</div>" +
       '<div class="jq" style="color:' + QUAD[k].farbe + '">' + esc(quadMeta(k).label) +
       ' <span style="color:#94a3b8;font-weight:400">Können ' + pos.koennen.toFixed(1) +
       " · Wollen " + pos.wollen.toFixed(1) + "</span></div>" +
@@ -2083,13 +2083,13 @@ function renderJobs() {
         : '<div class="jok">Keine Anforderung im Fallstrick-Quadranten.</div>') +
       "</div>";
   }).join("");
-  el.querySelectorAll(".job").forEach(c => c.onclick = () => select("job", c.dataset.job));
+  el.querySelectorAll(".job").forEach(c => c.onclick = => select("job", c.dataset.job));
 }
 
 /* ---------- Quadranten-Listen ---------- */
-function renderQuads() {
+function renderQuads {
   const el = document.getElementById("quads");
-  const list = visible();
+  const list = visible;
   el.innerHTML = ["sweet", "grow", "trap", "none"].map(k => {
     const items = list.filter(s => quadOf(s) === k)
       .sort((a, b) => (b.koennen + b.wollen) - (a.koennen + a.wollen));
@@ -2103,36 +2103,36 @@ function renderQuads() {
         : '<p style="margin:0">–</p>') +
       "</div>";
   }).join("");
-  el.querySelectorAll("li[data-id]").forEach(li => li.onclick = () => select("skill", li.dataset.id));
+  el.querySelectorAll("li[data-id]").forEach(li => li.onclick = => select("skill", li.dataset.id));
 }
 
 /* ---------- Editor ---------- */
-function renderRows() {
+function renderRows {
   const tb = document.getElementById("rows");
-  const list = visible().slice().sort((a, b) =>
+  const list = visible.slice.sort((a, b) =>
     a.cluster === b.cluster ? a.label.localeCompare(b.label)
       : STATE.data.cluster.findIndex(c => c.id === a.cluster) - STATE.data.cluster.findIndex(c => c.id === b.cluster));
 
   tb.innerHTML = list.map(s => {
     const c = clusterOf(s.cluster);
-    return '<tr data-id="' + s.id + '"' + (STATE.selType === "skill" && STATE.sel === s.id ? ' class="sel"' : "") + ">" +
+    return '<tr data-id="' + s.id + '"' + (STATE.selType === "skill" && STATE.sel === s.id ? ' class="sel"': "") + ">" +
       '<td><div class="sk-name">' + esc(s.label) + "</div>" +
       '<div class="sk-cluster"><span style="color:' + c.farbe + '">●</span> ' + esc(c.label) + "</div></td>" +
       slider(s, "koennen") + slider(s, "wollen") + "</tr>";
   }).join("");
 
   tb.querySelectorAll("input[type=range]").forEach(inp => {
-    inp.oninput = () => {
+    inp.oninput = => {
       const s = STATE.data.skills.find(x => x.id === inp.dataset.id);
       s[inp.dataset.f] = +inp.value;
       const v = inp.parentNode.querySelector(".val");
       v.textContent = inp.value; v.className = "val " + tone(+inp.value);
-      markDirty(); renderChart(); renderQuads(); renderChips(); renderDetail(); renderJobs();
+      markDirty; renderChart; renderQuads; renderChips; renderDetail; renderJobs;
     };
   });
-  tb.querySelectorAll(".sk-name").forEach(n => n.onclick = () => select("skill", n.closest("tr").dataset.id));
+  tb.querySelectorAll(".sk-name").forEach(n => n.onclick = => select("skill", n.closest("tr").dataset.id));
 }
-const tone = v => v >= 7 ? "hi" : v >= 4 ? "mid" : "lo";
+const tone = v => v >= 7 ? "hi": v >= 4 ? "mid": "lo";
 function slider(s, f) {
   return '<td class="slider-cell"><input type="range" min="0" max="10" step="1" value="' + s[f] +
     '" data-id="' + s.id + '" data-f="' + f + '" aria-label="' + esc(s.label + " " + f) + '">' +
@@ -2142,77 +2142,77 @@ function slider(s, f) {
 /* ---------- Auswahl ---------- */
 function select(type, id) {
   const same = STATE.sel === id && STATE.selType === type;
-  STATE.sel = same ? null : id;
-  STATE.selType = same ? null : type;
-  renderChart(); renderDetail(); renderQuads(); renderRows(); renderJobs();
+  STATE.sel = same ? null: id;
+  STATE.selType = same ? null: type;
+  renderChart; renderDetail; renderQuads; renderRows; renderJobs;
   if (!same && type === "skill") {
     const tr = document.querySelector('tr[data-id="' + id + '"]');
     if (tr) tr.scrollIntoView({ block: "center", behavior: "smooth" });
   }
 }
 
-function renderThr() {
+function renderThr {
   const inp = document.getElementById("thr");
-  inp.value = thr();
+  inp.value = thr;
   const v = document.getElementById("thr-val");
-  v.textContent = (+thr()).toFixed(1).replace(".", ",");
+  v.textContent = (+thr).toFixed(1).replace(".", ",");
 }
 
-function renderAll() { renderThr(); renderChips(); renderLegend(); renderChart(); renderDetail(); renderQuads(); renderJobs(); renderRows(); }
+function renderAll { renderThr; renderChips; renderLegend; renderChart; renderDetail; renderQuads; renderJobs; renderRows; }
 
 /* ---------- Toolbar ---------- */
 document.getElementById("thr").oninput = e => {
   STATE.data.quadranten.schwelle = +e.target.value;
   document.getElementById("thr-val").textContent = (+e.target.value).toFixed(1).replace(".", ",");
-  markDirty(); renderChips(); renderChart(); renderQuads(); renderDetail(); renderJobs();
+  markDirty; renderChips; renderChart; renderQuads; renderDetail; renderJobs;
 };
 document.getElementById("search").oninput = e => {
-  STATE.q = e.target.value; renderChart(); renderQuads(); renderRows();
+  STATE.q = e.target.value; renderChart; renderQuads; renderRows;
 };
 document.getElementById("btn-labels").onclick = e => {
   STATE.labels = !STATE.labels;
-  e.target.textContent = STATE.labels ? "Beschriftung ausblenden" : "Beschriftung einblenden";
-  renderChart();
+  e.target.textContent = STATE.labels ? "Beschriftung ausblenden": "Beschriftung einblenden";
+  renderChart;
 };
 function fmtStand(d) {
   const p = n => String(n).padStart(2, "0");
-  return p(d.getDate()) + "." + p(d.getMonth() + 1) + "." + d.getFullYear() +
-    ", " + p(d.getHours()) + ":" + p(d.getMinutes()) + " Uhr";
+  return p(d.getDate) + "." + p(d.getMonth + 1) + "." + d.getFullYear +
+    ", " + p(d.getHours) + ":" + p(d.getMinutes) + " Uhr";
 }
-document.getElementById("btn-export").onclick = () => {
+document.getElementById("btn-export").onclick = => {
   const out = JSON.parse(JSON.stringify(STATE.data));
-  out.stand = fmtStand(new Date());
+  out.stand = fmtStand(new Date);
   const blob = new Blob([JSON.stringify(out, null, 2) + "\n"], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob); a.download = "skills_profil.json";
-  document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  document.body.appendChild(a); a.click; a.remove;
+  setTimeout( => URL.revokeObjectURL(a.href), 4000);
 };
 document.getElementById("file-import").onchange = e => {
   const f = e.target.files[0]; if (!f) return;
-  const rd = new FileReader();
-  rd.onload = () => {
+  const rd = new FileReader;
+  rd.onload = => {
     try {
       const d = JSON.parse(rd.result);
       if (!d.skills || !d.cluster) throw new Error("Kein gültiges Skill-Profil");
       STATE.data = d; STATE.base = JSON.parse(JSON.stringify(d)); STATE.sel = null; STATE.selType = null;
       localStorage.removeItem(LS_KEY);
       document.getElementById("dirty").classList.remove("show");
-      renderAll();
+      renderAll;
     } catch (err) { alert("Import fehlgeschlagen: " + err.message); }
   };
   rd.readAsText(f);
   e.target.value = "";
 };
-document.getElementById("btn-reset").onclick = () => {
+document.getElementById("btn-reset").onclick = => {
   if (!confirm("Alle Änderungen seit dem letzten Export verwerfen?")) return;
   STATE.data = JSON.parse(JSON.stringify(STATE.base));
   localStorage.removeItem(LS_KEY);
   document.getElementById("dirty").classList.remove("show");
-  renderAll();
+  renderAll;
 };
 
-boot();
+boot;
 </script>
 </body>
 </html>
