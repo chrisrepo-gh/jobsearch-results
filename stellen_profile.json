@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "stand": "02.09.2026, 15:24 Uhr (Europe/Berlin)",
-  "hinweis": "Anforderungsprofile ausschließlich aus den im Projekt abgelegten Stellenanzeigen abgeleitet. Jede Anforderung trägt einen wörtlichen Beleg aus der Anzeige. Keine Stelle ohne Anzeigentext im Ordner Applications/.",
+  "stand": "20.09.2026 (Europe/Berlin)",
+  "hinweis": "Anforderungsprofile ausschließlich aus den im Projekt abgelegten Stellenanzeigen abgeleitet. Jede Anforderung trägt einen wörtlichen Beleg aus der Anzeige. Keine Stelle ohne Anzeigentext im Ordner Applications/. Stand 20.09.2026: neun Stellen aus den letzten 20 Bewerbungen ergänzt. Nicht aufgenommen, weil kein Anzeigentext vorliegt: Illutherm (Initiativbewerbung nach Gründer-Meeting) und FTXT (nur Firmenvorstellung und Gesprächsbriefing).",
   "gewicht_skala": {
     "3": "Kernanforderung – steht ganz oben oder wiederholt sich in Aufgaben und Profil",
     "2": "klar benannte Anforderung",
@@ -825,6 +825,704 @@
           "skill": "sprache-deutsch",
           "gewicht": 1,
           "beleg": "English mandatory; German and other languages a strong advantage"
+        }
+      ]
+    },
+    {
+      "id": "siemens-si-portfolio-gtm",
+      "firma": "Siemens AG, Smart Infrastructure (CTO Digital Portfolio Team)",
+      "titel": "Portfolio & Go-to-Market Manager – Energy Management (Job ID 504280)",
+      "ort": "Nürnberg / München / Berlin",
+      "beworben_am": "2026-09-20",
+      "status": "beworben",
+      "quelle": "Applications/SiemensSmartInfrastructure_PortfolioGTM_EnergyManagement/Stellenausschreibung_SiemensSI_PortfolioGTM_EnergyManagement.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "strategie",
+          "gewicht": 3,
+          "beleg": "Shape and align the Go-to-Market strategy for ONE Tech Company Energy Management, including target sales motions and business models."
+        },
+        {
+          "skill": "produktstrategie",
+          "gewicht": 3,
+          "beleg": "Longterm experience managing a diverse portfolio of hardware, software, and digital services, with a proven track record in developing and selling digital services within a B2B environment."
+        },
+        {
+          "skill": "stakeholder",
+          "gewicht": 3,
+          "beleg": "Navigate and align stakeholders across multiple businesses — building consensus in complexity."
+        },
+        {
+          "skill": "business-development",
+          "gewicht": 2,
+          "beleg": "Explore and pilot new business models that go beyond today's existing portfolio."
+        },
+        {
+          "skill": "tech-scouting",
+          "gewicht": 2,
+          "beleg": "Monitor AI and emerging technologies and translate relevant trends into actionable recommendations for portfolio and Go-to-Market strategy."
+        },
+        {
+          "skill": "key-account",
+          "gewicht": 2,
+          "beleg": "Engage directly with C&I customers to understand challenges and validate portfolio relevance."
+        },
+        {
+          "skill": "innovationsfreiraum",
+          "gewicht": 2,
+          "beleg": "You take initiative, contribute your own ideas, and aren't afraid to put them into practice."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 2,
+          "beleg": "Fluent in English and conversational in German; additional languages are a plus."
+        },
+        {
+          "skill": "strommarkt",
+          "gewicht": 1,
+          "beleg": "Understanding of market trends and offerings in commercial and industrial energy solutions, microgrids, and energy efficiency."
+        },
+        {
+          "skill": "markteintritt",
+          "gewicht": 1,
+          "beleg": "Ability to identify and pursue opportunities beyond existing portfolio boundaries, transforming market insights into actionable initiatives."
+        },
+        {
+          "skill": "sprache-deutsch",
+          "gewicht": 1,
+          "beleg": "Fluent in English and conversational in German; additional languages are a plus."
+        },
+        {
+          "skill": "interkulturell",
+          "gewicht": 1,
+          "beleg": "thriving in interdisciplinary teams with global colleagues and customers."
+        }
+      ]
+    },
+    {
+      "id": "siemens-si-bd-community",
+      "firma": "Siemens AG, Smart Infrastructure (CTO Digital Portfolio Team)",
+      "titel": "Business Development & Community Manager (f/m/d) Energy Management (Job ID 514079)",
+      "ort": "Nürnberg / München / Berlin",
+      "beworben_am": "2026-09-20",
+      "status": "beworben",
+      "quelle": "Applications/SiemensSmartInfrastructure_BDCommunityManager_EnergyManagement/Stellenausschreibung_SiemensSI_BDCommunityManager_EnergyManagement.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "business-development",
+          "gewicht": 3,
+          "beleg": "Long term professional experience, ideally in business development and sales."
+        },
+        {
+          "skill": "key-account",
+          "gewicht": 3,
+          "beleg": "Experience engaging with customers and supporting sales in a B2B environment."
+        },
+        {
+          "skill": "stakeholder",
+          "gewicht": 3,
+          "beleg": "Manage and grow the Energy Management community across SI — and, potentially in the future, across Siemens."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 3,
+          "beleg": "Proficiency in English is a must; conversational ability in German is an advantage — additional languages are a plus"
+        },
+        {
+          "skill": "business-case",
+          "gewicht": 2,
+          "beleg": "Co-develop business cases, value propositions and pricing strategies to support commercial decisions."
+        },
+        {
+          "skill": "pitching",
+          "gewicht": 2,
+          "beleg": "Create compelling customer-facing materials, including presentations, success stories, and marketing content."
+        },
+        {
+          "skill": "partnerschaften",
+          "gewicht": 2,
+          "beleg": "Identify and help qualify new market opportunities, strategic partnerships, and growth areas."
+        },
+        {
+          "skill": "strategie",
+          "gewicht": 2,
+          "beleg": "Build on the customer and market understanding within the teams to translate needs into a clear direction for our Energy Management offerings."
+        },
+        {
+          "skill": "innovationsfreiraum",
+          "gewicht": 2,
+          "beleg": "You take initiative, contribute your own ideas, and are not afraid to put them into practice."
+        },
+        {
+          "skill": "tech-scouting",
+          "gewicht": 1,
+          "beleg": "A genuine interest in the latest technological trends in the energy management market — including the value AI can add."
+        },
+        {
+          "skill": "strommarkt",
+          "gewicht": 1,
+          "beleg": "Solid understanding of market trends and offerings for commercial and industrial energy solutions, microgrids, and energy efficiency."
+        },
+        {
+          "skill": "sprache-deutsch",
+          "gewicht": 1,
+          "beleg": "conversational ability in German is an advantage — additional languages are a plus"
+        },
+        {
+          "skill": "interkulturell",
+          "gewicht": 1,
+          "beleg": "collaborating closely with colleagues from different businesses and customers around the globe."
+        }
+      ]
+    },
+    {
+      "id": "hunterphilips-bdm-renewable-bess",
+      "firma": "Hunter Philips Executive Search (Endkunde nicht genannt, BESS-Entwickler)",
+      "titel": "Business Development Manager (Renewable Energy) – BESS",
+      "ort": "München / Hybrid",
+      "beworben_am": "2026-09-17",
+      "status": "beworben",
+      "quelle": "Applications/HunterPhilips_BDM_RenewableEnergy_BESS/Stellenausschreibung_HunterPhilips_BDM_RenewableEnergy.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "bess",
+          "gewicht": 3,
+          "beleg": "An ambitious and rapidly growing Battery Energy Storage developer … Identify and evaluate new business and investment opportunities within BESS and renewable energy."
+        },
+        {
+          "skill": "deal-origination",
+          "gewicht": 3,
+          "beleg": "Originate new projects and commercial opportunities."
+        },
+        {
+          "skill": "markteintritt",
+          "gewicht": 3,
+          "beleg": "Support expansion into new European markets and assess opportunities across emerging technologies."
+        },
+        {
+          "skill": "partnerschaften",
+          "gewicht": 3,
+          "beleg": "Identify and develop strategic partnerships with developers, investors and other market participants."
+        },
+        {
+          "skill": "business-development",
+          "gewicht": 3,
+          "beleg": "Experience within business development, project origination, partnerships, M&A or a related commercial position."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 3,
+          "beleg": "Fluent English is essential."
+        },
+        {
+          "skill": "investment-screening",
+          "gewicht": 2,
+          "beleg": "Strong commercial mindset with the ability to identify and evaluate new opportunities."
+        },
+        {
+          "skill": "ma",
+          "gewicht": 2,
+          "beleg": "Support the assessment of potential M&A and transaction opportunities."
+        },
+        {
+          "skill": "strategie",
+          "gewicht": 2,
+          "beleg": "Work closely with senior management to develop and execute the company's wider growth strategy."
+        },
+        {
+          "skill": "interkulturell",
+          "gewicht": 2,
+          "beleg": "Comfortable operating across different markets and working in an entrepreneurial, fast-growing environment."
+        },
+        {
+          "skill": "unternehmensaufbau",
+          "gewicht": 1,
+          "beleg": "Comfortable operating … in an entrepreneurial, fast-growing environment."
+        },
+        {
+          "skill": "sprache-deutsch",
+          "gewicht": 1,
+          "beleg": "German language skills are advantageous but not essential."
+        },
+        {
+          "skill": "sprache-italienisch",
+          "gewicht": 1,
+          "beleg": "Additional European language skills would be particularly valuable."
+        },
+        {
+          "skill": "sprache-spanisch",
+          "gewicht": 1,
+          "beleg": "Additional European language skills would be particularly valuable."
+        }
+      ]
+    },
+    {
+      "id": "siemensenergy-technology-scouting",
+      "firma": "Siemens Energy Global GmbH & Co. KG, Grid Technologies",
+      "titel": "Technology Scouting & Innovation Manager (f/m/d) (Job ID 303164)",
+      "ort": "Erlangen",
+      "beworben_am": "2026-09-15",
+      "status": "beworben",
+      "quelle": "Applications/SiemensEnergy_TechnologyScouting/Stellenausschreibung_SiemensEnergy_TechnologyScoutingInnovationManager.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "tech-scouting",
+          "gewicht": 3,
+          "beleg": "Develop and maintain a structured technology scouting process across H1–H4 horizons."
+        },
+        {
+          "skill": "strategie",
+          "gewicht": 3,
+          "beleg": "translating external technology signals into actionable insights that inform strategy, portfolio steering, and investment decisions."
+        },
+        {
+          "skill": "stakeholder",
+          "gewicht": 3,
+          "beleg": "Strong stakeholder management and executive communication skills in global matrix organizations."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 3,
+          "beleg": "Fluent in English"
+        },
+        {
+          "skill": "ma",
+          "gewicht": 2,
+          "beleg": "Long-term experience in technology development and Ventures/M&A type projects."
+        },
+        {
+          "skill": "projektkoordination",
+          "gewicht": 2,
+          "beleg": "Experience in innovation projects involving universities, research facilities, or similar environments."
+        },
+        {
+          "skill": "corp-dev",
+          "gewicht": 2,
+          "beleg": "Maintain visibility of startup, university, and research ecosystems to support partnership and investment opportunities."
+        },
+        {
+          "skill": "innovationsfreiraum",
+          "gewicht": 2,
+          "beleg": "You will serve as the organization's „early warning and opportunity detection system“."
+        },
+        {
+          "skill": "pitching",
+          "gewicht": 1,
+          "beleg": "Produce actionable intelligence reports for leadership teams and convert technology signals into portfolio recommendations."
+        },
+        {
+          "skill": "prototyping",
+          "gewicht": 1,
+          "beleg": "Strong technical focus with a solid understanding of what Siemens Energy does, though not necessarily an expert in specific technologies."
+        },
+        {
+          "skill": "energiesysteme",
+          "gewicht": 1,
+          "beleg": "Our Grid Technology division enables a reliable, sustainable, and digital grid … HVDC transmission, grid stabilization and storage, high voltage switchgears and transformers."
+        },
+        {
+          "skill": "patente",
+          "gewicht": 1,
+          "beleg": "Long-term experience in technology development … Experience in innovation projects involving universities, research facilities."
+        }
+      ]
+    },
+    {
+      "id": "longi-senior-bdm-bess",
+      "firma": "LONGi Green Energy Technology Co., Ltd.",
+      "titel": "Senior Business Development Manager – BESS",
+      "ort": "Deutschland / Remote",
+      "beworben_am": "2026-09-15",
+      "status": "beworben",
+      "quelle": "Applications/LONGi_SeniorBDM_BESS/Stellenausschreibung_LONGi_SeniorBDM_BESS.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "bess",
+          "gewicht": 3,
+          "beleg": "Strong understanding of utility-scale Battery Energy Storage Systems (BESS) and the renewable energy market."
+        },
+        {
+          "skill": "business-development",
+          "gewicht": 3,
+          "beleg": "Develop and execute regional business development strategies for utility-scale Battery Energy Storage Systems (BESS)."
+        },
+        {
+          "skill": "deal-origination",
+          "gewicht": 3,
+          "beleg": "Develop and manage a robust pipeline of utility-scale BESS opportunities."
+        },
+        {
+          "skill": "key-account",
+          "gewicht": 3,
+          "beleg": "Identify, qualify and develop new business opportunities with utilities, Independent Power Producers (IPPs), developers, EPCs, investors and other strategic customers."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 3,
+          "beleg": "Fluency in English and (local language), both written and spoken."
+        },
+        {
+          "skill": "partnerschaften",
+          "gewicht": 2,
+          "beleg": "Build and strengthen LONGi's network of strategic partners and key stakeholders within the energy storage ecosystem."
+        },
+        {
+          "skill": "verhandlung",
+          "gewicht": 2,
+          "beleg": "Participate in commercial negotiations and contribute to successful contract execution."
+        },
+        {
+          "skill": "business-case",
+          "gewicht": 2,
+          "beleg": "Lead project qualification, opportunity assessment and business case development."
+        },
+        {
+          "skill": "markteintritt",
+          "gewicht": 2,
+          "beleg": "Analyze market trends, regulatory developments and competitive activities to identify growth opportunities and support market expansion."
+        },
+        {
+          "skill": "pitching",
+          "gewicht": 2,
+          "beleg": "Strong communication, negotiation and presentation skills."
+        },
+        {
+          "skill": "operations",
+          "gewicht": 2,
+          "beleg": "Collaborate with internal stakeholders to ensure smooth project execution, customer satisfaction and timely payment collection."
+        },
+        {
+          "skill": "sprache-deutsch",
+          "gewicht": 2,
+          "beleg": "Fluency in English and (local language), both written and spoken."
+        },
+        {
+          "skill": "reporting",
+          "gewicht": 1,
+          "beleg": "Deliver monthly, quarterly and annual business development and sales objectives."
+        },
+        {
+          "skill": "produktstrategie",
+          "gewicht": 1,
+          "beleg": "Share customer feedback and market intelligence to support product roadmap development, pricing strategy and business planning."
+        }
+      ]
+    },
+    {
+      "id": "jasolar-lead-bdm-bess",
+      "firma": "JA Solar GmbH (JA Solar Technology Co., Ltd.)",
+      "titel": "Lead Business Development Manager BESS – Central Europe (d/f/m)",
+      "ort": "Remote / München",
+      "beworben_am": "2026-09-15",
+      "status": "beworben",
+      "quelle": "Applications/JASolar_LeadBDM_BESS/Stellenausschreibung_JASolar_LeadBDM_BESS.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "bess",
+          "gewicht": 3,
+          "beleg": "Proven success in developing utility-scale BESS or renewable energy opportunities."
+        },
+        {
+          "skill": "deal-origination",
+          "gewicht": 3,
+          "beleg": "Identify, originate, and secure strategically significant BESS opportunities across utility-scale and C&I markets."
+        },
+        {
+          "skill": "verhandlung",
+          "gewicht": 3,
+          "beleg": "Build executive-level relationships with developers, utilities, IPPs, investors, EPCs, consultants … Advanced commercial negotiation capability."
+        },
+        {
+          "skill": "markteintritt",
+          "gewicht": 3,
+          "beleg": "Support market entry initiatives and expansion into priority customer segments and geographies."
+        },
+        {
+          "skill": "business-development",
+          "gewicht": 3,
+          "beleg": "Typically 10-15+ years of relevant business development, commercial, or sales experience within the renewable energy sector."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 3,
+          "beleg": "Fluent in English (C1); additional European languages are an advantage."
+        },
+        {
+          "skill": "partnerschaften",
+          "gewicht": 2,
+          "beleg": "Strong market creation and partnership development capability."
+        },
+        {
+          "skill": "strategie",
+          "gewicht": 2,
+          "beleg": "Influence regional go-to-market strategies through market expertise, customer insight, and commercial recommendations."
+        },
+        {
+          "skill": "strommarkt",
+          "gewicht": 2,
+          "beleg": "Strong understanding of European energy markets, BESS technologies, market structures, and project development."
+        },
+        {
+          "skill": "stakeholder",
+          "gewicht": 2,
+          "beleg": "Ability to influence without formal authority"
+        },
+        {
+          "skill": "pitching",
+          "gewicht": 2,
+          "beleg": "Represent the company at executive-level customer meetings, industry events, conferences, and strategic market engagements."
+        },
+        {
+          "skill": "teamfuehrung",
+          "gewicht": 1,
+          "beleg": "Support the onboarding, mentoring, and development of commercial colleagues … remaining individual contributors without formal people leadership responsibility."
+        },
+        {
+          "skill": "interkulturell",
+          "gewicht": 1,
+          "beleg": "Regular travel across Europe"
+        }
+      ]
+    },
+    {
+      "id": "tgrc-country-manager-germany",
+      "firma": "The Green Recruitment Company (Endkunde nicht genannt, BESS- und Ladeinfrastruktur)",
+      "titel": "Country Manager – Germany",
+      "ort": "Deutschland / Remote",
+      "beworben_am": "2026-09-12",
+      "status": "beworben",
+      "quelle": "Applications/TGRC_CountryManager_BESS/Stellenausschreibung_TGRC_CountryManager_Germany.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "pl-aufbau",
+          "gewicht": 3,
+          "beleg": "You will have significant autonomy and ownership for the German market … acting as the key decision-maker on the ground in Germany."
+        },
+        {
+          "skill": "markteintritt",
+          "gewicht": 3,
+          "beleg": "The business is now preparing for its entry into Germany and is looking for an exceptional Country Manager to build the market from the ground up."
+        },
+        {
+          "skill": "unternehmensaufbau",
+          "gewicht": 3,
+          "beleg": "It is an opportunity for an entrepreneurial leader to create a business in Germany from scratch."
+        },
+        {
+          "skill": "bess",
+          "gewicht": 3,
+          "beleg": "a fast-growing energy infrastructure business developing and delivering battery energy storage (BESS) and charging infrastructure."
+        },
+        {
+          "skill": "deal-origination",
+          "gewicht": 3,
+          "beleg": "Own opportunities end-to-end, from origination and site development through to RTB, financing, construction and operations."
+        },
+        {
+          "skill": "stakeholder",
+          "gewicht": 3,
+          "beleg": "Build strong relationships with DSOs, TSOs, regulators, municipalities and other public stakeholders."
+        },
+        {
+          "skill": "sprache-deutsch",
+          "gewicht": 3,
+          "beleg": "Fluent German and professional English."
+        },
+        {
+          "skill": "projektfinanzierung",
+          "gewicht": 2,
+          "beleg": "Work closely with finance and investment teams to ensure projects are commercially robust, financeable and capable of reaching investment decision."
+        },
+        {
+          "skill": "verhandlung",
+          "gewicht": 2,
+          "beleg": "Structure and negotiate commercial arrangements, including offtake, PPA and other energy-market agreements."
+        },
+        {
+          "skill": "ppa",
+          "gewicht": 2,
+          "beleg": "Structure and negotiate commercial arrangements, including offtake, PPA and other energy-market agreements."
+        },
+        {
+          "skill": "partnerschaften",
+          "gewicht": 2,
+          "beleg": "Establish and manage a network of local partners across grid, permitting, legal, EPC, development and technical disciplines."
+        },
+        {
+          "skill": "business-case",
+          "gewicht": 2,
+          "beleg": "Strong financial and business-case understanding, with the ability to assess whether an opportunity is genuinely worth pursuing."
+        },
+        {
+          "skill": "teamfuehrung",
+          "gewicht": 2,
+          "beleg": "Build the German team over time, hiring exceptional people and creating the culture, processes and infrastructure required to scale."
+        },
+        {
+          "skill": "strategie",
+          "gewicht": 2,
+          "beleg": "Shape the company's proposition for Germany, bringing local market intelligence and customer feedback into product and commercial strategy."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 2,
+          "beleg": "Fluent German and professional English."
+        }
+      ]
+    },
+    {
+      "id": "tgrc-commercial-origination-bess",
+      "firma": "The Green Recruitment Company (Endkunde nicht genannt, Energiespeicher)",
+      "titel": "Commercial Origination Manager – BESS",
+      "ort": "Deutschland / 100 % remote",
+      "beworben_am": "2026-09-10",
+      "status": "beworben",
+      "quelle": "Applications/TGRC_CommercialOriginationManager_BESS/Stellenausschreibung_TGRC_CommercialOriginationManager_BESS.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "bess",
+          "gewicht": 3,
+          "beleg": "Essential: proven experience with BESS tolling agreements, including structuring, negotiating and/or executing tolling arrangements."
+        },
+        {
+          "skill": "strommarkt",
+          "gewicht": 3,
+          "beleg": "Strong understanding of German power markets, energy trading, ancillary services and route-to-market structures."
+        },
+        {
+          "skill": "deal-origination",
+          "gewicht": 3,
+          "beleg": "Lead commercial origination activity across the German BESS market."
+        },
+        {
+          "skill": "verhandlung",
+          "gewicht": 3,
+          "beleg": "Structure and negotiate route-to-market agreements, including floors, tolling and hybrid structures."
+        },
+        {
+          "skill": "investment-screening",
+          "gewicht": 3,
+          "beleg": "Identify, originate and assess new BESS investment and commercial opportunities."
+        },
+        {
+          "skill": "sprache-deutsch",
+          "gewicht": 3,
+          "beleg": "Fluent German and English essential."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 3,
+          "beleg": "Fluent German and English essential."
+        },
+        {
+          "skill": "business-case",
+          "gewicht": 2,
+          "beleg": "Experience assessing investment opportunities and/or financial modelling is a plus."
+        },
+        {
+          "skill": "partnerschaften",
+          "gewicht": 2,
+          "beleg": "Build and manage relationships with optimisers, route-to-market providers, customers and other market participants."
+        },
+        {
+          "skill": "pitching",
+          "gewicht": 2,
+          "beleg": "Present commercial opportunities and recommendations to senior management."
+        },
+        {
+          "skill": "business-development",
+          "gewicht": 2,
+          "beleg": "3+ years' experience in commercial development, origination or business development within energy, utilities, BESS, flexible assets or commodity trading."
+        },
+        {
+          "skill": "stakeholder",
+          "gewicht": 1,
+          "beleg": "Work closely with investment, development, technical and asset management teams."
+        }
+      ]
+    },
+    {
+      "id": "michaelpage-bdm-utilities",
+      "firma": "Michael Page für ein internationales Technologieunternehmen (Bereich Digital Power, Arbeitgeber nicht genannt)",
+      "titel": "Business Development Manager Utilities (m/w/d), Ref. JN-092026-7098803",
+      "ort": "Deutschland / Remote",
+      "beworben_am": "2026-09-10",
+      "status": "beworben",
+      "quelle": "Applications/MichaelPage_BDM_Utilities_DigitalPower/Stellenausschreibung_MichaelPage_BDM_Utilities.md",
+      "quelle_typ": "stellenanzeige",
+      "anforderungen": [
+        {
+          "skill": "business-development",
+          "gewicht": 3,
+          "beleg": "Entwicklung und Umsetzung von Business-Development-Strategien für den deutschen Utilities- und Stadtwerke-Markt."
+        },
+        {
+          "skill": "anlagentechnik",
+          "gewicht": 3,
+          "beleg": "Abgeschlossenes Hochschulstudium in Elektrotechnik, Energietechnik, elektrischer Energietechnik oder einer vergleichbaren technischen Fachrichtung – ein elektrotechnischer Studienabschluss ist für diese Position zwingend relevant."
+        },
+        {
+          "skill": "energiesysteme",
+          "gewicht": 3,
+          "beleg": "Fundiertes Verständnis der elektrischen Energieversorgung und moderner Energieinfrastrukturen."
+        },
+        {
+          "skill": "key-account",
+          "gewicht": 3,
+          "beleg": "Identifikation und Erschließung neuer Geschäftsmöglichkeiten bei Stadtwerken, Energieversorgern und kommunalen Unternehmen."
+        },
+        {
+          "skill": "sprache-deutsch",
+          "gewicht": 3,
+          "beleg": "Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift."
+        },
+        {
+          "skill": "verhandlung",
+          "gewicht": 2,
+          "beleg": "Aufbau und Pflege langfristiger Beziehungen zu Geschäftsführungen, technischen Leitern, Netzbetreibern, Energie- und Digitalisierungsverantwortlichen."
+        },
+        {
+          "skill": "bess",
+          "gewicht": 2,
+          "beleg": "Verständnis für Themen wie Energieverteilung, Mittel- und Niederspannung, Batteriespeicher, Energiemanagement, Netzmodernisierung und Digitalisierung."
+        },
+        {
+          "skill": "partnerschaften",
+          "gewicht": 2,
+          "beleg": "Aufbau eines strategischen Partnernetzwerks innerhalb der deutschen Energiewirtschaft."
+        },
+        {
+          "skill": "pitching",
+          "gewicht": 2,
+          "beleg": "Durchführung von Kundenterminen, Workshops, Präsentationen und technischen Fachgesprächen."
+        },
+        {
+          "skill": "sprache-englisch",
+          "gewicht": 2,
+          "beleg": "Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift."
+        },
+        {
+          "skill": "business-case",
+          "gewicht": 1,
+          "beleg": "Idealerweise Erfahrung mit Investitionsprojekten und Entscheidungsprozessen innerhalb von Stadtwerken und Energieversorgungsunternehmen."
+        },
+        {
+          "skill": "tech-scouting",
+          "gewicht": 1,
+          "beleg": "Beobachtung von Markt-, Technologie- und Regulierungstrends und Ableitung neuer Geschäftspotenziale."
+        },
+        {
+          "skill": "reporting",
+          "gewicht": 1,
+          "beleg": "Aufbau und Management einer nachhaltigen Sales-Pipeline sowie Verantwortung für Umsatz- und Wachstumsziele."
         }
       ]
     }

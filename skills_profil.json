@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "profil": "anonymisiert",
-  "stand": "02.09.2026, 15:24 Uhr (Europe/Berlin)",
-  "quelle": "plans/candidate_profile.md (Berufserfahrung, Ausbildung, Patente, Sprachen) + strategische Positionierung 'Target Roles / Role Preferences' vom 2026-07-20",
-  "hinweis": "Startwerte sind aus dem Profil abgeleitet, nicht gemessen. In skills_matrix.html anpassen und per Export wieder hierher speichern.",
+  "stand": "20.09.2026 (Europe/Berlin)",
+  "quelle": "plans/candidate_profile.md (Berufserfahrung, Ausbildung, Patente, Sprachen) + die stehenden Korrekturen aus dem Projektgedächtnis (MBA-Schwerpunkt Außenwirtschaft 01.09.2026, elektrotechnische Seite 10.09.2026, Transaktionserfahrung 17.09.2026, Präsentationen als Gründertätigkeit 20.09.2026) + die Anforderungsprofile der letzten 20 Bewerbungen aus stellen_profile.json",
+  "hinweis": "Startwerte sind aus dem Profil abgeleitet, nicht gemessen. In skills_matrix.html anpassen und per Export wieder hierher speichern. Stand 20.09.2026: vier Skills ergänzt (strommarkt, bess, pitching, pl-aufbau), Wasserstoff und Prozesswärme im Wollen gesenkt, M&A und Energiesystemtechnik im Können nachgezogen.",
   "skala": {
     "min": 0,
     "max": 10,
@@ -270,9 +270,9 @@
       "id": "ma",
       "cluster": "finance",
       "label": "M&A / Transaktionen",
-      "koennen": 2,
+      "koennen": 4,
       "wollen": 3,
-      "quelle": "Nur Grundkenntnisse - laut Profil ausdrücklich nicht als Stärke positionieren",
+      "quelle": "Korrektur vom 17.09.2026: Die Transaktionserfahrung kommt aus dem Startup-Kontext – als Startup haben sie die Unterlagen für die Due Diligence von Investoren vorbereitet, also die Zielseite, nicht die Käuferseite. Daneben Projektfinanzierung und Konsortialstrukturierung für Energieanlagen. Nicht belegt: Due Diligence auf der Käuferseite, Unternehmensbewertung als Arbeitsergebnis, Steuerung eines Corporate-M&A-Prozesses in einer großen Organisation. Können deshalb von 2 auf 4. Harter Ausschluss nur, wenn Corporate M&A der Rollenkern ist.",
       "keywords": [
         "m&a",
         "mergers",
@@ -359,8 +359,8 @@
       "cluster": "tech",
       "label": "Wasserstofftechnologien (LOHC, Brenner, H2-Wärme)",
       "koennen": 9,
-      "wollen": 7,
-      "quelle": "Wasserstoffbrenner für LOHC (FAU), Patent 'Düsencluster', H2-Absorptionswärmepumpe (TH Nürnberg), NextHeat",
+      "wollen": 3,
+      "quelle": "Wasserstoffbrenner für LOHC (FAU), Patent 'Düsencluster', H2-Absorptionswärmepumpe (TH Nürnberg), NextHeat | 20.09.2026: Wollen von 7 auf 3 gesenkt. Am 01.09.2026 hat der Kandidat den Vertrieb von Elektrolyseuren und Green-Hydrogen-Projekten ausgeschlossen („I don't believe in this business case anymore“); der Country-Manager-Track schließt Wasserstoff und Brennstoffzelle ebenfalls aus. Als Beleg – Marktmodellierung, Regulatorik, Technologiebewertung – bleibt das Feld stark, als Zielmarkt nicht mehr.",
       "keywords": [
         "wasserstoff",
         "hydrogen",
@@ -375,8 +375,8 @@
       "cluster": "tech",
       "label": "Industrielle Prozesswärme & Dekarbonisierung",
       "koennen": 9,
-      "wollen": 7,
-      "quelle": "Kerngeschäft NextHeat: Dekarbonisierung energieintensiver Industrieprozesse",
+      "wollen": 4,
+      "quelle": "Kerngeschäft NextHeat: Dekarbonisierung energieintensiver Industrieprozesse | 20.09.2026: Wollen von 7 auf 4 gesenkt. Industrielle Prozesswärme läuft mit, ist aber kein Zielsegment mehr.",
       "keywords": [
         "prozesswärme",
         "dekarbonisierung",
@@ -420,9 +420,9 @@
       "id": "energiesysteme",
       "cluster": "tech",
       "label": "Energiesystemtechnik & Netzplanung",
-      "koennen": 6,
+      "koennen": 7,
       "wollen": 4,
-      "quelle": "Softwarepaket zur Verteilungsnetzplanung (Uni Cagliari); M.Sc. Energietechnik",
+      "quelle": "Softwarepaket zur Verteilungsnetzplanung (Uni Cagliari); M.Sc. Energietechnik | 10.09.2026 nach oben korrigiert: elektrotechnische Grundlagen aus dem M.Sc. an der Fakultät für Elektrotechnik (Cagliari), Mitwirkung an einem Softwarepaket zur Verteilungsnetzplanung, dazu Leistungselektronik und die Netzanschlussanforderungen der Netzbetreiber aus den Elektrolyseprojekten. Als vorhandene Kompetenz zu formulieren, nicht als Zugeständnis. Der Ausschluss elektrotechnischer Kernrollen gilt für die Stellenauswahl weiter – Wollen bleibt 4.",
       "keywords": [
         "energiesystem",
         "netzplanung",
@@ -434,7 +434,7 @@
     {
       "id": "speicher",
       "cluster": "tech",
-      "label": "Thermische Speicher & CSP",
+      "label": "Thermische Speicher & CSP (nicht Batterie)",
       "koennen": 6,
       "wollen": 4,
       "quelle": "Wirbelschicht-Wärmespeicher für CSP-Anlagen (Elianto Srl, 2008)",
@@ -589,10 +589,10 @@
     {
       "id": "pl-verantwortung",
       "cluster": "leadership",
-      "label": "P&L-Verantwortung laufender Einheit",
+      "label": "P&L-Verantwortung laufender Einheit (Bestandsgeschäft)",
       "koennen": 7,
       "wollen": 3,
-      "quelle": "Als CEO getragen - laut Positionierung vom 2026-07-20 aber ausdrücklich nicht mehr gesucht",
+      "quelle": "Als CEO getragen - laut Positionierung vom 2026-07-20 aber ausdrücklich nicht mehr gesucht | 20.09.2026 aufgeteilt: Dieser Eintrag meint ausdrücklich das Führen einer bestehenden Einheit; Wollen bleibt 3. Der Aufbaufall steht separat unter „pl-aufbau“.",
       "keywords": [
         "p&l",
         "ergebnisverantwortung",
@@ -726,6 +726,82 @@
         "spanisch",
         "spanish",
         "b2"
+      ]
+    },
+    {
+      "id": "strommarkt",
+      "cluster": "tech",
+      "label": "Strommarkt & Marktintegration (Fahrplan, Regelleistung, Netzentgelte)",
+      "koennen": 7,
+      "wollen": 8,
+      "quelle": "Eigenes Dispatch- und Erlösmodell: Elektrolyseur-Fahrweise im 15-Minuten-Takt gegen Strompreisprognose und Kundenlastprofil, Erlös- und Wirtschaftlichkeitsrechnung über zehn Jahre. Vermarktungspfade Day-Ahead, Intraday und Sekundärregelleistung im Modell abgebildet. Netzentgeltsystematik einschließlich AgNeS-Verfahren aktiv verfolgt – NextHeat ist an einer Änderung in genau diesem Feld gescheitert. Nicht belegt: Handelspraxis, Portfoliomanagement, PPA-Strukturierung über Grundlagen hinaus. Neu aufgenommen am 20.09.2026; steckte bisher in keinem Skill, ist aber die tragende Brücke zu BESS-Rollen.",
+      "keywords": [
+        "strommarkt",
+        "power market",
+        "day-ahead",
+        "intraday",
+        "regelleistung",
+        "ancillary services",
+        "netzentgelte",
+        "fahrplanoptimierung",
+        "dispatch",
+        "route to market",
+        "energy trading",
+        "merchant"
+      ]
+    },
+    {
+      "id": "bess",
+      "cluster": "tech",
+      "label": "Batteriespeicher (BESS) – Markt & Geschäftsmodell",
+      "koennen": 4,
+      "wollen": 9,
+      "quelle": "Kein eigenes Batteriespeicherprojekt, keine Zelltechnik, keine Tolling-Verträge. Belastbar ist die Marktintegrationsanalogie Elektrolyseur/BESS: flexible Leistung am selben Erlösstapel, Fahrplanoptimierung, Regelleistungsvermarktung, Netzentgelte und Anschlussleistung als Kostentreiber – des Kandidaten eigenes Argument. Zielmarkt von sechs der letzten 20 Bewerbungen (Fluence, TGRC zweimal, JA Solar, LONGi, Hunter Philips). Können bewusst auf 4: Marktlogik und Vermarktung ja, Projekt- und Produkterfahrung nein. Angelegt am 20.09.2026 auf des Kandidaten Entscheidung.",
+      "keywords": [
+        "bess",
+        "batteriespeicher",
+        "battery energy storage",
+        "energiespeicher",
+        "utility-scale storage",
+        "tolling",
+        "speicherprojekt",
+        "flexible assets"
+      ]
+    },
+    {
+      "id": "pitching",
+      "cluster": "commercial",
+      "label": "Pitching & Präsentation (Investoren, Kunden, Bühne)",
+      "koennen": 8,
+      "wollen": 7,
+      "quelle": "In beiden Startups selbst verantwortet: Investorenpitches in den eigenen Finanzierungsrunden, Kundenpräsentationen und Vorträge auf Veranstaltungen (INNOVA und NextHeat). Am 20.09.2026 ausdrücklich als eigene Gründertätigkeit geklärt – Präsentationserstellung ist bei ihm kein Assistenzzuschnitt und in Bewerbungen als Kompetenz verwendbar.",
+      "keywords": [
+        "präsentation",
+        "pitch",
+        "investorenpitch",
+        "vortrag",
+        "workshop",
+        "executive meeting",
+        "customer-facing materials",
+        "konferenz"
+      ]
+    },
+    {
+      "id": "pl-aufbau",
+      "cluster": "leadership",
+      "label": "P&L & Ergebnisverantwortung im Aufbau (neue Einheit, Landesgesellschaft)",
+      "koennen": 7,
+      "wollen": 9,
+      "quelle": "Zwei eigene Gesellschaften von null aufgebaut und geführt – INNOVA in Brasilien als Lizenznehmer einer italienischen Technologie, NextHeat in Deutschland als TH-Nürnberg-Ausgründung; jeweils Ergebnisverantwortung, Budget und Einstellung. Angelegt am 20.09.2026, weil der bestehende Eintrag „P&L-Verantwortung laufender Einheit“ (Wollen 3) dem Country-Manager-Track vom 12.09.2026 widersprach, der ausschließlich Rollen mit P&L, Budget und Einstellungsbefugnis zulässt, und dem Karriereplan (Country Manager, Leitung einer Neugeschäftseinheit). des Kandidaten Entscheidung vom 20.09.2026: Aufbau ja, laufende Einheit nein.",
+      "keywords": [
+        "p&l",
+        "country manager",
+        "general manager",
+        "landesgesellschaft",
+        "geschäftsaufbau",
+        "entity",
+        "ergebnisverantwortung",
+        "build from scratch"
       ]
     }
   ]
