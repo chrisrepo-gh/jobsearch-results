@@ -17,7 +17,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003207407-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "brodos-key-account-manager-grosskunden",
@@ -36,7 +36,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003781164-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "diehl-metering-sales-manager-bayern-ost",
@@ -55,7 +55,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003435879-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "ibc-solar-strategischer-einkaeufer",
@@ -74,7 +74,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003446225-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "iem-contract-claim-manager",
@@ -93,7 +93,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208028321-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "innomotics-global-e-business-operations-manager",
@@ -112,7 +112,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18847-44470704-928-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "mitel-key-account-manager",
@@ -131,7 +131,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003797424-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "sav-technischer-vertriebsmitarbeiter",
@@ -150,7 +150,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003718642-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-mobility-contract-manager-rolling-stock",
@@ -169,7 +169,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1630382-1-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "danish-industry-sales-business-development-manager-hydrogen-mobility",
@@ -190,7 +190,7 @@
       "gesehen_am": "2026-10-05",
       "track": "haupt",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "cgs-go-to-market-sales-manager-bess",
@@ -211,7 +211,7 @@
       "gesehen_am": "2026-10-05",
       "track": "haupt",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-sales-manager-facts-statcom",
@@ -223,7 +223,7 @@
       "fit_score": 85,
       "first_seen": "2026-10-05",
       "last_seen": "2026-10-05",
-      "status": "open",
+      "status": "rejected",
       "match_note": "Technischer Vertrieb von FACTS-Turnkey-Projekten (STATCOM). Innovation_room mittel (Marktentwicklung). Impact Class A: Netzstabilisierung zur Integration Erneuerbarer Energien.",
       "impact_class": "A",
       "innovation_room": "mittel",
@@ -232,7 +232,9 @@
       "gesehen_am": "2026-10-05",
       "track": "haupt",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-05",
+      "rejected_reason": "not enough experience acquiring very big projects and little technical expertise in this field",
+      "rejected_by": "manuell"
     },
     {
       "id": "ibc-solar-technischer-vertriebssupport",
@@ -251,7 +253,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003139693-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "roedl-business-project-manager-crm",
@@ -270,7 +272,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000975638-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "cherry-projektmanager-telematikinfrastruktur",
@@ -289,7 +291,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207790732-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "dv-immobilien-projektleiter-tiefbau",
@@ -308,7 +310,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19450-N1GFkNj2-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "dv-immobilien-senior-projektleiter-tga",
@@ -327,7 +329,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19450-FVnKLrMM-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "bosch-business-process-manager",
@@ -346,7 +348,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF295906P-91301e6-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "roedl-senior-business-change-manager",
@@ -365,7 +367,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002864586-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "roedl-senior-sap-projektmanager",
@@ -384,7 +386,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002001506-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-expert-converter-systems",
@@ -403,7 +405,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-428774394-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-gas-turbine-control",
@@ -422,7 +424,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-442750206-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "tennet-ingenieur-netzanschlussregeln",
@@ -441,7 +443,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208037073-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "engineering-people-projektleiter-hoch-und-tiefbau-umspannwerke",
@@ -460,7 +462,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12727-NU1383654-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "personalisten-area-sales-manager-sued-flachdach",
@@ -479,7 +481,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14001-9252-1793878-0-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "thyssenkrupp-account-manager-vertriebsbereich-ne-metalle",
@@ -498,7 +500,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-971124-008-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "roedl-gmbh-rag-stbg-associate-audit-wirtschaftspruefung-energie",
@@ -517,7 +519,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003794385-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "akkodis-application-manager",
@@ -536,7 +538,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-645657-7878-6363-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "hardy-barth-service-after-sales-manager",
@@ -578,7 +580,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "haupt"
     },
     {
@@ -592,14 +594,14 @@
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
       "status": "open",
-      "match_note": "Strong fit for innovation/corporate venturing ('Aufbau') and strategy work in Transformation of Industry. Impact A. Innovation_room: hoch.",
+      "match_note": "Strong fit for innovation/corporate venturing ('Aufbau') and strategy work in Transformation of Industry. Impact A. Innovation_room: hoch. Hinweis: Titel ähnelt der Bewerbung im Ordner SiemensEnergy_InnovationManager_TI, aber nicht als eingereicht bestätigt.",
       "impact_class": "A",
       "innovation_room": "hoch",
       "link": "https://www.linkedin.com/jobs/view/4472589531/",
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "haupt"
     },
     {
@@ -612,14 +614,16 @@
       "fit_score": 85,
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
-      "status": "open",
+      "status": "rejected",
       "match_note": "Excellent fit for a transformation/carve-out 'build' role ('accompanying the carve-out', 'build a Center of Excellence'). Impact B: Revenue path (FP&A for standalone company); it exists to support the business's standalone success. Innovation_room: hoch.",
       "impact_class": "B",
       "innovation_room": "hoch",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-487267876-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-05",
+      "rejected_reason": "corporate experience necessary",
+      "rejected_by": "manuell"
     },
     {
       "id": "umweltbank-ag-produkt-und-prozessentwickler-m-w-d-finanzierung-erneuerbare",
@@ -639,7 +643,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "haupt"
     },
     {
@@ -652,7 +656,7 @@
       "fit_score": 65,
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
-      "status": "open",
+      "status": "rejected",
       "match_note": "Focus on sales and account management in transmission automation. Impact B: Enabling role; the transition depends on transmission grid connectivity. Innovation_room: gering (execution focused).",
       "impact_class": "B",
       "innovation_room": "gering",
@@ -661,7 +665,9 @@
       "gesehen_am": "2026-10-05",
       "link_verified": true,
       "verified_on": "2026-10-05",
-      "track": "haupt"
+      "track": "haupt",
+      "rejected_reason": "I don't have this: many years of experience in protection, control and substation automation projects, backed by deep familiarity with cutting-edge technologies such as virtualization, digital substations, cybersecurity, and process bus",
+      "rejected_by": "manuell"
     },
     {
       "id": "adesso-business-consulting-ag-business-developer-utilities-all-genders",
@@ -681,7 +687,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "haupt"
     },
     {
@@ -701,7 +707,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-486816584-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -743,7 +749,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-2927-1797992-0-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -763,7 +769,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1636435-1-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -827,7 +833,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-457879835-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -869,7 +875,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-447168652-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -904,14 +910,16 @@
       "fit_score": 85,
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
-      "status": "open",
+      "status": "rejected",
       "match_note": "Starke Übereinstimmung mit technischem Hintergrund und Fokus auf Dekarbonisierung. Aufgaben umfassen Machbarkeitsstudien, Wärmekonzepte und Wirtschaftlichkeitsanalysen für Biogas/H2/Speicher – direkt auf dem technologischen Pfad. Impact Class A, da direkter Fokus auf erneuerbare Energieversorgung. Innovation Room 'mittel', da konzeptionelle Entwicklung von Lösungen gefordert.",
       "impact_class": "A",
       "innovation_room": "mittel",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003751093-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-05",
+      "rejected_reason": "Junior Role",
+      "rejected_by": "manuell"
     },
     {
       "id": "davero-dialog-mitarbeiter-kundenservice-energie",
@@ -996,7 +1004,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-484576695-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1016,7 +1024,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003745770-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-ag-service-line-head-for-data-driven-services",
@@ -1035,7 +1043,7 @@
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/522272",
       "source": "karriereportal",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "gesehen_am": "2026-10-05",
       "track": "haupt"
     },
@@ -1056,7 +1064,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a68862001-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "lebenshilfe-it-koordinator",
@@ -1202,7 +1210,7 @@
       "source": "arbeitsagentur",
       "link_verified": true,
       "verified_on": "2026-09-18",
-      "rejected_reason": "Already applied",
+      "rejected_reason": "already applied",
       "rejected_by": "manuell"
     },
     {
@@ -1333,7 +1341,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "flexy-country-manager-deutschland",
@@ -1353,7 +1361,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "country_manager"
     },
     {
@@ -1374,7 +1382,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "owen-daniels-direct-sales-manager-ci-solar",
@@ -1394,7 +1402,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "taylor-hopkinson-project-ceo-germany-bess",
@@ -1414,7 +1422,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "country_manager"
     },
     {
@@ -1435,7 +1443,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "haupt"
     },
     {
@@ -1455,7 +1463,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-484988317-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1475,7 +1483,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-485016402-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1495,7 +1503,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-485016504-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1515,7 +1523,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-484520552-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1535,7 +1543,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002384455-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-program-lead-expert-community",
@@ -1597,7 +1605,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "gebruder-peters-projektleiter-elektrotechnik",
@@ -1682,7 +1690,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-15",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "ul-solutions-business-development-manager-renewables",
@@ -1788,7 +1796,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003707320-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-technology-scouting-innovation-manager",
@@ -1828,7 +1836,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-15",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-sales-manager-digitalisierung",
@@ -1848,7 +1856,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-15",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-sap-software-license-manager",
@@ -1933,7 +1941,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-441221415-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1975,7 +1983,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-454897547-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2083,7 +2091,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-467867483-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2234,7 +2242,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-3018-1798026-0-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2275,7 +2283,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1001357549-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "tic-projektleiter-betriebsleiter-elektrotechnik",
@@ -2338,7 +2346,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-441207705-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2446,7 +2454,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003704556-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2486,7 +2494,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1602890-1-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2550,7 +2558,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-467868124-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2614,7 +2622,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-457252108-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2634,7 +2642,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-448559046-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2654,7 +2662,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-449892595-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-global-gmbh-co-kg-mechanical-site-manager",
@@ -2673,7 +2681,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-455900988-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-service-solution-manager-facts-syncon",
@@ -2692,7 +2700,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-467113810-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "silbury-sales-development-manager",
@@ -2731,7 +2739,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-483255274-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "rosa-experts-sales-manager-bess",
@@ -2750,7 +2758,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14935-00011841_001-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-global-sales-manager-industry",
@@ -2769,7 +2777,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451690205-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-vertriebs-projektleiter-wartungsvertraege",
@@ -2788,7 +2796,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-429640550-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-commodity-manager-process-systems",
@@ -2807,7 +2815,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-450711637-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-product-lifecycle-manager-gis",
@@ -2846,7 +2854,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-456665385-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-sales-manager-small-steam-turbines",
@@ -2865,7 +2873,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-440925687-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-technical-sales-manager-service",
@@ -2884,7 +2892,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-440728869-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-product-portfolio-manager",
@@ -2903,7 +2911,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-467226311-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-senior-bid-manager-grid-solutions",
@@ -2922,7 +2930,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-449206038-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-sub-projektleiter-onshore",
@@ -2941,7 +2949,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-448767031-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-strategic-program-manager-digital",
@@ -2960,7 +2968,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-440173650-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-program-manager",
@@ -2979,7 +2987,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-461000766-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "michael-page-business-development-manager-utilites",
@@ -3064,7 +3072,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "track": "country_manager"
     },
     {
@@ -3104,7 +3112,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-49003-YF-S",
       "link_extern": "https://www.yourfirm.de/job/detail/YF-49003/?utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=000"
     },
@@ -3124,7 +3132,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002755680-S"
     },
     {
@@ -3143,7 +3151,7 @@
       "innovation_room": "hoch",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003542348-S"
     },
     {
@@ -3162,7 +3170,7 @@
       "innovation_room": "hoch",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000605083-S"
     },
     {
@@ -3181,7 +3189,7 @@
       "innovation_room": "hoch",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2318525-S",
       "link_extern": "https://www.finest-jobs.com/stellenanzeige/Experte-D-Markt-Und-Geschaeftsfeldentwicklung-Mark-1303825?cp=BA"
     },
@@ -3201,7 +3209,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003487180-S"
     },
     {
@@ -3284,7 +3292,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207667031-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "bdo-germany-senior-manager-deal-advisory-energy-power-utilities-w-m-d",
@@ -3296,7 +3304,7 @@
       "fit_score": 65,
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-12",
-      "status": "open",
+      "status": "rejected",
       "match_note": "BDO-Rolle in Deal Advisory Energie/Versorger. Impact B (finanzieller Enabler; existiert zur Finanzierung der Energiewende). Innovation: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel",
@@ -3304,7 +3312,9 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-05",
+      "rejected_reason": "ich habe nicht die Erfahrung in Financial Due Dilligence",
+      "rejected_by": "manuell"
     },
     {
       "id": "flexy-leader-du-courtage-en-nergie-country-manager-deutschland-gesch-fts",
@@ -3338,21 +3348,25 @@
     },
     {
       "id": "thost-projektmanagement-gmbh-ve2602-consultant-m-w-d-im-projektmanagement-der-energiewend",
-      "refnr": "manual:thost-projektmanagement-gmbh-ve2602-consultant-m-w-d-im-projektmanagement-der-energiewend",
+      "refnr": "12288-4954659097-S",
       "title": "#VE2602 | Consultant (m/w/d) im Projektmanagement der Energiewende",
       "company": "THOST Projektmanagement GmbH",
-      "location": "Nuremberg, Bavaria, Germany (Hybrid)",
+      "location": "Nürnberg, Mittelfranken",
       "category": "partial",
       "fit_score": 65,
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-12",
-      "status": "open",
+      "status": "rejected",
       "match_note": "Planen und Steuern von Energie-Projekten. Impact A: Direkte Umsetzung von Energiewende-Infrastruktur. Innovation: gering (Execution).",
       "impact_class": "A",
       "innovation_room": "gering",
-      "source": "karriereportal",
+      "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-09-10"
+      "verified_on": "2026-09-10",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4954659097-S",
+      "link_extern": "https://www.persy.jobs/persy/l/job-jo3xb-b",
+      "rejected_reason": "link funktioniert nicht",
+      "rejected_by": "manuell"
     },
     {
       "id": "deutsche-reihenhaus-planer-energieeffizientes-bauen",
@@ -3370,7 +3384,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003594208-S"
     },
     {
@@ -3409,7 +3423,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002537569-S"
     },
     {
@@ -3428,7 +3442,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003760122-S"
     },
     {
@@ -3447,7 +3461,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-469684960-S"
     },
     {
@@ -3487,7 +3501,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-482767757-S"
     },
     {
@@ -3506,7 +3520,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-1941706-S",
       "link_extern": "https://www.finest-jobs.com/stellenanzeige/Director-D-Transformation-Amp-Performance-Improvem-1180632?cp=BA"
     },
@@ -3526,7 +3540,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003031305-S"
     },
     {
@@ -3565,7 +3579,7 @@
       "innovation_room": "mittel",
       "source": "karriereportal",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/507900",
       "gesehen_am": "2026-09-18"
     },
@@ -3612,7 +3626,7 @@
     },
     {
       "id": "zollsoft-business-development-manager-kooperationen",
-      "refnr": "13635-029bab67_JB5238036-S",
+      "refnr": "13635-a94fcd96_JB5264912-S",
       "title": "Business Development Manager:in (Kooperationen)",
       "company": "zollsoft GmbH",
       "location": "Sachsen bei Ansbach",
@@ -3627,13 +3641,13 @@
       "source": "arbeitsagentur",
       "link_verified": false,
       "verified_on": "2026-10-02",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-029bab67_JB5238036-S",
-      "link_extern": "https://www.jobexport.de/job/5238036.html?exp=81&cid=029bab67-ec5d-4adf-8515-b309e6cf06e3",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-a94fcd96_JB5264912-S",
+      "link_extern": "https://www.jobexport.de/job/5264912.html?exp=81&cid=a94fcd96-c259-469a-9da6-499c67404709",
       "gone_reason": "Anzeige in der Stellendatenbank nicht mehr vorhanden"
     },
     {
       "id": "evo-sales-consultant-b2c",
-      "refnr": "10000-1202104947-S",
+      "refnr": "10000-1208165957-S",
       "title": "Sales Consultant B2C - erneuerbare Energien (m/w/d)",
       "company": "EVO Deutschland GmbH",
       "location": "Nürnberg, Mittelfranken",
@@ -3647,8 +3661,8 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1202104947-S"
+      "verified_on": "2026-10-06",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208165957-S"
     },
     {
       "id": "zalando-growth-strategy-manager",
@@ -3686,7 +3700,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4929608654-S",
       "link_extern": "https://www.persy.jobs/persy/l/job-jhmqs-b"
     },
@@ -3706,7 +3720,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000605378-S"
     },
     {
@@ -3725,7 +3739,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206623907-S"
     },
     {
@@ -3744,7 +3758,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-3063-1791758-0-S"
     },
     {
@@ -3763,7 +3777,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16752-r18415-S"
     },
     {
@@ -3782,7 +3796,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003444049-S"
     },
     {
@@ -3801,7 +3815,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002884991-S"
     },
     {
@@ -3820,7 +3834,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003062381-S"
     },
     {
@@ -3859,7 +3873,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-473585660-S"
     },
     {
@@ -3878,7 +3892,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-473564644-S"
     },
     {
@@ -3897,7 +3911,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-475813714-S"
     },
     {
@@ -3916,7 +3930,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-471754418-S"
     },
     {
@@ -3935,7 +3949,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-475701672-S"
     },
     {
@@ -3954,7 +3968,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-475968182-S"
     },
     {
@@ -3973,7 +3987,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-479239798-S"
     },
     {
@@ -3992,7 +4006,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-464807924-S"
     },
     {
@@ -4031,7 +4045,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-968250-008-S"
     },
     {
@@ -4050,7 +4064,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-466375089-S"
     },
     {
@@ -4461,7 +4475,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003404227-S"
     },
     {
@@ -4520,7 +4534,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13864963-S"
     },
     {
@@ -4558,7 +4572,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15835-0009030052a001-S"
     },
     {
@@ -4577,7 +4591,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-282175-S",
       "link_extern": "https://www.get-in-engineering.de/jobsuche/p282175?utm_source=arbeitsagentur&utm_medium=organic&utm_campaign=launch-basic"
     },
@@ -4637,7 +4651,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-479297925-S"
     },
     {
@@ -4656,7 +4670,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12601-12081-1788581-0-S"
     },
     {
@@ -4695,7 +4709,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12697-k10989.12060-S"
     },
     {
@@ -4714,7 +4728,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-439523674-S"
     },
     {
@@ -4733,7 +4747,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-446043372-S"
     },
     {
@@ -4792,7 +4806,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003781195-S"
     },
     {
@@ -4811,7 +4825,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18935-2036005-S"
     },
     {
@@ -5041,7 +5055,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-454889674-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-facts-after-sales-pm",
@@ -5060,7 +5074,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-433829042-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-project-manager-strategic-procurement-projects",
@@ -5079,7 +5093,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-457233183-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-engineering-project-manager-gas-turbines",
@@ -5098,7 +5112,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-438105375-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-graduate-electrical-engineer",
@@ -5117,7 +5131,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-455707167-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-commercial-project-manager-transformators",
@@ -5136,7 +5150,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-471191284-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-bid-manager-long-term-contracts",
@@ -5155,7 +5169,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-454732895-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-construction-procurement-strategy-expert",
@@ -5174,7 +5188,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-474821333-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-graduate-pm-factory-expansion",
@@ -5193,7 +5207,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451058565-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-graduate-pm-technical",
@@ -5212,7 +5226,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451632230-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-sales-strategy-coordinator",
@@ -5231,7 +5245,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-447383222-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-graduate-pmo-manager",
@@ -5250,7 +5264,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451632996-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-graduate-customer-success-manager",
@@ -5269,7 +5283,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451767756-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-graduate-op-excellence",
@@ -5288,7 +5302,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-450745568-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-produktmanager-ehs",
@@ -5307,7 +5321,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-459367038-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-project-manager-transformation-europe",
@@ -5326,7 +5340,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-461878418-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-engineering-innovation-manager",
@@ -5339,13 +5353,13 @@
       "first_seen": "2026-08-04",
       "last_seen": "2026-09-01",
       "status": "open",
-      "match_note": "Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels.",
+      "match_note": "Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels. Hinweis: Titel ähnelt der Bewerbung im Ordner SiemensEnergy_InnovationManager_TI, aber nicht als eingereicht bestätigt.",
       "impact_class": "B",
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-449172912-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-global-service-bid-tender-manager-battery",
@@ -5364,7 +5378,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451645779-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-product-manager-grid-assets",
@@ -5383,7 +5397,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-438713746-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-digital-strategy-consultant",
@@ -5402,7 +5416,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-448972822-S",
       "link_verified": true,
-      "verified_on": "2026-10-05"
+      "verified_on": "2026-10-06"
     },
     {
       "id": "siemens-energy-senior-strategy-manager-cybersecurity",
@@ -5434,14 +5448,15 @@
       "fit_score": 55,
       "first_seen": "2026-08-28",
       "last_seen": "2026-08-28",
-      "status": "open",
+      "status": "gone",
       "match_note": "Vertriebsführungsrolle für KI-Plattformen. Fokus auf ACV/ARR-Ziele. Da der Kandidat kein dedizierter Software-Vertriebsleiter ist, Score gedeckelt. Impact C. Innovation: mittel.",
       "impact_class": "C",
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
-      "link_verified": true,
+      "link_verified": false,
       "verified_on": "2026-10-05",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1623472-1-S"
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1623472-1-S",
+      "gone_reason": "Anzeige in der Stellendatenbank nicht mehr vorhanden"
     },
     {
       "id": "estw-strategischer-einkaeufer",
@@ -5493,7 +5508,7 @@
       "status": "open",
       "match_note": "Anzeigentext nicht abrufbar – Bewertung nur anhand des Titels. KG bereits beworben (Ordner SiemensEnergy_PPA).",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-474820012-S",
       "impact_class": "B",
@@ -5515,7 +5530,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-439522970-S"
     },
     {
@@ -5534,7 +5549,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003165344-S"
     },
     {
@@ -5553,7 +5568,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003783812-S"
     },
     {
@@ -5572,7 +5587,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2296118-S",
       "link_extern": "https://www.finest-jobs.com/stellenanzeige/Senior-Insights-Manager-D-Market-Strategy-Amp-Unde-1288652?cp=BA"
     },
@@ -6130,7 +6145,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-469702794-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "B",
       "innovation_room": "mittel"
     },
@@ -6723,7 +6738,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "match_note": "Manuell im Browser gesichtet am 2026-09-12. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "fit_score": 65,
       "impact_class": "A",
       "innovation_room": "hoch",
@@ -6744,7 +6759,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-15",
       "match_note": "Manuell im Browser gesichtet am 2026-09-15. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "A",
       "innovation_room": "hoch",
       "fit_score": 65
@@ -6764,7 +6779,7 @@
       "source": "arbeitsagentur",
       "gesehen_am": "2026-09-15",
       "match_note": "Manuell im Browser gesichtet am 2026-09-15. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "B",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -6824,7 +6839,7 @@
       "link": "https://www.linkedin.com/jobs/view/4455748882/",
       "link_verified": true,
       "category": "partial",
-      "status": "open",
+      "status": "rejected",
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
       "source": "karriereportal",
@@ -6833,7 +6848,9 @@
       "verified_on": "2026-10-05",
       "impact_class": "A",
       "innovation_room": "mittel",
-      "fit_score": 65
+      "fit_score": 65,
+      "rejected_reason": "power plant controll experience required",
+      "rejected_by": "manuell"
     },
     {
       "id": "n-ergie-referent-ki-digitale-transformation-im-kundenservice-m-w-d",
@@ -6850,7 +6867,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "match_note": "Manuell im Browser gesichtet am 2026-09-18. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "C",
       "innovation_room": "gering",
       "fit_score": 65
@@ -6870,7 +6887,7 @@
       "source": "arbeitsagentur",
       "gesehen_am": "2026-09-18",
       "match_note": "Manuell im Browser gesichtet am 2026-09-18. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "A",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -6890,7 +6907,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "match_note": "Manuell im Browser gesichtet am 2026-09-18. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "A",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -6910,7 +6927,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "match_note": "Manuell im Browser gesichtet am 2026-09-18. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "B",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -6930,7 +6947,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
       "match_note": "Manuell im Browser gesichtet am 2026-09-18. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "B",
       "innovation_room": "gering",
       "fit_score": 65
@@ -6950,7 +6967,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "B",
       "innovation_room": "mittel",
       "fit_score": 65,
@@ -6971,7 +6988,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "C",
       "innovation_room": "mittel",
       "fit_score": 65,
@@ -6992,7 +7009,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-01",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "A",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -7012,7 +7029,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-01",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-05",
+      "verified_on": "2026-10-06",
       "impact_class": "B",
       "innovation_room": "hoch",
       "fit_score": 65
@@ -7026,7 +7043,7 @@
       "link": "https://www.linkedin.com/jobs/view/4407843850/",
       "link_verified": true,
       "category": "partial",
-      "status": "open",
+      "status": "rejected",
       "first_seen": "2026-10-05",
       "last_seen": "2026-10-05",
       "source": "karriereportal",
@@ -7035,7 +7052,10 @@
       "verified_on": "2026-10-05",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "fit_score": 65
+      "fit_score": 65,
+      "track": "haupt",
+      "rejected_reason": "rather for a consultant, not a business development expert",
+      "rejected_by": "manuell"
     },
     {
       "id": "kigyo-head-of-project-development-solar-bess",
@@ -7046,7 +7066,7 @@
       "link": "https://www.linkedin.com/jobs/view/4469712575/",
       "link_verified": true,
       "category": "partial",
-      "status": "open",
+      "status": "rejected",
       "first_seen": "2026-10-05",
       "last_seen": "2026-10-05",
       "source": "karriereportal",
@@ -7055,7 +7075,10 @@
       "verified_on": "2026-10-05",
       "impact_class": "A",
       "innovation_room": "hoch",
-      "fit_score": 65
+      "fit_score": 65,
+      "track": "haupt",
+      "rejected_reason": "I don't have much experience in project development",
+      "rejected_by": "manuell"
     },
     {
       "id": "fuse-energy-infrastructure-development-lead-europe",
@@ -7066,7 +7089,7 @@
       "link": "https://www.linkedin.com/jobs/view/4451548981/",
       "link_verified": true,
       "category": "partial",
-      "status": "open",
+      "status": "rejected",
       "first_seen": "2026-10-05",
       "last_seen": "2026-10-05",
       "source": "karriereportal",
@@ -7075,41 +7098,44 @@
       "verified_on": "2026-10-05",
       "impact_class": "A",
       "innovation_room": "hoch",
-      "fit_score": 65
+      "fit_score": 65,
+      "track": "haupt",
+      "rejected_reason": "project development focus and high requirements",
+      "rejected_by": "manuell"
     }
   ],
   "letzter_lauf": {
-    "datum": "2026-10-05",
+    "datum": "2026-10-06",
     "api": {
       "suchbegriffe": 63,
       "treffer_je_begriff": {
         "Wasserstoff": 11,
         "Hydrogen": 1,
         "Dekarbonisierung": 119,
-        "Energiewirtschaft": 8,
-        "Energiewende": 217,
+        "Energiewirtschaft": 10,
+        "Energiewende": 218,
         "Energiemanager": 2,
         "Energy Manager": 104,
         "Prozesswärme": 1,
         "Business Development Energie": 4,
-        "Business Development": 198,
+        "Business Development": 197,
         "Origination": 0,
         "Projektleiter Energie": 30,
         "Projektfinanzierung": 4,
-        "Corporate Strategy": 21,
-        "Unternehmensstrategie": 15,
-        "Strategy Manager": 41,
+        "Corporate Strategy": 20,
+        "Unternehmensstrategie": 13,
+        "Strategy Manager": 40,
         "Organizational Development": 47,
-        "Transformation": 337,
+        "Transformation": 338,
         "Nachhaltigkeit Industrie": 16,
         "Net Zero": 2,
         "Consultant Energie": 4,
-        "Technischer Vertrieb Energietechnik": 15,
+        "Technischer Vertrieb Energietechnik": 14,
         "Produktmanager Energietechnik": 1,
         "Biomasse": 7,
         "Speicher Energie": 12,
         "Neues Geschäftsfeld": 5,
-        "New Business Development": 149,
+        "New Business Development": 148,
         "Markteintritt": 1,
         "Geschäftsfeldentwicklung": 2,
         "Energiespeicher": 4,
@@ -7118,7 +7144,7 @@
         "Speichertechnologie": 5,
         "Projektentwickler": 3,
         "Projektentwicklung": 38,
-        "Erneuerbare Energien": 110,
+        "Erneuerbare Energien": 111,
         "Investment Manager": 6,
         "Innovation Manager": 110,
         "Innovationsmanagement": 3,
@@ -7126,41 +7152,41 @@
         "Business Developer": 5,
         "Geschäftsentwicklung": 21,
         "Country Manager": 5,
-        "Go-to-Market": 23,
-        "Internationalisierung": 12,
+        "Go-to-Market": 22,
+        "Internationalisierung": 10,
         "Elektrifizierung": 7,
         "Wärmepumpe": 13,
-        "Wärmepumpen": 71,
-        "Fernwärme": 28,
+        "Wärmepumpen": 69,
+        "Fernwärme": 29,
         "Wärmenetze": 2,
         "Elektrolyse": 0,
         "Brennstoffzelle": 5,
         "Biogas": 12,
         "Batterie": 15,
         "Stromspeicher": 4,
-        "Klimaschutz": 31,
-        "CO2": 32,
-        "Kreislaufwirtschaft": 16,
+        "Klimaschutz": 32,
+        "CO2": 33,
+        "Kreislaufwirtschaft": 17,
         "Recycling": 44,
         "Circular Economy": 2,
-        "Geschäftsführer": 16,
+        "Geschäftsführer": 18,
         "Managing Director": 0,
         "General Manager": 5
       },
       "abgeschnitten": [],
-      "anzeigen_gesehen": 1080,
-      "nach_vorfilter": 343
+      "anzeigen_gesehen": 1082,
+      "nach_vorfilter": 344
     },
     "manuell_uebernommen": 22,
-    "kandidaten_gesamt": 365,
-    "schon_im_dashboard": 213,
-    "kuerzlich_unter_50": 55,
+    "kandidaten_gesamt": 366,
+    "schon_im_dashboard": 229,
+    "kuerzlich_unter_50": 76,
     "ueber_obergrenze_gekappt": 0,
-    "neu_bewertet": 97,
-    "neu_mit_text": 97,
+    "neu_bewertet": 61,
+    "neu_mit_text": 61,
     "neu_ohne_text": 0,
-    "neu_aufgenommen": 12,
-    "neu_unter_50": 23,
+    "neu_aufgenommen": 0,
+    "neu_unter_50": 1,
     "bloecke": 3,
     "bloecke_fehlgeschlagen": 2,
     "nachbewertung_warteschlange": 28,
@@ -7246,6 +7272,7 @@
     "19096-425204626-S": "2026-10-05",
     "20431-2325171-S": "2026-10-05",
     "10001-1003250210-S": "2026-10-05",
-    "12288-4953547358-S": "2026-10-05"
+    "12288-4953547358-S": "2026-10-05",
+    "10001-1003570172-S": "2026-10-06"
   }
 }
