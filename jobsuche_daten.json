@@ -1,6 +1,153 @@
 {
   "positions": [
     {
+      "id": "siemens-energy-facts-installation-cost-tender-engineer",
+      "refnr": "manual:dl-siemens-energy-facts-installation-cost-tender-engineer-f-m-d",
+      "title": "FACTS Installation Cost & Tender Engineer (f/m/d)",
+      "company": "Siemens Energy",
+      "location": "Erlangen / Bukarest (hybrid)",
+      "category": "partial",
+      "fit_score": 78,
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "status": "open",
+      "impact_class": "A",
+      "innovation_room": "mittel",
+      "match_note": "Dienstleister/Siemens-Track (Siemens Energy Grid Technologies Solutions, Job ID 299667): Erstellung von Installationskonzepten, Aufwandsschätzungen und Terminplänen für FACTS-Ausschreibungen (STATCOM, SynCon, BESS). Starke BESS- und FACTS-Relevanz (+15 Bonus), allerdings wird Installations-Engineering-Erfahrung gefordert. Impact Class A (Netzstabilität & Speicher), Innovation mittel.",
+      "link": "https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/FACTS-Installation-Cost-Tender-Engineer-f-m-d/299667",
+      "source": "karriereportal",
+      "gesehen_am": "2026-10-11",
+      "track": "dienstleister",
+      "link_verified": true,
+      "verified_on": "2026-10-11"
+    },
+    {
+      "id": "siemens-energy-commercial-project-manager",
+      "refnr": "manual:dl-siemens-energy-commercial-project-manager-m-f-d",
+      "title": "Commercial Project Manager (m/f/d)",
+      "company": "Siemens Energy",
+      "location": "Erlangen / Hamburg / Stuttgart",
+      "category": "partial",
+      "fit_score": 76,
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "status": "open",
+      "impact_class": "A",
+      "innovation_room": "gering",
+      "match_note": "Dienstleister/Siemens-Track (Siemens Energy Transformation of Industry, Job ID 303901): Kaufmännische Projektabwicklung im Anlagengeschäft von Angebot bis Abschluss (LOA-Prozesse, Vertragsverhandlungen). Passt gut zum kommerziellen Projekt-Track ohne tiefes Engineering. Impact Class A (Industriedekarbonisierung), Innovation gering.",
+      "link": "https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/Commercial-Project-Manager-m-f-d/303901",
+      "source": "karriereportal",
+      "gesehen_am": "2026-10-11",
+      "track": "dienstleister",
+      "link_verified": true,
+      "verified_on": "2026-10-11"
+    },
+    {
+      "id": "siemens-energy-experienced-commercial-project-manager",
+      "refnr": "manual:dl-siemens-energy-experienced-commercial-project-manager-m-f-d",
+      "title": "Experienced Commercial Project Manager (m/f/d)",
+      "company": "Siemens Energy",
+      "location": "Erlangen",
+      "category": "top",
+      "fit_score": 84,
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "status": "open",
+      "impact_class": "A",
+      "innovation_room": "mittel",
+      "match_note": "Dienstleister/Siemens-Track (Siemens Energy Grid Technologies, Job ID 301245): Kaufmännische Führung bei Akquise und Abwicklung komplexer HVDC- und FACTS-Serviceprojekte (Langzeit-Wartungsverträge). Hohe HVDC/FACTS-Relevanz (+10 Bonus) ohne tiefes Elektrotechnik-Engineering. Impact Class A (Netzinfrastruktur), Innovation mittel.",
+      "link": "https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/Experienced-Commercial-Project-Manager-m-f-d/301245",
+      "source": "karriereportal",
+      "gesehen_am": "2026-10-11",
+      "track": "dienstleister",
+      "link_verified": true,
+      "verified_on": "2026-10-11"
+    },
+    {
+      "id": "ferchau-projektingenieur-elektrotechnik-siemens",
+      "refnr": "manual:dl-ferchau-kunde-siemens-projektingenieur-elektrotechnik-nieder-und-mittelspannung-be",
+      "title": "Projektingenieur Elektrotechnik Nieder- und Mittelspannung bei Siemens (m/w/d)",
+      "company": "FERCHAU (Kunde: Siemens)",
+      "location": "Erlangen",
+      "category": "partial",
+      "fit_score": 60,
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "status": "open",
+      "impact_class": "B",
+      "innovation_room": "gering",
+      "match_note": "Dienstleister/Siemens-Track (FERCHAU, Vermittlung an Siemens Erlangen, Gehalt 55–70k €): Projektierung von NS-/MS-Versorgungsanlagen und Lastmanagement. Auf Score 60 gedeckelt wegen rein komponentennaher Elektro-Auslegung und Software-Werkzeuglücken (EPLAN, SIMARIS, AutoCAD). Impact Class B (Test bestanden: Rolle liegt direkt auf dem Technologiepfad der Netz- und Energieversorgung), Innovation gering.",
+      "link": "https://touch.ferchau.com/de/de/job/514021/projektingenieur-elektrotechnik-nieder-und-mittelspannung-bei-siemens",
+      "source": "karriereportal",
+      "gesehen_am": "2026-10-11",
+      "track": "dienstleister",
+      "link_verified": true,
+      "verified_on": "2026-10-11"
+    },
+    {
+      "id": "brunel-elektrotechnik-auftragsabwicklung",
+      "refnr": "manual:dl-brunel-kunde-nicht-genannt-elektrotechnik-auftragsabwicklung-w-m-d",
+      "title": "Elektrotechnik - Auftragsabwicklung (w/m/d)",
+      "company": "Brunel (Kunde nicht genannt)",
+      "location": "Erlangen",
+      "category": "partial",
+      "fit_score": 60,
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "status": "open",
+      "impact_class": "B",
+      "innovation_room": "gering",
+      "match_note": "Dienstleister/Siemens-Track (Brunel, mutmaßlicher Kunde Siemens aufgrund SIMARIS-Signal): Technische Auftragsabwicklung für MS-/NS-Schaltanlagen und Trafos. Auf 60 gedeckelt wegen komponentennaher Elektrotechnik-Auslegung und fehlender SIMARIS-Tiefe. Impact Class B (Test bestanden: Abwicklung liegt direkt auf dem Lieferpfad von Energieanlagen), Innovation gering.",
+      "link": "https://www.brunel.net/de-de/jobs/elektrotechnik-auftragsabwicklung-wmd-tr-300867",
+      "source": "karriereportal",
+      "gesehen_am": "2026-10-11",
+      "track": "dienstleister",
+      "link_verified": true,
+      "verified_on": "2026-10-11"
+    },
+    {
+      "id": "hofmann-personal-risikomanager-siemens",
+      "refnr": "manual:dl-hofmann-personal-kunde-siemens-risikomanager-f-r-siemens-m-w-d",
+      "title": "Risikomanager für Siemens (m/w/d)",
+      "company": "Hofmann Personal (Kunde: Siemens)",
+      "location": "Erlangen",
+      "category": "partial",
+      "fit_score": 50,
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "status": "open",
+      "impact_class": "B",
+      "innovation_room": "gering",
+      "match_note": "Dienstleister/Siemens-Track (Hofmann Personal, Kunde Siemens Erlangen): Risiko- und Chancenmanagement für internationale EPC-Turnkey-Großprojekte. Auf Score 50 gedeckelt nach Regel wegen explizit geforderter IPMA Level B Zertifizierung. Impact Class B (Test bestanden: Risikomanagement in der Abwicklung von Energieinfrastruktur-Projekten), Innovation gering.",
+      "link": "https://www.hofmann.info/jobs/stellenanzeige/Z4t5vT-risikomanager-fuer-siemens-mwd_91058-erlangen",
+      "source": "karriereportal",
+      "gesehen_am": "2026-10-11",
+      "track": "dienstleister",
+      "link_verified": true,
+      "verified_on": "2026-10-11"
+    },
+    {
+      "id": "siemens-energy-contract-claim-manager",
+      "refnr": "manual:dl-siemens-energy-contract-claim-manager-w-m-d",
+      "title": "Contract & Claim Manager (w/m/d)",
+      "company": "Siemens Energy",
+      "location": "Berlin / Erlangen",
+      "category": "partial",
+      "fit_score": 75,
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "status": "open",
+      "impact_class": "A",
+      "innovation_room": "gering",
+      "match_note": "Dienstleister/Siemens-Track (Siemens Energy Grid Technologies Substations Germany, Job ID 301240): Vertrags- und Nachtragsmanagement für schlüsselfertige Hochspannungsschaltanlagen über den gesamten Projektlebenszyklus. Gute kaufmännisch-vertragliche Projektrolle. Impact Class A (Netzinfrastruktur/Schaltanlagen), Innovation gering.",
+      "link": "https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/Contract-Claim-Manager-w-m-d/301240",
+      "source": "karriereportal",
+      "gesehen_am": "2026-10-11",
+      "track": "dienstleister",
+      "link_verified": true,
+      "verified_on": "2026-10-11"
+    },
+    {
       "id": "siemens-energy-technical-sales-manager",
       "refnr": "15170-488876621-S",
       "title": "Technical Sales Manager (f/m/d)",
@@ -17,7 +164,8 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-488876621-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "tintschl-technik-gmbh-business-development-engineer",
@@ -36,7 +184,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13869-13891239-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "1komma5-gmbh-auftragsmanagement-projektkoordination-disposition",
@@ -56,7 +204,7 @@
       "source": "arbeitsagentur",
       "link_extern": "https://www.jobexport.de/job/5265916.html?exp=81&cid=19f2a887-e467-4e9d-86e5-4f610a720241",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "scherer-staffing-projektterminplaner-project-planner-hgue",
@@ -76,7 +224,7 @@
       "source": "arbeitsagentur",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "ferchau-ingenieur-speichertechnik",
@@ -94,10 +242,10 @@
       "match_note": "Dienstleister-Track (FERCHAU). Auslegung von Batteriespeichern und Batterielösungen inklusive Netzintegration und wirtschaftlicher Bewertungen (starker Fit mit des Kandidaten Fokusgebiet Speichertechnik). Keine ausgeprägten Tool-Hürden.",
       "link": "https://touch.ferchau.com/de/de/job/498961/ingenieur-speichertechnik",
       "source": "karriereportal",
-      "gesehen_am": "2026-10-06",
+      "gesehen_am": "2026-10-11",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "scherer-staffing-projektingenieur-elektrische-gebaeudetechnik-tga-e",
@@ -109,15 +257,16 @@
       "fit_score": 60,
       "first_seen": "2026-10-07",
       "last_seen": "2026-10-07",
-      "status": "open",
+      "status": "gone",
       "impact_class": "B",
       "innovation_room": "gering",
       "match_note": "Dienstleister-Track (Scherer Staffing, vermuteter Endkunde Siemens Energy). Technische Detailplanung von TGA-E in Kraftwerksprojekten (CCTV, Beleuchtung, Verkabelung). Aufgrund des Fokus auf Elektro-Design greift der Cap von 60. Testfragen: Als enger technischer Zulieferungs-Enabler stützt die Rolle das Stromnetz, existiert jedoch auch unabhängig von der Energiewende.",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003689126-S",
       "source": "arbeitsagentur",
       "track": "dienstleister",
-      "link_verified": true,
-      "verified_on": "2026-10-09"
+      "link_verified": false,
+      "verified_on": "2026-10-09",
+      "gone_reason": "Anzeige in der Stellendatenbank nicht mehr vorhanden"
     },
     {
       "id": "scherer-staffing-projektingenieur-schutz-und-automatisierungstechnik",
@@ -137,7 +286,7 @@
       "source": "arbeitsagentur",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "engineering-people-projektplaner-ressourcen-und-terminmanagement",
@@ -157,28 +306,7 @@
       "source": "arbeitsagentur",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
-    },
-    {
-      "id": "brunel-elektrotechnik-auftragsabwicklung",
-      "refnr": "13645-287635-S",
-      "title": "Elektrotechnik - Auftragsabwicklung (w/m/d)",
-      "company": "Brunel",
-      "location": "Erlangen",
-      "category": "partial",
-      "fit_score": 58,
-      "first_seen": "2026-10-07",
-      "last_seen": "2026-10-07",
-      "status": "open",
-      "impact_class": "B",
-      "innovation_room": "gering",
-      "match_note": "Dienstleister-Track (Brunel). Technische Auslegung von E-Komponenten (Schaltanlagen, Transformatoren, Batterien). Tool-Lücke: SIMARIS. Starker Fokus auf Komponentenbeschaffung und Detail-Engineering (Cap bei 60). Testfragen: Wirkt als enger technischer Zulieferungs-Enabler für elektrische Netze und Kraftwerkskomponenten, die auch fossil betrieben werden.",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-287635-S",
-      "source": "arbeitsagentur",
-      "link_extern": "https://www.get-in-engineering.de/jobsuche/p287635?utm_source=arbeitsagentur&utm_medium=organic&utm_campaign=launch-premium",
-      "track": "dienstleister",
-      "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "scherer-staffing-terminplaner-projektgeschaeft-primavera-p6",
@@ -219,7 +347,7 @@
       "source": "arbeitsagentur",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "fau-geschaeftsstellenleitung-energie-campus-nuernberg-encn",
@@ -238,7 +366,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003813607-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "alten-ingenieur-substation-automation-system",
@@ -258,7 +386,7 @@
       "source": "arbeitsagentur",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "scherer-staffing-senior-terminplaner-lead-planner-hgue-projekte",
@@ -278,7 +406,7 @@
       "source": "arbeitsagentur",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "ferchau-terminplaner-hgue-grossprojekte-bei-siemens-energy",
@@ -296,10 +424,10 @@
       "match_note": "Dienstleister-Track (FERCHAU, Kunde Siemens Energy). Terminplanung für HGÜ-Anlagen mit Primavera P6 (Schnittstellen zu anderen Gewerken). Primavera P6 stellt eine Kern-Tool-Lücke dar. Inhaltlich identisch zu Ausschreibungen von Hofmann und Scherer.",
       "link": "https://touch.ferchau.com/de/de/job/520531/terminplaner-hgue-grossprojekte-bei-siemens-energy",
       "source": "karriereportal",
-      "gesehen_am": "2026-10-06",
+      "gesehen_am": "2026-10-11",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "hofmann-personal-projektplaner-fuer-siemens-hgue-projekte",
@@ -317,10 +445,10 @@
       "match_note": "Dienstleister-Track (Hofmann, Kunde Siemens). Erstellung von Projektzeitplänen für schlüsselfertige HGÜ-Anlagen. Primavera P6 ist zwingend erforderlich und stellt eine Lücke dar. Gleiche Ausschreibung wie bei Scherer und FERCHAU.",
       "link": "https://www.hofmann.info/jobs/stellenanzeige/1vwW2g-projektplaner-fuer-siemens-hgue-projekte-mwd_91058-erlangen",
       "source": "karriereportal",
-      "gesehen_am": "2026-10-06",
+      "gesehen_am": "2026-10-11",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "scherer-staffing-senior-risikomanager-internationale-grossprojekte",
@@ -340,7 +468,7 @@
       "source": "arbeitsagentur",
       "track": "dienstleister",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-business-developer-data-centers",
@@ -359,7 +487,8 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-439903919-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "mhb-montage-projektleiter-photovoltaikkraftwerke-ladeinfrastruktur",
@@ -378,7 +507,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002755761-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "bro-recruiting-projektingenieur-netzanschluss",
@@ -397,7 +526,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003207407-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "brodos-key-account-manager-grosskunden",
@@ -416,7 +545,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003819120-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "diehl-metering-sales-manager-bayern-ost",
@@ -435,7 +564,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003435879-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "ibc-solar-strategischer-einkaeufer",
@@ -454,7 +583,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003446225-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "iem-contract-claim-manager",
@@ -473,7 +602,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208028321-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "innomotics-global-e-business-operations-manager",
@@ -492,7 +621,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18847-44470704-928-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "mitel-key-account-manager",
@@ -531,7 +660,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003718642-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-mobility-contract-manager-rolling-stock",
@@ -550,7 +679,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1630382-1-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "danish-industry-sales-business-development-manager-hydrogen-mobility",
@@ -571,7 +700,7 @@
       "gesehen_am": "2026-10-05",
       "track": "haupt",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "cgs-go-to-market-sales-manager-bess",
@@ -592,7 +721,7 @@
       "gesehen_am": "2026-10-05",
       "track": "haupt",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-sales-manager-facts-statcom",
@@ -611,7 +740,7 @@
       "link": "https://www.linkedin.com/jobs/view/4470084181/",
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
-      "track": "haupt",
+      "track": "dienstleister",
       "link_verified": true,
       "verified_on": "2026-10-05",
       "rejected_reason": "not enough experience acquiring very big projects and little technical expertise in this field",
@@ -634,7 +763,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003139693-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "roedl-business-project-manager-crm",
@@ -653,7 +782,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000975638-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "cherry-projektmanager-telematikinfrastruktur",
@@ -672,7 +801,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207790732-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "dv-immobilien-projektleiter-tiefbau",
@@ -691,7 +820,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19450-N1GFkNj2-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "dv-immobilien-senior-projektleiter-tga",
@@ -710,7 +839,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19450-FVnKLrMM-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "bosch-business-process-manager",
@@ -729,7 +858,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF295906P-91301e6-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "roedl-senior-business-change-manager",
@@ -748,7 +877,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002864586-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "roedl-senior-sap-projektmanager",
@@ -767,7 +896,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002001506-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-expert-converter-systems",
@@ -786,7 +915,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-428774394-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-gas-turbine-control",
@@ -805,7 +934,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-442750206-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "tennet-ingenieur-netzanschlussregeln",
@@ -824,7 +953,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208037073-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "engineering-people-projektleiter-hoch-und-tiefbau-umspannwerke",
@@ -843,7 +972,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12727-NU1383654-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "track": "dienstleister"
     },
     {
@@ -863,7 +992,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14001-9252-1793878-0-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "thyssenkrupp-account-manager-vertriebsbereich-ne-metalle",
@@ -882,7 +1011,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-971124-008-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "roedl-gmbh-rag-stbg-associate-audit-wirtschaftspruefung-energie",
@@ -901,7 +1030,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003794385-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "akkodis-application-manager",
@@ -920,7 +1049,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-645657-7878-6363-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "hardy-barth-service-after-sales-manager",
@@ -962,7 +1091,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "track": "haupt"
     },
     {
@@ -983,8 +1112,8 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "track": "haupt"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-finance-transformation-manager",
@@ -1025,7 +1154,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "track": "haupt"
     },
     {
@@ -1069,7 +1198,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "track": "haupt"
     },
     {
@@ -1089,8 +1218,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-486816584-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-05"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-05",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-product-development-expert-sas",
@@ -1131,7 +1261,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-2927-1797992-0-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1151,7 +1281,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1636435-1-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1215,7 +1345,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-457879835-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1238,7 +1368,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Dokumentenmanagement und Datengovernance, operativer Fokus. Impact Class C."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Dokumentenmanagement und Datengovernance, operativer Fokus. Impact Class C.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-project-quality-manager",
@@ -1257,7 +1388,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-447168652-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1386,7 +1517,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-484576695-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1406,7 +1537,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003745770-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-ag-service-line-head-for-data-driven-services",
@@ -1425,7 +1556,7 @@
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/522272",
       "source": "karriereportal",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "gesehen_am": "2026-10-05",
       "track": "haupt"
     },
@@ -1446,7 +1577,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a68862001-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "lebenshilfe-it-koordinator",
@@ -1722,8 +1853,9 @@
       "link": "https://www.linkedin.com/jobs/view/4430427922/",
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
-      "link_verified": true,
-      "verified_on": "2026-10-09"
+      "link_verified": false,
+      "verified_on": "2026-10-09",
+      "unverified_streak": 1
     },
     {
       "id": "flexy-country-manager-deutschland",
@@ -1742,9 +1874,10 @@
       "link": "https://www.linkedin.com/jobs/view/4459855431/",
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
-      "link_verified": true,
+      "link_verified": false,
       "verified_on": "2026-10-09",
-      "track": "country_manager"
+      "track": "country_manager",
+      "unverified_streak": 1
     },
     {
       "id": "alpitronic-partnership-relations-manager",
@@ -1763,8 +1896,9 @@
       "link": "https://www.linkedin.com/jobs/view/4385731937/",
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
-      "link_verified": true,
-      "verified_on": "2026-10-09"
+      "link_verified": false,
+      "verified_on": "2026-10-09",
+      "unverified_streak": 1
     },
     {
       "id": "owen-daniels-direct-sales-manager-ci-solar",
@@ -1783,8 +1917,9 @@
       "link": "https://www.linkedin.com/jobs/view/4464988386/",
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
-      "link_verified": true,
-      "verified_on": "2026-10-09"
+      "link_verified": false,
+      "verified_on": "2026-10-09",
+      "unverified_streak": 1
     },
     {
       "id": "taylor-hopkinson-project-ceo-germany-bess",
@@ -1803,9 +1938,10 @@
       "link": "https://www.linkedin.com/jobs/view/4459193022/",
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
-      "link_verified": true,
+      "link_verified": false,
       "verified_on": "2026-10-09",
-      "track": "country_manager"
+      "track": "country_manager",
+      "unverified_streak": 1
     },
     {
       "id": "siemens-ag-service-line-head-strategic-services",
@@ -1825,7 +1961,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "track": "haupt"
     },
     {
@@ -1845,8 +1981,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-484988317-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-05"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-05",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-projektmanager-ais",
@@ -1865,8 +2002,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-485016402-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-05"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-05",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-projektmanager-gis",
@@ -1885,8 +2023,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-485016504-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-05"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-05",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-technical-program-manager",
@@ -1905,7 +2044,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-484520552-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -1925,7 +2064,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002384455-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-program-lead-expert-community",
@@ -1967,7 +2106,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Fokus auf Bauleitung und Bauplanung, operativ. Impact Class C."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Fokus auf Bauleitung und Bauplanung, operativ. Impact Class C.",
+      "track": "dienstleister"
     },
     {
       "id": "schaeffler-strategy-business-developm-professional-d-m-w",
@@ -1986,8 +2126,9 @@
       "link": "https://jobs.schaeffler.com/job/Herzogenaurach-Strategy-&-Business-Developm_-Professional-%28dmw%29-91074/1282030401/",
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
-      "link_verified": true,
-      "verified_on": "2026-10-09"
+      "link_verified": false,
+      "verified_on": "2026-10-09",
+      "unverified_streak": 1
     },
     {
       "id": "gebruder-peters-projektleiter-elektrotechnik",
@@ -2064,7 +2205,7 @@
       "fit_score": 60,
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
-      "status": "open",
+      "status": "gone",
       "match_note": "Interessantes Geschäftsfeld (BESS), aber die Kernanforderung an klassische deutsche Projektentwicklung (Flächensicherung/Bauleitverfahren) deckt sich mit dem Kandidaten's Ausschlusskriterien für reine Projektentwicklung (siehe Feedback BESS-Entwickler). impact_class: A, innovation_room: mittel.",
       "impact_class": "A",
       "innovation_room": "mittel",
@@ -2073,7 +2214,7 @@
       "gesehen_am": "2026-09-15",
       "link_verified": false,
       "verified_on": "2026-10-06",
-      "unverified_streak": 2
+      "unverified_streak": 3
     },
     {
       "id": "ul-solutions-business-development-manager-renewables",
@@ -2179,7 +2320,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003707320-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-technology-scouting-innovation-manager",
@@ -2199,7 +2340,8 @@
       "source": "arbeitsagentur",
       "link_verified": true,
       "verified_on": "2026-09-15",
-      "applied_folder": "SiemensEnergy_TechnologyScouting"
+      "applied_folder": "SiemensEnergy_TechnologyScouting",
+      "track": "dienstleister"
     },
     {
       "id": "saft-ess-project-manager",
@@ -2211,7 +2353,7 @@
       "fit_score": 60,
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
-      "status": "open",
+      "status": "gone",
       "match_note": "End-to-End Projektmanagement, Ausführungsfokus. impact_class: A, innovation_room: gering.",
       "impact_class": "A",
       "innovation_room": "gering",
@@ -2220,7 +2362,7 @@
       "gesehen_am": "2026-09-15",
       "link_verified": false,
       "verified_on": "2026-10-06",
-      "unverified_streak": 2
+      "unverified_streak": 3
     },
     {
       "id": "siemens-energy-sales-manager-digitalisierung",
@@ -2232,7 +2374,7 @@
       "fit_score": 75,
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
-      "status": "open",
+      "status": "gone",
       "match_note": "Vertriebsorientierte Rolle im Energieumfeld. impact_class: B (Enabler), revenue-path passend. innovation_room: mittel.",
       "impact_class": "B",
       "innovation_room": "mittel",
@@ -2241,7 +2383,7 @@
       "gesehen_am": "2026-09-15",
       "link_verified": false,
       "verified_on": "2026-10-06",
-      "unverified_streak": 2
+      "unverified_streak": 3
     },
     {
       "id": "siemens-energy-sap-software-license-manager",
@@ -2326,7 +2468,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-441221415-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2368,7 +2510,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-454897547-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2413,7 +2555,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Hard-Exclusion: Elektrotechnik-Tiefe (Schutztechnik)."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Hard-Exclusion: Elektrotechnik-Tiefe (Schutztechnik).",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-projektleiter-schutz-leittechnik-hochspannung-2",
@@ -2435,7 +2578,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Hard-Exclusion: Elektrotechnik-Tiefe (Schutztechnik)."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Hard-Exclusion: Elektrotechnik-Tiefe (Schutztechnik).",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-projektleiter-bautechnik",
@@ -2457,7 +2601,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Abwicklung Bautechnik-Gewerke in Großprojekten. Impact Class C."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Abwicklung Bautechnik-Gewerke in Großprojekten. Impact Class C.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-projektmanager-rohrleitung",
@@ -2476,8 +2621,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-467867483-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-05"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-05",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-proposal-manager-elektro-leittechnik",
@@ -2499,7 +2645,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Proposal-Management für E-/Leittechnik. Hard-Exclusion: Elektrotechnik-Tiefe."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Proposal-Management für E-/Leittechnik. Hard-Exclusion: Elektrotechnik-Tiefe.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-tax-assistant-manager",
@@ -2543,7 +2690,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Design-Governance für Software-Portfolio. Hard-Exclusion: Konzern-R&D/Product-Owner."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Design-Governance für Software-Portfolio. Hard-Exclusion: Konzern-R&D/Product-Owner.",
+      "track": "dienstleister"
     },
     {
       "id": "stierhof-heizung-sanitaer-elektromeister-projektleiter",
@@ -2627,7 +2775,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-3018-1798026-0-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2715,7 +2863,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Logistik-Projektmanagement für Großkomponenten. Impact Class C."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Logistik-Projektmanagement für Großkomponenten. Impact Class C.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-gmbh-co-kg-project-manager-external-customer-projects",
@@ -2734,8 +2883,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-441207705-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-05"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-05",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-gmbh-co-kg-projektingenieur-versorgungstechnik",
@@ -2757,7 +2907,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). TGA-Planung (mechanisch). Hard-Exclusion: Elektrotechnik-Tiefe/Technik-Fokus."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). TGA-Planung (mechanisch). Hard-Exclusion: Elektrotechnik-Tiefe/Technik-Fokus.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-gmbh-co-kg-proposal-procurement-logistics-project-manager",
@@ -2801,7 +2952,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Site Management; operative Vor-Ort-Leitung. Impact Class C."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Site Management; operative Vor-Ort-Leitung. Impact Class C.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-gmbh-co-kg-site-project-manager-worldwide",
@@ -2823,7 +2975,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Site Management; operative Vor-Ort-Leitung. Impact Class C."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 40 (unter 50). Site Management; operative Vor-Ort-Leitung. Impact Class C.",
+      "track": "dienstleister"
     },
     {
       "id": "martin-bauer-gmbh-co-kg-experte-lieferkettenmanagement",
@@ -2842,7 +2995,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003704556-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2882,7 +3035,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1602890-1-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -2927,7 +3080,8 @@
       "verified_on": "2026-10-05",
       "neu_bewertet_am": "2026-10-05",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Angebotsmanagement für Bauleistungen. Impact Class C."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-05, Fit-Score 45 (unter 50). Angebotsmanagement für Bauleistungen. Impact Class C.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-gmbh-co-kg-corporate-commodity-manager",
@@ -2946,8 +3100,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-467868124-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-05"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-05",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-gmbh-co-kg-data-quality-manager",
@@ -3010,7 +3165,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-457252108-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -3030,7 +3185,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-448559046-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-05"
     },
     {
@@ -3094,8 +3249,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-467113810-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "silbury-sales-development-manager",
@@ -3134,8 +3290,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-483255274-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "rosa-experts-sales-manager-bess",
@@ -3154,7 +3311,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14935-00011841_001-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "neu_bewertet_am": "2026-10-06"
     },
     {
@@ -3174,8 +3331,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451690205-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-vertriebs-projektleiter-wartungsvertraege",
@@ -3194,8 +3352,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-429640550-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-commodity-manager-process-systems",
@@ -3217,7 +3376,8 @@
       "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 35 (unter 50). Interne strategische Einkaufsrolle für Hilfssysteme fossiler Großkraftwerke (z. B. Wasseraufbereitung, Gasversorgung). Starker Mismatch zum Kandidatenprofil im Bereich Dekarbonisierung und externer Deal-Entwicklung."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 35 (unter 50). Interne strategische Einkaufsrolle für Hilfssysteme fossiler Großkraftwerke (z. B. Wasseraufbereitung, Gasversorgung). Starker Mismatch zum Kandidatenprofil im Bereich Dekarbonisierung und externer Deal-Entwicklung.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-product-lifecycle-manager-gis",
@@ -3256,8 +3416,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-456665385-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-sales-manager-small-steam-turbines",
@@ -3276,8 +3437,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-440925687-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-technical-sales-manager-service",
@@ -3296,8 +3458,9 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-440728869-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-product-portfolio-manager",
@@ -3341,7 +3504,8 @@
       "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 48 (unter 50). Ausschreibungsprozesse für FACTS-Systeme (Grid-Enabler im Vertriebspfad, Impact B). Erfordert sehr tiefes elektrotechnisches Fachwissen und ist ein stark standardisierter, abwicklungsorientierter Bid-Management-Prozess ohne eigene Marktgestaltungsfreiheit (Innovation gering)."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 48 (unter 50). Ausschreibungsprozesse für FACTS-Systeme (Grid-Enabler im Vertriebspfad, Impact B). Erfordert sehr tiefes elektrotechnisches Fachwissen und ist ein stark standardisierter, abwicklungsorientierter Bid-Management-Prozess ohne eigene Marktgestaltungsfreiheit (Innovation gering).",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-sub-projektleiter-onshore",
@@ -3363,7 +3527,8 @@
       "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 40 (unter 50). Schnittstellenkoordination und technische Teilprojektleitung für Gebäudeausrüstung, Hilfsanlagen und Verkabelung in Übertragungsnetzprojekten. Sehr detaillierte, operative Ingenieursaufgabe (Grid-Technologie, Impact B) ohne Business Development."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 40 (unter 50). Schnittstellenkoordination und technische Teilprojektleitung für Gebäudeausrüstung, Hilfsanlagen und Verkabelung in Übertragungsnetzprojekten. Sehr detaillierte, operative Ingenieursaufgabe (Grid-Technologie, Impact B) ohne Business Development.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-strategic-program-manager-digital",
@@ -3385,7 +3550,8 @@
       "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 45 (unter 50). Fokus liegt auf interner Prozessoptimierung, Kostenreduktion bei Reklamationen und Standardisierungsinitiativen im Bereich Gas Services Controls. Reine interne Matrix- und Governance-Arbeit ohne Marktausrichtung (Matrix-Deckel 55, Impact C)."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 45 (unter 50). Fokus liegt auf interner Prozessoptimierung, Kostenreduktion bei Reklamationen und Standardisierungsinitiativen im Bereich Gas Services Controls. Reine interne Matrix- und Governance-Arbeit ohne Marktausrichtung (Matrix-Deckel 55, Impact C).",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-program-manager",
@@ -3491,9 +3657,10 @@
       "link": "https://www.linkedin.com/jobs/view/4463004794/",
       "source": "karriereportal",
       "gesehen_am": "2026-09-18",
-      "link_verified": true,
+      "link_verified": false,
       "verified_on": "2026-10-09",
-      "track": "country_manager"
+      "track": "country_manager",
+      "unverified_streak": 1
     },
     {
       "id": "the-green-recruitment-company-country-manager",
@@ -3532,7 +3699,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-49003-YF-S",
       "link_extern": "https://www.yourfirm.de/job/detail/YF-49003/?utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=000"
     },
@@ -3552,7 +3719,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002755680-S"
     },
     {
@@ -3571,7 +3738,7 @@
       "innovation_room": "hoch",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003542348-S"
     },
     {
@@ -3590,7 +3757,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000605083-S",
       "neu_bewertet_am": "2026-10-06"
     },
@@ -3610,7 +3777,7 @@
       "innovation_room": "hoch",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2318525-S",
       "link_extern": "https://www.finest-jobs.com/stellenanzeige/Experte-D-Markt-Und-Geschaeftsfeldentwicklung-Mark-1303825?cp=BA"
     },
@@ -3630,7 +3797,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003487180-S"
     },
     {
@@ -3713,7 +3880,7 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207667031-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "bdo-germany-senior-manager-deal-advisory-energy-power-utilities-w-m-d",
@@ -3805,7 +3972,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003594208-S"
     },
     {
@@ -3844,7 +4011,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002537569-S"
     },
     {
@@ -3863,7 +4030,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003760122-S"
     },
     {
@@ -3882,8 +4049,9 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-469684960-S"
+      "verified_on": "2026-10-11",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-469684960-S",
+      "track": "dienstleister"
     },
     {
       "id": "the-green-recruitment-company-commercial-origination-manager",
@@ -3922,7 +4090,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-482767757-S"
     },
     {
@@ -3941,7 +4109,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-1941706-S",
       "link_extern": "https://www.finest-jobs.com/stellenanzeige/Director-D-Transformation-Amp-Performance-Improvem-1180632?cp=BA"
     },
@@ -3961,7 +4129,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003031305-S"
     },
     {
@@ -3999,10 +4167,11 @@
       "impact_class": "B",
       "innovation_room": "mittel",
       "source": "karriereportal",
-      "link_verified": true,
+      "link_verified": false,
       "verified_on": "2026-10-09",
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/507900",
-      "gesehen_am": "2026-09-18"
+      "gesehen_am": "2026-09-18",
+      "unverified_streak": 1
     },
     {
       "id": "teambank-referent-vertriebsstrategie",
@@ -4082,7 +4251,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208165957-S"
     },
     {
@@ -4121,7 +4290,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4929608654-S",
       "link_extern": "https://www.persy.jobs/persy/l/job-jhmqs-b"
     },
@@ -4141,7 +4310,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1000605378-S"
     },
     {
@@ -4160,7 +4329,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206623907-S"
     },
     {
@@ -4179,7 +4348,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12946-3063-1791758-0-S"
     },
     {
@@ -4198,7 +4367,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16752-r18415-S"
     },
     {
@@ -4217,7 +4386,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003444049-S"
     },
     {
@@ -4236,7 +4405,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002884991-S"
     },
     {
@@ -4297,7 +4466,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-473585660-S"
     },
     {
@@ -4316,8 +4485,9 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-473564644-S"
+      "verified_on": "2026-10-11",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-473564644-S",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-control-protection-expert",
@@ -4339,7 +4509,8 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-475813714-S",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 30 (unter 50). Hard Exclusion: Technische Detailplanung, Parametrierung und Prüfung (z.B. DIGSI, OMICRON) von Schutz- und Feldleitgeräten in Hochspannungsanlagen. Reine tiefe Elektrotechnik."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 30 (unter 50). Hard Exclusion: Technische Detailplanung, Parametrierung und Prüfung (z.B. DIGSI, OMICRON) von Schutz- und Feldleitgeräten in Hochspannungsanlagen. Reine tiefe Elektrotechnik.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-commodity-manager-semiconductors",
@@ -4357,8 +4528,9 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-471754418-S"
+      "verified_on": "2026-10-11",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-471754418-S",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-commodity-manager-capex",
@@ -4376,8 +4548,9 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-475701672-S"
+      "verified_on": "2026-10-11",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-475701672-S",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-process-engineer-sap",
@@ -4395,7 +4568,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-475968182-S"
     },
     {
@@ -4414,7 +4587,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-479239798-S"
     },
     {
@@ -4433,8 +4606,9 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-464807924-S"
+      "verified_on": "2026-10-11",
+      "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-464807924-S",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-ag-senior-cybersecurity-computed-tomography",
@@ -4472,7 +4646,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-968250-008-S"
     },
     {
@@ -4495,7 +4669,8 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-466375089-S",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 48 (unter 50). Fokus auf interne Optimierung von Switchgear-Fertigungsstätten, Werks-KPIs und Produktionsprozessen. Starker interner Matrix-Fokus innerhalb von Siemens Energy-Fabriken ohne marktseitige oder klimarelevante Hebel (Matrix-Deckel 55)."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 48 (unter 50). Fokus auf interne Optimierung von Switchgear-Fertigungsstätten, Werks-KPIs und Produktionsprozessen. Starker interner Matrix-Fokus innerhalb von Siemens Energy-Fabriken ohne marktseitige oder klimarelevante Hebel (Matrix-Deckel 55).",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-healthineers-workplace-interior-design",
@@ -4905,7 +5080,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003404227-S"
     },
     {
@@ -4964,7 +5139,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13864963-S"
     },
     {
@@ -5002,7 +5177,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15835-0009030052a001-S"
     },
     {
@@ -5082,7 +5257,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-479297925-S"
     },
     {
@@ -5101,7 +5276,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12601-12081-1788581-0-S"
     },
     {
@@ -5140,7 +5315,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12697-k10989.12132-S"
     },
     {
@@ -5159,7 +5334,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-439523674-S"
     },
     {
@@ -5178,7 +5353,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-446043372-S"
     },
     {
@@ -5237,7 +5412,7 @@
       "innovation_room": "gering",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003818988-S"
     },
     {
@@ -5256,7 +5431,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18935-2036005-S"
     },
     {
@@ -5299,7 +5474,8 @@
       "link_verified": true,
       "verified_on": "2026-09-01",
       "rejected_reason": "not available anymore",
-      "rejected_by": "manuell"
+      "rejected_by": "manuell",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-graduate-strategy-manager-stg",
@@ -5341,7 +5517,8 @@
       "rejected_reason": "I don't have Solid technical understanding of grid code compliance and grid integration",
       "rejected_by": "manuell",
       "impact_class": "B",
-      "innovation_room": "mittel"
+      "innovation_room": "mittel",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-rd-project-manager-syncon",
@@ -5362,7 +5539,8 @@
       "rejected_reason": "I don't have: Strong expertise in power systems, high-voltage engineering, and grid stabilization technologies (FACTS/HVDC knowledge is an advantage)",
       "rejected_by": "manuell",
       "impact_class": "B",
-      "innovation_room": "mittel"
+      "innovation_room": "mittel",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-senior-consultant-grid-integration-simulation",
@@ -5383,7 +5561,8 @@
       "rejected_reason": "I don't have University degree in electrical power engineering (M.Sc. or Ph.D.), with a minimum of six years of combined professional and research experience in power system modelling, grid integration and consulting",
       "rejected_by": "manuell",
       "impact_class": "B",
-      "innovation_room": "gering"
+      "innovation_room": "gering",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-strategy-manager-energy-sector-2026",
@@ -5404,7 +5583,8 @@
       "rejected_reason": "I don't have several years of professional experience in Strategy Projects within a leading Consulting firm or a reputable Energy company",
       "rejected_by": "manuell",
       "impact_class": "A",
-      "innovation_room": "hoch"
+      "innovation_room": "hoch",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-senior-strategy-consultant-grid",
@@ -5425,7 +5605,8 @@
       "rejected_reason": "I don't have Confident professional experience in Grid Technologies business, where you have developed an in-depth knowledge about the industry and current trends",
       "rejected_by": "manuell",
       "impact_class": "B",
-      "innovation_room": "mittel"
+      "innovation_room": "mittel",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-senior-strategy-project-manager-grid",
@@ -5446,7 +5627,8 @@
       "rejected_reason": "I don't have Lonstanding professional experience, with at least 3 years of experience in management consultancy or strategy within a large or mid-sized corporation preferelbly in the energy sector",
       "rejected_by": "manuell",
       "impact_class": "B",
-      "innovation_room": "hoch"
+      "innovation_room": "hoch",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-senior-strategy-project-manager-gso",
@@ -5467,7 +5649,8 @@
       "rejected_reason": "I don't want to work with natural gas projects",
       "rejected_by": "manuell",
       "impact_class": "A",
-      "innovation_room": "mittel"
+      "innovation_room": "mittel",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-commercial-project-manager-industrial",
@@ -5486,7 +5669,8 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-454889674-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-facts-after-sales-pm",
@@ -5505,7 +5689,8 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-433829042-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-project-manager-strategic-procurement-projects",
@@ -5524,7 +5709,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-457233183-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-engineering-project-manager-gas-turbines",
@@ -5543,7 +5728,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-438105375-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-graduate-electrical-engineer",
@@ -5562,7 +5747,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-455707167-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-commercial-project-manager-transformators",
@@ -5581,7 +5766,8 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-471191284-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-bid-manager-long-term-contracts",
@@ -5600,7 +5786,8 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-454732895-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-construction-procurement-strategy-expert",
@@ -5641,7 +5828,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451058565-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-graduate-pm-technical",
@@ -5660,7 +5847,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451632230-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-sales-strategy-coordinator",
@@ -5679,7 +5866,8 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-447383222-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-graduate-pmo-manager",
@@ -5698,7 +5886,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451632996-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-graduate-customer-success-manager",
@@ -5717,7 +5905,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451767756-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-graduate-op-excellence",
@@ -5736,7 +5924,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-450745568-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-produktmanager-ehs",
@@ -5755,7 +5943,7 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-459367038-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11"
     },
     {
       "id": "siemens-energy-project-manager-transformation-europe",
@@ -5777,7 +5965,8 @@
       "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 46 (unter 50). Betreut Prozessexzellenz, Standardisierungen und OKR-Systeme im Bereich Order Execution (OEX) in europäischen Vertretungen. Hoher interner Abstimmungsaufwand und Administrations-Pfad ohne Marktbezug (Matrix-Deckel 55, Impact C)."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 46 (unter 50). Betreut Prozessexzellenz, Standardisierungen und OKR-Systeme im Bereich Order Execution (OEX) in europäischen Vertretungen. Hoher interner Abstimmungsaufwand und Administrations-Pfad ohne Marktbezug (Matrix-Deckel 55, Impact C).",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-engineering-innovation-manager",
@@ -5796,8 +5985,9 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-449172912-S",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-global-service-bid-tender-manager-battery",
@@ -5816,8 +6006,9 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-451645779-S",
       "link_verified": true,
-      "verified_on": "2026-10-09",
-      "neu_bewertet_am": "2026-10-06"
+      "verified_on": "2026-10-11",
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-product-manager-grid-assets",
@@ -5839,7 +6030,8 @@
       "verified_on": "2026-10-06",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 40 (unter 50). Hard Exclusion: Produktmanagement im Bereich reine Softwarelösungen, industrielle IoT-Plattformen, KI und Datenanalytik für Transformatoren. Mismatch zum Kandidatenprofil im Bereich physischer Energietechnologien."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 40 (unter 50). Hard Exclusion: Produktmanagement im Bereich reine Softwarelösungen, industrielle IoT-Plattformen, KI und Datenanalytik für Transformatoren. Mismatch zum Kandidatenprofil im Bereich physischer Energietechnologien.",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-digital-strategy-consultant",
@@ -5858,7 +6050,8 @@
       "source": "arbeitsagentur",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-448972822-S",
       "link_verified": true,
-      "verified_on": "2026-10-09"
+      "verified_on": "2026-10-11",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-senior-strategy-manager-cybersecurity",
@@ -5957,7 +6150,8 @@
       "innovation_room": "mittel",
       "neu_bewertet_am": "2026-10-06",
       "rejected_by": "neubewertung",
-      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 45 (unter 50). Erstellung von Vor-Designs, Gewichts- und Dimensionierungskalkulationen für Großtransformatoren. Verlangt extrem tiefes, rein elektrotechnisches Expertenwissen und Erfahrung im physischen Transformatorenbau (Elektrotechnik-Deckel bei 55)."
+      "rejected_reason": "Automatisch: mit Anzeigentext neu bewertet am 2026-10-06, Fit-Score 45 (unter 50). Erstellung von Vor-Designs, Gewichts- und Dimensionierungskalkulationen für Großtransformatoren. Verlangt extrem tiefes, rein elektrotechnisches Expertenwissen und Erfahrung im physischen Transformatorenbau (Elektrotechnik-Deckel bei 55).",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-energy-procurement-consultant-strategic-negotiations",
@@ -5975,7 +6169,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-439522970-S"
     },
     {
@@ -5994,7 +6188,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003165344-S"
     },
     {
@@ -6013,7 +6207,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003783812-S"
     },
     {
@@ -6032,7 +6226,7 @@
       "innovation_room": "mittel",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2296118-S",
       "link_extern": "https://www.finest-jobs.com/stellenanzeige/Senior-Insights-Manager-D-Market-Strategy-Amp-Unde-1288652?cp=BA"
     },
@@ -6475,7 +6669,8 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-459597402-S",
       "source": "arbeitsagentur",
       "rejected_reason": "I am not an AI expert",
-      "rejected_by": "manuell"
+      "rejected_by": "manuell",
+      "track": "dienstleister"
     },
     {
       "id": "siemens-healthineers-manager-strategy-projects-advanced-therapies",
@@ -6590,10 +6785,11 @@
       "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-469702794-S",
       "source": "arbeitsagentur",
       "link_verified": true,
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "impact_class": "C",
       "innovation_room": "mittel",
-      "neu_bewertet_am": "2026-10-06"
+      "neu_bewertet_am": "2026-10-06",
+      "track": "dienstleister"
     },
     {
       "id": "devoteam-senior-sap-consultant-energie-versorgungswirtschaft",
@@ -7176,7 +7372,7 @@
       "company": "Taylor Hopkinson | Powered by Brunel (für eine internationale Investmentplattform für erneuerbare Energien)",
       "location": "Hamburg (vor Ort)",
       "link": "https://www.linkedin.com/jobs/view/4459193022/",
-      "link_verified": true,
+      "link_verified": false,
       "category": "partial",
       "status": "open",
       "first_seen": "2026-09-12",
@@ -7188,7 +7384,8 @@
       "fit_score": 65,
       "impact_class": "A",
       "innovation_room": "hoch",
-      "track": "country_manager"
+      "track": "country_manager",
+      "unverified_streak": 1
     },
     {
       "id": "hunter-philips-executive-search-fuer-einen-bess-entwickler-arbeitgeber-n",
@@ -7199,7 +7396,7 @@
       "link": "https://www.linkedin.com/jobs/view/4463322965/",
       "link_verified": false,
       "category": "partial",
-      "status": "open",
+      "status": "gone",
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
       "source": "karriereportal",
@@ -7209,7 +7406,7 @@
       "impact_class": "A",
       "innovation_room": "hoch",
       "fit_score": 65,
-      "unverified_streak": 2
+      "unverified_streak": 3
     },
     {
       "id": "siemens-ag-product-manager-protection-relays-f-m-d-portfolio-positioning",
@@ -7226,7 +7423,7 @@
       "source": "arbeitsagentur",
       "gesehen_am": "2026-09-15",
       "match_note": "Manuell im Browser gesichtet am 2026-09-15. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "impact_class": "B",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -7306,7 +7503,7 @@
       "company": "N-ERGIE",
       "location": "Nürnberg",
       "link": "https://karriere.n-ergie.de/offer/referent-ki-digitale-transformation/f5fe97fd-0990-4cf7-8721-321c26ce1ee8",
-      "link_verified": true,
+      "link_verified": false,
       "category": "partial",
       "status": "open",
       "first_seen": "2026-09-18",
@@ -7317,7 +7514,8 @@
       "verified_on": "2026-10-09",
       "impact_class": "C",
       "innovation_room": "gering",
-      "fit_score": 65
+      "fit_score": 65,
+      "unverified_streak": 1
     },
     {
       "id": "siemens-ag-service-line-head-for-circularity-services-electrification-au",
@@ -7334,7 +7532,7 @@
       "source": "arbeitsagentur",
       "gesehen_am": "2026-09-18",
       "match_note": "Manuell im Browser gesichtet am 2026-09-18. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "impact_class": "A",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -7346,7 +7544,7 @@
       "company": "HiTHIUM Energy Storage",
       "location": "DACH (remote)",
       "link": "https://www.linkedin.com/jobs/view/4464345275/",
-      "link_verified": true,
+      "link_verified": false,
       "category": "partial",
       "status": "open",
       "first_seen": "2026-09-18",
@@ -7357,7 +7555,8 @@
       "verified_on": "2026-10-09",
       "impact_class": "A",
       "innovation_room": "mittel",
-      "fit_score": 65
+      "fit_score": 65,
+      "unverified_streak": 1
     },
     {
       "id": "manning-global-ag-f-r-einen-globalen-ict-konzern-industry-power-trading-",
@@ -7366,7 +7565,7 @@
       "company": "Manning Global AG (für einen globalen ICT-Konzern)",
       "location": "Deutschland (remote)",
       "link": "https://www.linkedin.com/jobs/view/4469173210/",
-      "link_verified": true,
+      "link_verified": false,
       "category": "partial",
       "status": "open",
       "first_seen": "2026-09-18",
@@ -7377,7 +7576,8 @@
       "verified_on": "2026-10-09",
       "impact_class": "B",
       "innovation_room": "mittel",
-      "fit_score": 65
+      "fit_score": 65,
+      "unverified_streak": 1
     },
     {
       "id": "siemens-ag-senior-power-automation-solution-engineer-f-m-d",
@@ -7386,7 +7586,7 @@
       "company": "Siemens AG",
       "location": "Erlangen",
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/512485",
-      "link_verified": true,
+      "link_verified": false,
       "category": "partial",
       "status": "open",
       "first_seen": "2026-09-18",
@@ -7397,7 +7597,8 @@
       "verified_on": "2026-10-09",
       "impact_class": "B",
       "innovation_room": "gering",
-      "fit_score": 65
+      "fit_score": 65,
+      "unverified_streak": 1
     },
     {
       "id": "innomotics-business-development-manager-w-m-d-niederspannungsmotoren",
@@ -7414,7 +7615,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "impact_class": "B",
       "innovation_room": "mittel",
       "fit_score": 65,
@@ -7435,7 +7636,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-05",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "impact_class": "C",
       "innovation_room": "mittel",
       "fit_score": 65,
@@ -7456,7 +7657,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-01",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "impact_class": "A",
       "innovation_room": "mittel",
       "fit_score": 65
@@ -7476,7 +7677,7 @@
       "source": "karriereportal",
       "gesehen_am": "2026-10-01",
       "match_note": "Manuell im Browser gesichtet am 2026-10-01. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
-      "verified_on": "2026-10-09",
+      "verified_on": "2026-10-11",
       "impact_class": "B",
       "innovation_room": "hoch",
       "fit_score": 65
@@ -7549,77 +7750,142 @@
       "track": "haupt",
       "rejected_reason": "project development focus and high requirements",
       "rejected_by": "manuell"
+    },
+    {
+      "id": "ferchau-kunde-siemens-energy-terminplaner-hg-projekte-bei-siemens-energy",
+      "refnr": "manual:dl-ferchau-kunde-siemens-energy-terminplaner-hg-projekte-bei-siemens-energy-m-w-d",
+      "title": "Terminplaner HGÜ-Projekte bei Siemens Energy (m/w/d)",
+      "company": "FERCHAU (Kunde: Siemens Energy)",
+      "location": "Erlangen",
+      "link": "https://touch.ferchau.com/de/de/job/522313/terminplaner-hgue-projekte-bei-siemens-energy",
+      "link_verified": true,
+      "category": "partial",
+      "status": "open",
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "source": "karriereportal",
+      "track": "dienstleister",
+      "gesehen_am": "2026-10-11",
+      "match_note": "Manuell im Browser gesichtet am 2026-10-11. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
+      "verified_on": "2026-10-11",
+      "impact_class": "A",
+      "innovation_room": "gering",
+      "fit_score": 65
+    },
+    {
+      "id": "ferchau-kunde-siemens-site-project-manager-f-r-hg-gro-projekte-bei-sieme",
+      "refnr": "manual:dl-ferchau-kunde-siemens-site-project-manager-f-r-hg-gro-projekte-bei-siemens-m-w-d",
+      "title": "Site Project Manager für HGÜ-Großprojekte bei Siemens (m/w/d)",
+      "company": "FERCHAU (Kunde: Siemens)",
+      "location": "Erlangen",
+      "link": "https://touch.ferchau.com/de/de/job/514684/site-project-manager-fuer-hgue-grossprojekte-bei-siemens",
+      "link_verified": true,
+      "category": "partial",
+      "status": "open",
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "source": "karriereportal",
+      "track": "dienstleister",
+      "gesehen_am": "2026-10-11",
+      "match_note": "Manuell im Browser gesichtet am 2026-10-11. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
+      "verified_on": "2026-10-11",
+      "impact_class": "A",
+      "innovation_room": "gering",
+      "fit_score": 65
+    },
+    {
+      "id": "siemens-energy-technical-sales-manager-f-m-d",
+      "refnr": "manual:dl-siemens-energy-technical-sales-manager-f-m-d",
+      "title": "Technical Sales Manager (f/m/d)",
+      "company": "Siemens Energy",
+      "location": "Erlangen / Berlin",
+      "link": "https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/Technical-Sales-Manager-f-m-d/304756",
+      "link_verified": true,
+      "category": "partial",
+      "status": "open",
+      "first_seen": "2026-10-11",
+      "last_seen": "2026-10-11",
+      "source": "karriereportal",
+      "track": "dienstleister",
+      "gesehen_am": "2026-10-11",
+      "match_note": "Manuell im Browser gesichtet am 2026-10-11. Vom Bewertungsmodell nicht zurueckgegeben - haeufigste Ursache ist ein fehlender Anzeigentext. Nicht bewertet, bitte selbst pruefen.",
+      "verified_on": "2026-10-11",
+      "impact_class": "A",
+      "innovation_room": "mittel",
+      "fit_score": 65
     }
   ],
   "letzter_lauf": {
-    "datum": "2026-10-09",
+    "datum": "2026-10-11",
     "api": {
-      "suchbegriffe": 77,
-      "dienstleister_track": 23,
+      "suchbegriffe": 78,
+      "dienstleister_track": 143,
+      "siemens_energy_direkt": 120,
+      "siemens_energy_verworfen": 177,
       "treffer_je_begriff": {
-        "Wasserstoff": 11,
+        "Wasserstoff": 9,
         "Hydrogen": 2,
-        "Dekarbonisierung": 120,
-        "Energiewirtschaft": 12,
-        "Energiewende": 219,
+        "Dekarbonisierung": 116,
+        "Energiewirtschaft": 10,
+        "Energiewende": 177,
         "Energiemanager": 3,
         "Energy Manager": 107,
         "Prozesswärme": 1,
-        "Business Development Energie": 3,
-        "Business Development": 205,
+        "Business Development Energie": 2,
+        "Business Development": 194,
         "Origination": 0,
-        "Projektleiter Energie": 33,
+        "Projektleiter Energie": 23,
         "Projektfinanzierung": 3,
         "Corporate Strategy": 19,
         "Unternehmensstrategie": 15,
-        "Strategy Manager": 40,
+        "Strategy Manager": 38,
         "Organizational Development": 50,
-        "Transformation": 337,
-        "Nachhaltigkeit Industrie": 18,
+        "Transformation": 326,
+        "Nachhaltigkeit Industrie": 7,
         "Net Zero": 2,
-        "Consultant Energie": 5,
-        "Technischer Vertrieb Energietechnik": 14,
-        "Produktmanager Energietechnik": 1,
-        "Biomasse": 8,
-        "Speicher Energie": 14,
-        "Neues Geschäftsfeld": 6,
-        "New Business Development": 153,
+        "Consultant Energie": 4,
+        "Technischer Vertrieb Energietechnik": 12,
+        "Produktmanager Energietechnik": 0,
+        "Biomasse": 3,
+        "Speicher Energie": 6,
+        "Neues Geschäftsfeld": 3,
+        "New Business Development": 150,
         "Markteintritt": 1,
-        "Geschäftsfeldentwicklung": 2,
+        "Geschäftsfeldentwicklung": 1,
         "Energiespeicher": 4,
-        "Batteriespeicher": 4,
-        "Batterietechnik": 9,
-        "Speichertechnologie": 5,
-        "Projektentwickler": 3,
-        "Projektentwicklung": 38,
-        "Erneuerbare Energien": 108,
+        "Batteriespeicher": 1,
+        "Batterietechnik": 0,
+        "Speichertechnologie": 0,
+        "Projektentwickler": 0,
+        "Projektentwicklung": 36,
+        "Erneuerbare Energien": 77,
         "Investment Manager": 6,
-        "Innovation Manager": 111,
-        "Innovationsmanagement": 5,
+        "Innovation Manager": 107,
+        "Innovationsmanagement": 3,
         "Venture": 11,
         "Business Developer": 5,
-        "Geschäftsentwicklung": 20,
+        "Geschäftsentwicklung": 16,
         "Country Manager": 6,
-        "Go-to-Market": 26,
-        "Internationalisierung": 10,
+        "Go-to-Market": 23,
+        "Internationalisierung": 1,
         "Elektrifizierung": 7,
-        "Wärmepumpe": 11,
-        "Wärmepumpen": 71,
-        "Fernwärme": 28,
-        "Wärmenetze": 1,
+        "Wärmepumpe": 10,
+        "Wärmepumpen": 54,
+        "Fernwärme": 24,
+        "Wärmenetze": 0,
         "Elektrolyse": 0,
-        "Brennstoffzelle": 5,
-        "Biogas": 12,
-        "Batterie": 15,
-        "Stromspeicher": 4,
-        "Klimaschutz": 30,
-        "CO2": 31,
-        "Kreislaufwirtschaft": 17,
-        "Recycling": 47,
+        "Brennstoffzelle": 2,
+        "Biogas": 9,
+        "Batterie": 12,
+        "Stromspeicher": 3,
+        "Klimaschutz": 24,
+        "CO2": 28,
+        "Kreislaufwirtschaft": 6,
+        "Recycling": 31,
         "Circular Economy": 2,
-        "Geschäftsführer": 19,
+        "Geschäftsführer": 16,
         "Managing Director": 0,
-        "General Manager": 3,
+        "General Manager": 1,
         "[DL] Scherer Staffing": 13,
         "[DL] Brunel": 7,
         "[DL] engineering people": 149,
@@ -7630,30 +7896,34 @@
         "[DL] FACTS": 30,
         "[DL] Netzanbindung": 0,
         "[DL] Speichertechnik": 2,
-        "[DL] Terminplaner": 2,
+        "[DL] Terminplaner": 3,
         "[DL] Projektplaner": 5,
         "[DL] Projektingenieur": 72,
-        "[DL] Teilprojektleiter": 2
+        "[DL] Teilprojektleiter": 1,
+        "[DL] Siemens Energy": 313
       },
       "abgeschnitten": [],
-      "anzeigen_gesehen": 1110,
-      "nach_vorfilter": 370
+      "anzeigen_gesehen": 903,
+      "nach_vorfilter": 303
     },
-    "manuell_uebernommen": 25,
-    "kandidaten_gesamt": 395,
-    "schon_im_dashboard": 241,
-    "kuerzlich_unter_50": 145,
+    "manuell_uebernommen": 32,
+    "kandidaten_gesamt": 335,
+    "schon_im_dashboard": 165,
+    "kuerzlich_unter_50": 102,
     "ueber_obergrenze_gekappt": 0,
-    "neu_bewertet": 9,
-    "neu_mit_text": 9,
+    "neu_bewertet": 68,
+    "neu_mit_text": 68,
     "neu_ohne_text": 0,
-    "neu_aufgenommen": 3,
-    "neu_unter_50": 6,
-    "bloecke": 1,
-    "bloecke_fehlgeschlagen": 0,
-    "bloecke_fehler": [],
-    "nachbewertung_warteschlange": 0,
-    "nachbewertung_mit_text": 0,
+    "neu_aufgenommen": 7,
+    "neu_unter_50": 0,
+    "bloecke": 3,
+    "bloecke_fehlgeschlagen": 2,
+    "bloecke_fehler": [
+      "Block 1 (neu, 60 Kandidaten): Ausnahme ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "Block 3 (nachbewertung, 51 Kandidaten): Ausnahme ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    ],
+    "nachbewertung_warteschlange": 51,
+    "nachbewertung_mit_text": 51,
     "nachbewertung_aktualisiert": 0,
     "nachbewertung_ausgeschlossen": 0
   },
